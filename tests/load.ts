@@ -1,0 +1,14 @@
+import { performance } from 'node:perf_hooks';
+import { writeFileSync, mkdirSync } from 'node:fs';
+import path from 'node:path';
+import { Store } from '../lib/db';
+import { ingest, processInbox } from '../lib/operations';
+import { loadRules } from '../lib/rules';
+const directory = path.join(process.cwd(), 'runtime', `load-${Date.now()}`); mkdirSync(directory, { recursive: true });
+const db = new Store(path.join(directory, 'test.sqlite')); const start = performance.now();
+for (let i = 0; i < 200; i++) ingest(db, { eventId: `LOAD-${i}`, leadId: `LOAD-${i}`, timestamp: new Date().toISOString(), creator: 'CR-ANA', channel: 'CTWA', message: 'Debo 18000 USD en tarjeta y quiero Consejero.', phone: `+120255501${String(i % 100).padStart(2, '0')}`, initialState: 'Nuevo' });
+const ingestedAt = performance.now();
+for (let i = 0; i < 4; i++) processInbox(db, loadRules());
+const result = { events: 200, ingestionMs: Math.round(ingestedAt - start), classificationMs: Math.round(performance.now() - ingestedAt), totalMs: Math.round(performance.now() - start), drafts: db.all('drafts').length, jobs: db.all('jobs').length, note: 'Ráfaga local sobre SQLite en disco; no es benchmark HTTP ni prueba de infraestructura productiva.' };
+if (result.drafts !== 200 || result.jobs !== 0) throw new Error('La ráfaga perdió eventos o generó envíos sin autorización.');
+mkdirSync('deliverables', { recursive: true }); writeFileSync('deliverables/load-test.json', JSON.stringify(result, null, 2)); console.log(result); db.close();

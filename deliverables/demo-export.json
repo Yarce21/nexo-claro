@@ -1,0 +1,5312 @@
+{
+  "exportedAt": "2026-10-06T23:04:13.394Z",
+  "fictional": true,
+  "leads": [
+    {
+      "eventId": "EV-001",
+      "leadId": "LN-001",
+      "timestamp": "2026-09-20T10:00:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550100",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:00:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-002",
+      "leadId": "LN-002",
+      "timestamp": "2026-09-20T10:01:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550101",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:01:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-003",
+      "leadId": "LN-003",
+      "timestamp": "2026-09-20T10:02:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550102",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:02:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-004",
+      "leadId": "LN-004",
+      "timestamp": "2026-09-20T10:03:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "+12025550103",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:03:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-005",
+      "leadId": "LN-005",
+      "timestamp": "2026-09-20T10:04:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550104",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:04:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-006",
+      "leadId": "LN-006",
+      "timestamp": "2026-09-20T10:05:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550105",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:05:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-007",
+      "leadId": "LN-007",
+      "timestamp": "2026-09-20T10:06:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550106",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:06:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-008",
+      "leadId": "LN-008",
+      "timestamp": "2026-09-20T10:07:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550107",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:07:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-009",
+      "leadId": "LN-009",
+      "timestamp": "2026-09-20T10:08:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No me contacten, quiero la baja.",
+      "phone": "+12025550108",
+      "initialState": "Nuevo",
+      "stage": "No le interesa",
+      "updatedAt": "2026-09-20T10:08:00.000Z",
+      "optedOut": true,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-010",
+      "leadId": "LN-010",
+      "timestamp": "2026-09-20T10:09:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550109",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:09:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-011",
+      "leadId": "LN-011",
+      "timestamp": "2026-09-20T10:10:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550110",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:10:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-012",
+      "leadId": "LN-012",
+      "timestamp": "2026-09-20T10:11:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550111",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:11:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-013",
+      "leadId": "LN-013",
+      "timestamp": "2026-09-20T10:12:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550112",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:12:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-014",
+      "leadId": "LN-014",
+      "timestamp": "2026-09-20T10:13:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550113",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:13:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-015",
+      "leadId": "LN-015",
+      "timestamp": "2026-09-20T10:14:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550114",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:14:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-016",
+      "leadId": "LN-016",
+      "timestamp": "2026-09-20T10:15:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:15:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-017",
+      "leadId": "LN-017",
+      "timestamp": "2026-09-20T10:16:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550116",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:16:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-018",
+      "leadId": "LN-018",
+      "timestamp": "2026-09-20T10:17:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550117",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:17:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-019",
+      "leadId": "LN-019",
+      "timestamp": "2026-09-20T10:18:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550118",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:18:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-020",
+      "leadId": "LN-020",
+      "timestamp": "2026-09-20T10:19:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550119",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:19:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-021",
+      "leadId": "LN-021",
+      "timestamp": "2026-09-20T10:20:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No me contacten, quiero la baja.",
+      "phone": "+12025550120",
+      "initialState": "Nuevo",
+      "stage": "No le interesa",
+      "updatedAt": "2026-09-20T10:20:00.000Z",
+      "optedOut": true,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-022",
+      "leadId": "LN-022",
+      "timestamp": "2026-09-20T10:21:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550121",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:21:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-023",
+      "leadId": "LN-023",
+      "timestamp": "2026-09-20T10:22:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550122",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:22:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-024",
+      "leadId": "LN-024",
+      "timestamp": "2026-09-20T10:23:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550123",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:23:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-025",
+      "leadId": "LN-025",
+      "timestamp": "2026-09-20T10:24:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550124",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:24:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-026",
+      "leadId": "LN-026",
+      "timestamp": "2026-09-20T10:25:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550125",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:25:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-027",
+      "leadId": "LN-027",
+      "timestamp": "2026-09-20T10:26:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550126",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:26:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-028",
+      "leadId": "LN-028",
+      "timestamp": "2026-09-20T10:27:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "+12025550127",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:27:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-029",
+      "leadId": "LN-029",
+      "timestamp": "2026-09-20T10:28:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550128",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:28:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-030",
+      "leadId": "LN-030",
+      "timestamp": "2026-09-20T10:29:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550129",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:29:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-031",
+      "leadId": "LN-031",
+      "timestamp": "2026-09-20T10:30:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550130",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:30:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-032",
+      "leadId": "LN-032",
+      "timestamp": "2026-09-20T10:31:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550131",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:31:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-033",
+      "leadId": "LN-033",
+      "timestamp": "2026-09-20T10:32:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No me contacten, quiero la baja.",
+      "phone": "+12025550132",
+      "initialState": "Nuevo",
+      "stage": "No le interesa",
+      "updatedAt": "2026-09-20T10:32:00.000Z",
+      "optedOut": true,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-034",
+      "leadId": "LN-034",
+      "timestamp": "2026-09-20T10:33:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550133",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:33:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-035",
+      "leadId": "LN-035",
+      "timestamp": "2026-09-20T10:34:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550134",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:34:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-036",
+      "leadId": "LN-036",
+      "timestamp": "2026-09-20T10:35:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550135",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:35:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-037",
+      "leadId": "LN-037",
+      "timestamp": "2026-09-20T10:36:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550136",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:36:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-038",
+      "leadId": "LN-038",
+      "timestamp": "2026-09-20T10:37:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550137",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:37:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-039",
+      "leadId": "LN-039",
+      "timestamp": "2026-09-20T10:38:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550138",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:38:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-040",
+      "leadId": "LN-040",
+      "timestamp": "2026-09-20T10:39:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "+12025550139",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:39:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-041",
+      "leadId": "LN-041",
+      "timestamp": "2026-09-20T10:40:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550140",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:40:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-042",
+      "leadId": "LN-042",
+      "timestamp": "2026-09-20T10:41:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550141",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:41:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-043",
+      "leadId": "LN-043",
+      "timestamp": "2026-09-20T10:42:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550142",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:42:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-044",
+      "leadId": "LN-044",
+      "timestamp": "2026-09-20T10:43:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550143",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:43:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-045",
+      "leadId": "LN-045",
+      "timestamp": "2026-09-20T10:44:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No me contacten, quiero la baja.",
+      "phone": "+12025550144",
+      "initialState": "Nuevo",
+      "stage": "No le interesa",
+      "updatedAt": "2026-09-20T10:44:00.000Z",
+      "optedOut": true,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-046",
+      "leadId": "LN-046",
+      "timestamp": "2026-09-20T10:45:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550145",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:45:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-047",
+      "leadId": "LN-047",
+      "timestamp": "2026-09-20T10:46:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550146",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:46:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-048",
+      "leadId": "LN-048",
+      "timestamp": "2026-09-20T10:47:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550147",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:47:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "WEB-af1d6d4f",
+      "leadId": "DEMO-af1d6d4f",
+      "timestamp": "2026-10-06T17:28:13.247Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550190",
+      "initialState": "Nuevo",
+      "stage": "Transferido",
+      "updatedAt": "2026-10-06T17:29:13.536Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "WEB-8001b3de",
+      "leadId": "DEMO-8001b3de",
+      "timestamp": "2026-10-06T17:28:31.633Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y tengo una demanda urgente.",
+      "phone": "+12025550190",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-10-06T17:28:31.877Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "WEB-cb646af6",
+      "leadId": "DEMO-cb646af6",
+      "timestamp": "2026-10-06T17:28:51.598Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y deseo hablar con un Consejero.",
+      "phone": "+12025550190",
+      "initialState": "Nuevo",
+      "stage": "Revisado por humano",
+      "updatedAt": "2026-10-06T21:31:21.771Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "WEB-a652ee86",
+      "leadId": "DEMO-a652ee86",
+      "timestamp": "2026-10-06T17:29:20.594Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 16000 USD en tarjeta y quiero Consejero.",
+      "phone": "+12025550190",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-10-06T17:29:20.612Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 16000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "WEB-ef784d35",
+      "leadId": "DEMO-ef784d35",
+      "timestamp": "2026-10-06T17:56:49.592Z",
+      "creator": "CR-LUIS",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550190",
+      "initialState": "Nuevo",
+      "acquiredAt": "2026-10-06T17:56:49.592Z",
+      "stage": "Nuevo",
+      "updatedAt": "2026-10-06T17:56:50.195Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    }
+  ],
+  "drafts": [
+    {
+      "id": "draft-WEB-ef784d35",
+      "leadId": "DEMO-ef784d35",
+      "eventId": "WEB-ef784d35",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "approved",
+      "createdAt": "2026-10-06T17:56:50.195Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-WEB-a652ee86",
+      "leadId": "DEMO-a652ee86",
+      "eventId": "WEB-a652ee86",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "approved",
+      "createdAt": "2026-10-06T17:29:20.612Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 16000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "crm-c8c91233-2d31-45d5-969c-252f753496c0",
+      "leadId": "DEMO-af1d6d4f",
+      "eventId": "WEB-af1d6d4f",
+      "decision": "responder",
+      "reason": "Disposición Transferido aplicada por humano.",
+      "text": "Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio.",
+      "status": "approved",
+      "createdAt": "2026-10-06T17:29:02.153Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "crm",
+      "transfer": true
+    },
+    {
+      "id": "draft-WEB-cb646af6",
+      "leadId": "DEMO-cb646af6",
+      "eventId": "WEB-cb646af6",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "rejected",
+      "createdAt": "2026-10-06T17:28:52.233Z",
+      "ruleVersion": "1c5982cf54f0",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-WEB-8001b3de",
+      "leadId": "DEMO-8001b3de",
+      "eventId": "WEB-8001b3de",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:28:31.877Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-WEB-af1d6d4f",
+      "leadId": "DEMO-af1d6d4f",
+      "eventId": "WEB-af1d6d4f",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "approved",
+      "createdAt": "2026-10-06T17:28:13.580Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-048",
+      "leadId": "LN-048",
+      "eventId": "EV-048",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.183Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-047",
+      "leadId": "LN-047",
+      "eventId": "EV-047",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.181Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-046",
+      "leadId": "LN-046",
+      "eventId": "EV-046",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
+      "status": "rejected",
+      "createdAt": "2026-10-06T17:16:36.180Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-044",
+      "leadId": "LN-044",
+      "eventId": "EV-044",
+      "decision": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
+      "text": "Un agente debe confirmar monto y moneda antes de continuar.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.177Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-043",
+      "leadId": "LN-043",
+      "eventId": "EV-043",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.176Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-041",
+      "leadId": "LN-041",
+      "eventId": "EV-041",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.173Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-040",
+      "leadId": "LN-040",
+      "eventId": "EV-040",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.171Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-039",
+      "leadId": "LN-039",
+      "eventId": "EV-039",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.170Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-038",
+      "leadId": "LN-038",
+      "eventId": "EV-038",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.168Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-037",
+      "leadId": "LN-037",
+      "eventId": "EV-037",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.167Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-036",
+      "leadId": "LN-036",
+      "eventId": "EV-036",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.165Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-035",
+      "leadId": "LN-035",
+      "eventId": "EV-035",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.164Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-034",
+      "leadId": "LN-034",
+      "eventId": "EV-034",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.162Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-032",
+      "leadId": "LN-032",
+      "eventId": "EV-032",
+      "decision": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
+      "text": "Un agente debe confirmar monto y moneda antes de continuar.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.158Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-031",
+      "leadId": "LN-031",
+      "eventId": "EV-031",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.156Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-029",
+      "leadId": "LN-029",
+      "eventId": "EV-029",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.154Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-028",
+      "leadId": "LN-028",
+      "eventId": "EV-028",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.152Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-027",
+      "leadId": "LN-027",
+      "eventId": "EV-027",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.151Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-026",
+      "leadId": "LN-026",
+      "eventId": "EV-026",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.149Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-025",
+      "leadId": "LN-025",
+      "eventId": "EV-025",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.148Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-024",
+      "leadId": "LN-024",
+      "eventId": "EV-024",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.147Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-023",
+      "leadId": "LN-023",
+      "eventId": "EV-023",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.145Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-022",
+      "leadId": "LN-022",
+      "eventId": "EV-022",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.144Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-020",
+      "leadId": "LN-020",
+      "eventId": "EV-020",
+      "decision": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
+      "text": "Un agente debe confirmar monto y moneda antes de continuar.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.141Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-019",
+      "leadId": "LN-019",
+      "eventId": "EV-019",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.139Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-017",
+      "leadId": "LN-017",
+      "eventId": "EV-017",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.135Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-016",
+      "leadId": "LN-016",
+      "eventId": "EV-016",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.134Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-015",
+      "leadId": "LN-015",
+      "eventId": "EV-015",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.132Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-014",
+      "leadId": "LN-014",
+      "eventId": "EV-014",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.131Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-013",
+      "leadId": "LN-013",
+      "eventId": "EV-013",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.130Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-012",
+      "leadId": "LN-012",
+      "eventId": "EV-012",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.129Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-011",
+      "leadId": "LN-011",
+      "eventId": "EV-011",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.127Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-010",
+      "leadId": "LN-010",
+      "eventId": "EV-010",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.126Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-008",
+      "leadId": "LN-008",
+      "eventId": "EV-008",
+      "decision": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
+      "text": "Un agente debe confirmar monto y moneda antes de continuar.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.123Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-007",
+      "leadId": "LN-007",
+      "eventId": "EV-007",
+      "decision": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
+      "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.122Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-005",
+      "leadId": "LN-005",
+      "eventId": "EV-005",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.120Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-004",
+      "leadId": "LN-004",
+      "eventId": "EV-004",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.118Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-003",
+      "leadId": "LN-003",
+      "eventId": "EV-003",
+      "decision": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
+      "text": "Gracias por escribir a Alivio Norte. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.117Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-002",
+      "leadId": "LN-002",
+      "eventId": "EV-002",
+      "decision": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
+      "text": "Revisión humana requerida. No se generó una recomendación financiera.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.115Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      },
+      "kind": "chat",
+      "transfer": false
+    },
+    {
+      "id": "draft-EV-001",
+      "leadId": "LN-001",
+      "eventId": "EV-001",
+      "decision": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
+      "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
+      "status": "pending",
+      "createdAt": "2026-10-06T17:16:36.114Z",
+      "ruleVersion": "ceca54cb911b",
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      },
+      "kind": "chat",
+      "transfer": false
+    }
+  ],
+  "jobs": [
+    {
+      "id": "draft-WEB-ef784d35-whatsapp",
+      "leadId": "DEMO-ef784d35",
+      "draftId": "draft-WEB-ef784d35",
+      "kind": "whatsapp",
+      "status": "delivered",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "retryBaseSeconds": 3,
+      "nextAt": "2026-10-06T17:57:53.859Z",
+      "payload": {
+        "phone": "+12025550190",
+        "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación."
+      }
+    },
+    {
+      "id": "draft-WEB-a652ee86-whatsapp",
+      "leadId": "DEMO-a652ee86",
+      "draftId": "draft-WEB-a652ee86",
+      "kind": "whatsapp",
+      "status": "delivered",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "retryBaseSeconds": 3,
+      "nextAt": "2026-10-06T17:29:35.100Z",
+      "payload": {
+        "phone": "+12025550190",
+        "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación."
+      }
+    },
+    {
+      "id": "crm-c8c91233-2d31-45d5-969c-252f753496c0-handoff",
+      "leadId": "DEMO-af1d6d4f",
+      "draftId": "crm-c8c91233-2d31-45d5-969c-252f753496c0",
+      "kind": "handoff",
+      "status": "delivered",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "retryBaseSeconds": 3,
+      "nextAt": "2026-10-06T17:29:13.260Z",
+      "payload": {
+        "phone": "+12025550190",
+        "text": "Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio."
+      }
+    },
+    {
+      "id": "crm-c8c91233-2d31-45d5-969c-252f753496c0-whatsapp",
+      "leadId": "DEMO-af1d6d4f",
+      "draftId": "crm-c8c91233-2d31-45d5-969c-252f753496c0",
+      "kind": "whatsapp",
+      "status": "delivered",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "retryBaseSeconds": 3,
+      "nextAt": "2026-10-06T17:29:13.260Z",
+      "payload": {
+        "phone": "+12025550190",
+        "text": "Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio."
+      }
+    },
+    {
+      "id": "draft-WEB-af1d6d4f-whatsapp",
+      "leadId": "DEMO-af1d6d4f",
+      "draftId": "draft-WEB-af1d6d4f",
+      "kind": "whatsapp",
+      "status": "delivered",
+      "attempts": 1,
+      "maxAttempts": 3,
+      "retryBaseSeconds": 3,
+      "nextAt": "2026-10-06T17:28:23.007Z",
+      "payload": {
+        "phone": "+12025550190",
+        "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación."
+      }
+    }
+  ],
+  "report": [
+    {
+      "row": 2,
+      "enrollment_id": "EN-001",
+      "phone": "+1 202 555 0100",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550100",
+      "leadId": "LN-001",
+      "attributedCreator": "CR-ANA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 3,
+      "enrollment_id": "EN-002",
+      "phone": "(202) 555-0101",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550101",
+      "leadId": "LN-002",
+      "attributedCreator": "CR-LUIS",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 4,
+      "enrollment_id": "EN-003",
+      "phone": "+1 202 555 0102",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550102",
+      "leadId": "LN-003",
+      "attributedCreator": null,
+      "issues": [
+        "ID duplicado con datos contradictorios"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 5,
+      "enrollment_id": "EN-004",
+      "phone": "+12025550199",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550199",
+      "leadId": null,
+      "attributedCreator": null,
+      "issues": [
+        "teléfono sin coincidencia"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 6,
+      "enrollment_id": "EN-005",
+      "phone": "+1 202 555 0104",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550104",
+      "leadId": "LN-005",
+      "attributedCreator": "CR-LUIS",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 7,
+      "enrollment_id": "EN-006",
+      "phone": "(202) 555-0105",
+      "creator_id": "",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550105",
+      "leadId": "LN-006",
+      "attributedCreator": null,
+      "issues": [
+        "creator_id vacío; sin comisión"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 8,
+      "enrollment_id": "EN-007",
+      "phone": "+1 202 555 0106",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550106",
+      "leadId": "LN-007",
+      "attributedCreator": "CR-ANA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 9,
+      "enrollment_id": "EN-008",
+      "phone": "(202) 555-0107",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "09/10/26",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550107",
+      "leadId": "LN-008",
+      "attributedCreator": null,
+      "issues": [
+        "fecha inválida o ambigua"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 10,
+      "enrollment_id": "EN-009",
+      "phone": "+1 202 555 0108",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550108",
+      "leadId": "LN-009",
+      "attributedCreator": "CR-MARIA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 11,
+      "enrollment_id": "EN-010",
+      "phone": "(202) 555-0109",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-02-30",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550109",
+      "leadId": "LN-010",
+      "attributedCreator": null,
+      "issues": [
+        "fecha inválida o ambigua"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 12,
+      "enrollment_id": "EN-011",
+      "phone": "+1 202 555 0110",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550110",
+      "leadId": "LN-011",
+      "attributedCreator": "CR-LUIS",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 13,
+      "enrollment_id": "EN-012",
+      "phone": "(202) 555-0111",
+      "creator_id": "CR-DESCONOCIDO",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550111",
+      "leadId": "LN-012",
+      "attributedCreator": null,
+      "issues": [
+        "creator_id contradictorio"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 14,
+      "enrollment_id": "EN-013",
+      "phone": "+1 202 555 0112",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550112",
+      "leadId": "LN-013",
+      "attributedCreator": "CR-ANA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 15,
+      "enrollment_id": "EN-014",
+      "phone": "sin teléfono",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": null,
+      "leadId": null,
+      "attributedCreator": null,
+      "issues": [
+        "teléfono inválido"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 16,
+      "enrollment_id": "EN-015",
+      "phone": "+1 202 555 0114",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550114",
+      "leadId": "LN-015",
+      "attributedCreator": "CR-MARIA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 17,
+      "enrollment_id": "EN-016",
+      "phone": "(202) 555-0115",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2099-01-01T00:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550115",
+      "leadId": null,
+      "attributedCreator": null,
+      "issues": [
+        "teléfono sin coincidencia",
+        "fecha futura"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 18,
+      "enrollment_id": "EN-017",
+      "phone": "+1 202 555 0116",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550116",
+      "leadId": "LN-017",
+      "attributedCreator": "CR-LUIS",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 19,
+      "enrollment_id": "EN-018",
+      "phone": "(202) 555-0117",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2020-01-01T00:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550117",
+      "leadId": "LN-018",
+      "attributedCreator": null,
+      "issues": [
+        "inscripción anterior al lead"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 20,
+      "enrollment_id": "EN-019",
+      "phone": "+1 202 555 0118",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550118",
+      "leadId": "LN-019",
+      "attributedCreator": "CR-ANA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 21,
+      "enrollment_id": "EN-020",
+      "phone": "(202) 555-0119",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "pending",
+      "normalizedPhone": "+12025550119",
+      "leadId": "LN-020",
+      "attributedCreator": null,
+      "issues": [
+        "estado no inscrito"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 22,
+      "enrollment_id": "EN-021",
+      "phone": "+1 202 555 0120",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550120",
+      "leadId": "LN-021",
+      "attributedCreator": "CR-MARIA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 23,
+      "enrollment_id": "EN-022",
+      "phone": "(202) 555-0121",
+      "creator_id": "",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550121",
+      "leadId": "LN-022",
+      "attributedCreator": null,
+      "issues": [
+        "creator_id vacío; sin comisión"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 24,
+      "enrollment_id": "EN-023",
+      "phone": "+1 202 555 0122",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550122",
+      "leadId": "LN-023",
+      "attributedCreator": "CR-LUIS",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 25,
+      "enrollment_id": "EN-024",
+      "phone": "(202) 555-0123",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550123",
+      "leadId": "LN-024",
+      "attributedCreator": "CR-MARIA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 26,
+      "enrollment_id": "EN-025",
+      "phone": "+1 202 555 0124",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550124",
+      "leadId": "LN-025",
+      "attributedCreator": "CR-ANA",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 27,
+      "enrollment_id": "EN-001",
+      "phone": "+1 202 555 0100",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550100",
+      "leadId": "LN-001",
+      "attributedCreator": null,
+      "issues": [
+        "duplicado",
+        "lead ya inscrito; posible duplicado"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 28,
+      "enrollment_id": "EN-003",
+      "phone": "+1 202 555 0102",
+      "creator_id": "CR-ANA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550102",
+      "leadId": "LN-003",
+      "attributedCreator": null,
+      "issues": [
+        "ID duplicado con datos contradictorios",
+        "duplicado",
+        "creator_id contradictorio"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 29,
+      "enrollment_id": "EN-028",
+      "phone": "+1 202 555 0104",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550104",
+      "leadId": "LN-005",
+      "attributedCreator": null,
+      "issues": [
+        "lead ya inscrito; posible duplicado"
+      ],
+      "accepted": false
+    },
+    {
+      "row": 30,
+      "enrollment_id": "EN-029",
+      "phone": "+1 202 555 0128",
+      "creator_id": "CR-LUIS",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550128",
+      "leadId": "LN-029",
+      "attributedCreator": "CR-LUIS",
+      "issues": [],
+      "accepted": true
+    },
+    {
+      "row": 31,
+      "enrollment_id": "EN-030",
+      "phone": "(202) 555-0129",
+      "creator_id": "CR-MARIA",
+      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "status": "enrolled",
+      "normalizedPhone": "+12025550129",
+      "leadId": "LN-030",
+      "attributedCreator": "CR-MARIA",
+      "issues": [],
+      "accepted": true
+    }
+  ],
+  "content": {
+    "sources": [
+      {
+        "id": "F-01",
+        "kind": "Pregunta ficticia",
+        "text": "LN-003: ¿Qué datos necesito para empezar?"
+      },
+      {
+        "id": "F-02",
+        "kind": "Objeción ficticia",
+        "text": "LN-010: No quiero hablar con nadie todavía."
+      },
+      {
+        "id": "F-03",
+        "kind": "Pregunta ficticia",
+        "text": "LN-012: No entiendo qué pasa después de pedir información."
+      },
+      {
+        "id": "F-04",
+        "kind": "Objeción ficticia",
+        "text": "¿Podrían prometerme cuánto voy a ahorrar?"
+      },
+      {
+        "id": "F-05",
+        "kind": "Tendencia inventada",
+        "text": "Personas que organizan sus pagos en una libreta antes de consultar."
+      },
+      {
+        "id": "F-06",
+        "kind": "Pregunta ficticia",
+        "text": "¿Mi hipoteca entra en este proceso?"
+      },
+      {
+        "id": "F-07",
+        "kind": "Objeción ficticia",
+        "text": "Me preocupa compartir mis datos bancarios por chat."
+      },
+      {
+        "id": "F-08",
+        "kind": "Pregunta ficticia",
+        "text": "¿Puedo elegir cuándo me contactan?"
+      },
+      {
+        "id": "F-09",
+        "kind": "Tendencia inventada",
+        "text": "Comparar opciones sin cifras de ahorro inventadas."
+      },
+      {
+        "id": "F-10",
+        "kind": "Pregunta ficticia",
+        "text": "¿Cómo pido que dejen de escribirme?"
+      }
+    ],
+    "scripts": [
+      {
+        "id": "G-01",
+        "priority": 1,
+        "sourceId": "F-01",
+        "title": "El primer paso cabe en una libreta",
+        "rationale": "Reduce la fricción al iniciar; CTA concreto sin pedir información sensible.",
+        "text": "Lucía llevaba semanas dejando los sobres en un cajón. Un domingo decidió abrir su libreta y anotar dos cosas: cuánto debía aproximadamente y qué tipo de deuda tenía. No resolvió todo esa tarde, pero llegó con preguntas más claras. Si te pasa algo parecido, puedes empezar por ahí. En Alivio Norte te pedimos solo lo necesario para orientar la conversación, sin datos bancarios ni documentos por chat. Si tú quieres, un Consejero de Consejería Clara podría evaluar opciones según tu situación. Escribe información para conocer el proceso. Cada caso es diferente; no se garantiza ahorro ni aceptación."
+      },
+      {
+        "id": "G-02",
+        "priority": 2,
+        "sourceId": "F-03",
+        "title": "Pedir información no es comprometerte",
+        "rationale": "Aclara el handoff y evita interpretar una consulta como consentimiento.",
+        "text": "Andrés escribió una pregunta y después pensó: ¿ya me inscribieron en algo? No. En esta historia, pedir información fue solo abrir una conversación. Primero pudo explicar el monto aproximado y el tipo de deuda. Después decidió si quería hablar con un Consejero de Consejería Clara. Un agente revisó su solicitud antes de coordinar el siguiente paso. Tú también puedes hacer preguntas, pedir tiempo o decir que no deseas continuar. Conocer el proceso ayuda a decidir con calma. Escribe pasos si quieres saber cómo funciona. La evaluación depende de cada situación y no garantiza ahorro ni aceptación."
+      },
+      {
+        "id": "G-03",
+        "priority": 3,
+        "sourceId": "F-02",
+        "title": "También puedes decir: todavía no",
+        "rationale": "Responde una objeción frecuente y refuerza el control del lead.",
+        "text": "María vio un video sobre organizar deudas, pero no quería recibir una llamada ese día. Contestó: todavía no quiero hablar con un Consejero. Su decisión se respetó. A veces, el primer paso es entender tus preguntas y elegir cuándo conversar. En Alivio Norte puedes pedir información general sin autorizar una transferencia automática. Si más adelante lo decides, un Consejero de Consejería Clara podría revisar opciones contigo. Y si no quieres más contacto, puedes solicitar la baja. Escribe proceso para conocer los pasos a tu ritmo. No hay promesas de ahorro; las opciones dependen de una evaluación individual."
+      }
+    ]
+  },
+  "stale": [
+    {
+      "eventId": "EV-001",
+      "leadId": "LN-001",
+      "timestamp": "2026-09-20T10:00:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550100",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:00:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-002",
+      "leadId": "LN-002",
+      "timestamp": "2026-09-20T10:01:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550101",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:01:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-003",
+      "leadId": "LN-003",
+      "timestamp": "2026-09-20T10:02:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550102",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:02:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-004",
+      "leadId": "LN-004",
+      "timestamp": "2026-09-20T10:03:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "+12025550103",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:03:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-005",
+      "leadId": "LN-005",
+      "timestamp": "2026-09-20T10:04:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550104",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:04:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-006",
+      "leadId": "LN-006",
+      "timestamp": "2026-09-20T10:05:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550105",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:05:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-007",
+      "leadId": "LN-007",
+      "timestamp": "2026-09-20T10:06:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550106",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:06:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-008",
+      "leadId": "LN-008",
+      "timestamp": "2026-09-20T10:07:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550107",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:07:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-010",
+      "leadId": "LN-010",
+      "timestamp": "2026-09-20T10:09:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550109",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:09:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-011",
+      "leadId": "LN-011",
+      "timestamp": "2026-09-20T10:10:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550110",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:10:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-012",
+      "leadId": "LN-012",
+      "timestamp": "2026-09-20T10:11:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550111",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:11:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-013",
+      "leadId": "LN-013",
+      "timestamp": "2026-09-20T10:12:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550112",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:12:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-014",
+      "leadId": "LN-014",
+      "timestamp": "2026-09-20T10:13:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550113",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:13:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-015",
+      "leadId": "LN-015",
+      "timestamp": "2026-09-20T10:14:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550114",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:14:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-016",
+      "leadId": "LN-016",
+      "timestamp": "2026-09-20T10:15:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:15:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-017",
+      "leadId": "LN-017",
+      "timestamp": "2026-09-20T10:16:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550116",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:16:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-018",
+      "leadId": "LN-018",
+      "timestamp": "2026-09-20T10:17:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550117",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:17:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-019",
+      "leadId": "LN-019",
+      "timestamp": "2026-09-20T10:18:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550118",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:18:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-020",
+      "leadId": "LN-020",
+      "timestamp": "2026-09-20T10:19:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550119",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:19:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-022",
+      "leadId": "LN-022",
+      "timestamp": "2026-09-20T10:21:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550121",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:21:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-023",
+      "leadId": "LN-023",
+      "timestamp": "2026-09-20T10:22:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550122",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:22:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-024",
+      "leadId": "LN-024",
+      "timestamp": "2026-09-20T10:23:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550123",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:23:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-025",
+      "leadId": "LN-025",
+      "timestamp": "2026-09-20T10:24:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550124",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:24:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-026",
+      "leadId": "LN-026",
+      "timestamp": "2026-09-20T10:25:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550125",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:25:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-027",
+      "leadId": "LN-027",
+      "timestamp": "2026-09-20T10:26:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550126",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:26:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-028",
+      "leadId": "LN-028",
+      "timestamp": "2026-09-20T10:27:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "+12025550127",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:27:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-029",
+      "leadId": "LN-029",
+      "timestamp": "2026-09-20T10:28:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550128",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:28:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-030",
+      "leadId": "LN-030",
+      "timestamp": "2026-09-20T10:29:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550129",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:29:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-031",
+      "leadId": "LN-031",
+      "timestamp": "2026-09-20T10:30:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550130",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:30:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-032",
+      "leadId": "LN-032",
+      "timestamp": "2026-09-20T10:31:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550131",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:31:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-034",
+      "leadId": "LN-034",
+      "timestamp": "2026-09-20T10:33:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550133",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:33:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-035",
+      "leadId": "LN-035",
+      "timestamp": "2026-09-20T10:34:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550134",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:34:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-036",
+      "leadId": "LN-036",
+      "timestamp": "2026-09-20T10:35:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550135",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:35:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-037",
+      "leadId": "LN-037",
+      "timestamp": "2026-09-20T10:36:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+      "phone": "+12025550136",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:36:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 18000,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-038",
+      "leadId": "LN-038",
+      "timestamp": "2026-09-20T10:37:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+      "phone": "+12025550137",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:37:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-039",
+      "leadId": "LN-039",
+      "timestamp": "2026-09-20T10:38:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Hola, necesito información sobre mis deudas.",
+      "phone": "+12025550138",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:38:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-040",
+      "leadId": "LN-040",
+      "timestamp": "2026-09-20T10:39:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+      "phone": "+12025550139",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:39:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 9000,
+        "debtType": "prestamo_personal",
+        "wantsCounselor": true,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-041",
+      "leadId": "LN-041",
+      "timestamp": "2026-09-20T10:40:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "¿Me garantizan ahorro y un mejor puntaje?",
+      "phone": "+12025550140",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:40:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-042",
+      "leadId": "LN-042",
+      "timestamp": "2026-09-20T10:41:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "Publicidad: gana dinero desde casa.",
+      "phone": "+12025550141",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:41:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-043",
+      "leadId": "LN-043",
+      "timestamp": "2026-09-20T10:42:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+      "phone": "+12025550142",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:42:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 2500,
+        "debtType": "tarjeta",
+        "wantsCounselor": true,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-044",
+      "leadId": "LN-044",
+      "timestamp": "2026-09-20T10:43:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+      "phone": "+12025550143",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:43:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 25,
+        "debtType": "tarjeta",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-046",
+      "leadId": "LN-046",
+      "timestamp": "2026-09-20T10:45:00.000Z",
+      "creator": "CR-ANA",
+      "channel": "CTWA",
+      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+      "phone": "+12025550145",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:45:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": 12000,
+        "debtType": "tarjeta",
+        "wantsCounselor": false,
+        "eligible": true
+      }
+    },
+    {
+      "eventId": "EV-047",
+      "leadId": "LN-047",
+      "timestamp": "2026-09-20T10:46:00.000Z",
+      "creator": "CR-LUIS",
+      "channel": "orgánico",
+      "message": "Debo 42000 USD de hipoteca.",
+      "phone": "+12025550146",
+      "initialState": "Nuevo",
+      "stage": "Revisión humana",
+      "updatedAt": "2026-09-20T10:46:00.000Z",
+      "optedOut": false,
+      "needsReview": true,
+      "qualification": {
+        "amount": 42000,
+        "debtType": "hipoteca",
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    },
+    {
+      "eventId": "EV-048",
+      "leadId": "LN-048",
+      "timestamp": "2026-09-20T10:47:00.000Z",
+      "creator": "CR-MARIA",
+      "channel": "orgánico",
+      "message": "No entiendo qué sigue después de pedir información.",
+      "phone": "+12025550147",
+      "initialState": "Nuevo",
+      "stage": "Nuevo",
+      "updatedAt": "2026-09-20T10:47:00.000Z",
+      "optedOut": false,
+      "needsReview": false,
+      "qualification": {
+        "amount": null,
+        "debtType": null,
+        "wantsCounselor": null,
+        "eligible": false
+      }
+    }
+  ],
+  "rules": {
+    "minDebt": 5000,
+    "maxDebt": 100000,
+    "staleHours": 48,
+    "eligibleTypes": [
+      "tarjeta",
+      "prestamo_personal"
+    ],
+    "ignoreWords": [
+      "publicidad",
+      "gana dinero",
+      "spam"
+    ],
+    "stopWords": [
+      "no me contacten",
+      "dejen de escribirme",
+      "baja"
+    ],
+    "handoffWords": [
+      "demanda",
+      "embargo",
+      "suicidio",
+      "garantizado",
+      "tasa",
+      "puntaje",
+      "tarifa",
+      "abogado",
+      "fraude",
+      "urgente"
+    ],
+    "maxAttempts": 3,
+    "retryBaseSeconds": 3
+  },
+  "rulesError": null,
+  "ruleVersion": "ceca54cb911b",
+  "audit": [
+    {
+      "id": "accc3d2b-b799-41ec-a9e3-0f13ab702ff8",
+      "timestamp": "2026-10-06T21:31:35.914Z",
+      "leadId": "LN-046",
+      "action": "rejected",
+      "reason": "Humano cerró el borrador sin envío.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=draft-EV-046"
+    },
+    {
+      "id": "3cd26edd-8964-47bc-9417-d79f0e4020af",
+      "timestamp": "2026-10-06T21:31:21.771Z",
+      "leadId": "DEMO-cb646af6",
+      "action": "rejected",
+      "reason": "Humano cerró el borrador sin envío.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-cb646af6"
+    },
+    {
+      "id": "50619959-37c5-4c16-889c-b74b82bf7e82",
+      "timestamp": "2026-10-06T17:57:54.816Z",
+      "leadId": "DEMO-ef784d35",
+      "action": "delivered",
+      "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-ef784d35"
+    },
+    {
+      "id": "6bad250f-8439-4550-8ac8-0508b92e4027",
+      "timestamp": "2026-10-06T17:57:53.859Z",
+      "leadId": "DEMO-ef784d35",
+      "action": "approved",
+      "reason": "Humano autorizó envío al simulador local.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-ef784d35"
+    },
+    {
+      "id": "21b991a9-2831-40fd-b850-13f18e19f3b2",
+      "timestamp": "2026-10-06T17:56:50.196Z",
+      "leadId": "DEMO-ef784d35",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-ef784d35"
+    },
+    {
+      "id": "e2ee6b15-27a3-4b14-9dcb-7fbf17ccd277",
+      "timestamp": "2026-10-06T17:56:49.603Z",
+      "leadId": "DEMO-ef784d35",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "3bd63545-f69c-4e66-963d-ad149dacbfb4",
+      "timestamp": "2026-10-06T17:30:09.741Z",
+      "leadId": "-",
+      "action": "partner_mode",
+      "reason": "Simulador: healthy",
+      "actor": "operador-demo",
+      "draftLink": null
+    },
+    {
+      "id": "c30a35aa-ea7f-4db5-99d0-0895ca9f4fad",
+      "timestamp": "2026-10-06T17:30:09.731Z",
+      "leadId": "-",
+      "action": "rules_updated",
+      "reason": "ceca54cb911b → ceca54cb911b; afecta mensajes nuevos.",
+      "actor": "operador-demo",
+      "draftLink": null
+    },
+    {
+      "id": "079be76c-32b8-4eac-9009-bef061733f32",
+      "timestamp": "2026-10-06T17:29:35.790Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "delivered",
+      "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "c46e305f-bb15-4b8c-8c87-6367d1ffc1da",
+      "timestamp": "2026-10-06T17:29:35.100Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "manual_retry",
+      "reason": "Reintento manual autorizado.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "5d2a0d21-63b5-49cf-8b7b-0406e15517dc",
+      "timestamp": "2026-10-06T17:29:35.029Z",
+      "leadId": "-",
+      "action": "partner_mode",
+      "reason": "Simulador: healthy",
+      "actor": "operador-demo",
+      "draftLink": null
+    },
+    {
+      "id": "dafda96d-9f29-4934-8a8b-617bc0c14e5e",
+      "timestamp": "2026-10-06T17:29:30.743Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "delivery_failed",
+      "reason": "Partner ficticio respondió HTTP 503.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "1e8450d6-789e-408e-94b4-5bdbe513ef85",
+      "timestamp": "2026-10-06T17:29:24.681Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "retry_scheduled",
+      "reason": "Partner ficticio respondió HTTP 503.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "1f0021b7-adbb-4e0f-8ea1-98d65911e71a",
+      "timestamp": "2026-10-06T17:29:21.624Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "retry_scheduled",
+      "reason": "Partner ficticio respondió HTTP 503.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "dcd33afa-a811-4823-a5b1-0f287d9b2d12",
+      "timestamp": "2026-10-06T17:29:20.743Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "approved",
+      "reason": "Humano autorizó envío al simulador local.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "9b87090c-ec9b-42e6-906c-83354830f1be",
+      "timestamp": "2026-10-06T17:29:20.613Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-a652ee86"
+    },
+    {
+      "id": "d3ed6788-c94a-44c3-82a3-8a564ed4b9ba",
+      "timestamp": "2026-10-06T17:29:20.591Z",
+      "leadId": "DEMO-a652ee86",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "c4b32455-aab3-438c-ba4b-ebda981062cb",
+      "timestamp": "2026-10-06T17:29:20.402Z",
+      "leadId": "-",
+      "action": "partner_mode",
+      "reason": "Simulador: down",
+      "actor": "operador-demo",
+      "draftLink": null
+    },
+    {
+      "id": "dc4314b3-8368-4919-8bb2-82e87928b450",
+      "timestamp": "2026-10-06T17:29:13.536Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "delivered",
+      "reason": "handoff: recibo confirmado por simulador, intento 1.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=crm-c8c91233-2d31-45d5-969c-252f753496c0"
+    },
+    {
+      "id": "4d7f1eda-3f34-4f8e-8f23-61e816386dde",
+      "timestamp": "2026-10-06T17:29:13.529Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "delivered",
+      "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=crm-c8c91233-2d31-45d5-969c-252f753496c0"
+    },
+    {
+      "id": "6fc16a93-d7b2-47e8-bebe-4be2f53a201f",
+      "timestamp": "2026-10-06T17:29:13.260Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "approved",
+      "reason": "Humano autorizó envío al simulador local.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=crm-c8c91233-2d31-45d5-969c-252f753496c0"
+    },
+    {
+      "id": "007cb992-931d-46aa-aad0-addd41fa5e25",
+      "timestamp": "2026-10-06T17:29:02.154Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "disposition",
+      "reason": "Transferido → Transferencia pendiente",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=crm-c8c91233-2d31-45d5-969c-252f753496c0"
+    },
+    {
+      "id": "998bdd1d-99a8-4c0c-a2d6-542ae07c6e2d",
+      "timestamp": "2026-10-06T17:29:01.971Z",
+      "leadId": "-",
+      "action": "rules_updated",
+      "reason": "1c5982cf54f0 → ceca54cb911b; afecta mensajes nuevos.",
+      "actor": "operador-demo",
+      "draftLink": null
+    },
+    {
+      "id": "e70022a0-4bec-476c-a8d5-fee82116feac",
+      "timestamp": "2026-10-06T17:28:52.234Z",
+      "leadId": "DEMO-cb646af6",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla 1c5982cf54f0.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-cb646af6"
+    },
+    {
+      "id": "96f43d06-96f2-4426-8b6c-7af623e7d0f5",
+      "timestamp": "2026-10-06T17:28:51.602Z",
+      "leadId": "DEMO-cb646af6",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "c4807341-f377-453d-88da-84fb7e9c2ddf",
+      "timestamp": "2026-10-06T17:28:47.535Z",
+      "leadId": "-",
+      "action": "rules_updated",
+      "reason": "ceca54cb911b → 1c5982cf54f0; afecta mensajes nuevos.",
+      "actor": "operador-demo",
+      "draftLink": null
+    },
+    {
+      "id": "6860a4e4-ab88-49a0-a4ad-83cf2e94ed8b",
+      "timestamp": "2026-10-06T17:28:31.878Z",
+      "leadId": "DEMO-8001b3de",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-8001b3de"
+    },
+    {
+      "id": "5d89247d-fc70-4be7-8ba9-2893c8670f15",
+      "timestamp": "2026-10-06T17:28:31.632Z",
+      "leadId": "DEMO-8001b3de",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "9d9d4c6d-97af-4882-8002-4396b83b373e",
+      "timestamp": "2026-10-06T17:28:23.781Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "delivered",
+      "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-af1d6d4f"
+    },
+    {
+      "id": "69372b9e-b795-40ad-bb84-1affb50ae554",
+      "timestamp": "2026-10-06T17:28:23.007Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "approved",
+      "reason": "Humano autorizó envío al simulador local.",
+      "actor": "operador-demo",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-af1d6d4f"
+    },
+    {
+      "id": "aa278604-a35f-4137-aa09-7b71083732d1",
+      "timestamp": "2026-10-06T17:28:13.580Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-WEB-af1d6d4f"
+    },
+    {
+      "id": "f5449120-f303-4da9-a25f-75f7882ab5f0",
+      "timestamp": "2026-10-06T17:28:13.252Z",
+      "leadId": "DEMO-af1d6d4f",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "17332913-7cde-4dc6-8036-9cff71222fa8",
+      "timestamp": "2026-10-06T17:16:36.186Z",
+      "leadId": "-",
+      "action": "seed",
+      "reason": "48 leads ficticios históricos. updatedAt conserva la fecha ficticia para demostrar estancamiento.",
+      "actor": "setup",
+      "draftLink": null
+    },
+    {
+      "id": "cb133013-f99b-47c6-9db0-d59080b0732a",
+      "timestamp": "2026-10-06T17:16:36.183Z",
+      "leadId": "LN-048",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-048"
+    },
+    {
+      "id": "a0d87bdc-0fd4-4f4c-a5cb-3ee595c22484",
+      "timestamp": "2026-10-06T17:16:36.182Z",
+      "leadId": "LN-047",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-047"
+    },
+    {
+      "id": "05443610-7c79-41a6-a9f5-887001cb9285",
+      "timestamp": "2026-10-06T17:16:36.181Z",
+      "leadId": "LN-046",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-046"
+    },
+    {
+      "id": "1939bcf7-2883-4519-841b-88f9fc1ad662",
+      "timestamp": "2026-10-06T17:16:36.179Z",
+      "leadId": "LN-045",
+      "action": "ignorar",
+      "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "3a8d2b4c-6b94-4602-a63a-0f73fcfba0a5",
+      "timestamp": "2026-10-06T17:16:36.178Z",
+      "leadId": "LN-044",
+      "action": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-044"
+    },
+    {
+      "id": "99918f79-55d3-4a4d-8089-e486e70c7038",
+      "timestamp": "2026-10-06T17:16:36.176Z",
+      "leadId": "LN-043",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-043"
+    },
+    {
+      "id": "13b425b5-a0cd-4ae5-bb3d-a61c75522d36",
+      "timestamp": "2026-10-06T17:16:36.175Z",
+      "leadId": "LN-042",
+      "action": "ignorar",
+      "reason": "Mensaje no relacionado o publicidad según reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "54501fe0-3373-4d5f-9266-4feda79353e5",
+      "timestamp": "2026-10-06T17:16:36.173Z",
+      "leadId": "LN-041",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-041"
+    },
+    {
+      "id": "8807e1b9-eb76-4ee8-8c4a-6c221a80e003",
+      "timestamp": "2026-10-06T17:16:36.172Z",
+      "leadId": "LN-040",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-040"
+    },
+    {
+      "id": "402fc421-bc37-458e-8d7b-05eefcb084ac",
+      "timestamp": "2026-10-06T17:16:36.170Z",
+      "leadId": "LN-039",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-039"
+    },
+    {
+      "id": "419af721-086d-4d6b-98ff-35d9d9662041",
+      "timestamp": "2026-10-06T17:16:36.168Z",
+      "leadId": "LN-038",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-038"
+    },
+    {
+      "id": "c9913590-99f1-4e24-99f6-6ed93bfa755a",
+      "timestamp": "2026-10-06T17:16:36.167Z",
+      "leadId": "LN-037",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-037"
+    },
+    {
+      "id": "afae8e4c-1919-41bc-8b2c-336a36db2091",
+      "timestamp": "2026-10-06T17:16:36.166Z",
+      "leadId": "LN-036",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-036"
+    },
+    {
+      "id": "615f3aa6-1ae7-4fb1-9403-d164b709ff8f",
+      "timestamp": "2026-10-06T17:16:36.164Z",
+      "leadId": "LN-035",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-035"
+    },
+    {
+      "id": "f338fdfd-c5e0-4594-b1e9-cee60e362af0",
+      "timestamp": "2026-10-06T17:16:36.162Z",
+      "leadId": "LN-034",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-034"
+    },
+    {
+      "id": "a917b67b-cb3b-4ea8-bc23-c90596af61ee",
+      "timestamp": "2026-10-06T17:16:36.160Z",
+      "leadId": "LN-033",
+      "action": "ignorar",
+      "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "33df8bfd-ede0-4542-b0fd-b5cf3194c4d6",
+      "timestamp": "2026-10-06T17:16:36.158Z",
+      "leadId": "LN-032",
+      "action": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-032"
+    },
+    {
+      "id": "24fe0f6b-6ef7-44a4-97e5-df0584bbee6a",
+      "timestamp": "2026-10-06T17:16:36.157Z",
+      "leadId": "LN-031",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-031"
+    },
+    {
+      "id": "c5350adf-2b23-4157-8f83-13b0c6f50b86",
+      "timestamp": "2026-10-06T17:16:36.155Z",
+      "leadId": "LN-030",
+      "action": "ignorar",
+      "reason": "Mensaje no relacionado o publicidad según reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "a4a48b42-2ea0-4e6a-a4fc-5d8c00c48f68",
+      "timestamp": "2026-10-06T17:16:36.154Z",
+      "leadId": "LN-029",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-029"
+    },
+    {
+      "id": "c67a6b6f-2f1a-4f1c-8933-cde2b18732cc",
+      "timestamp": "2026-10-06T17:16:36.152Z",
+      "leadId": "LN-028",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-028"
+    },
+    {
+      "id": "9f4c338f-491d-49fc-8924-8f9d69d09339",
+      "timestamp": "2026-10-06T17:16:36.151Z",
+      "leadId": "LN-027",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-027"
+    },
+    {
+      "id": "5b4e8ced-fda7-4ba5-bd37-0b49de5b24b5",
+      "timestamp": "2026-10-06T17:16:36.149Z",
+      "leadId": "LN-026",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-026"
+    },
+    {
+      "id": "9a8a1a35-c6a5-44e2-8f47-f5484d99b219",
+      "timestamp": "2026-10-06T17:16:36.148Z",
+      "leadId": "LN-025",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-025"
+    },
+    {
+      "id": "fd83bb87-f6d7-46be-9ab2-bb80f5ccaab9",
+      "timestamp": "2026-10-06T17:16:36.147Z",
+      "leadId": "LN-024",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-024"
+    },
+    {
+      "id": "29034650-12db-4bfd-94ac-8dd63cc51b1a",
+      "timestamp": "2026-10-06T17:16:36.146Z",
+      "leadId": "LN-023",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-023"
+    },
+    {
+      "id": "271e875b-4409-4267-83cb-4b41bc8eec2e",
+      "timestamp": "2026-10-06T17:16:36.144Z",
+      "leadId": "LN-022",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-022"
+    },
+    {
+      "id": "35a3b1a7-f031-4256-86d3-7670d4f315e6",
+      "timestamp": "2026-10-06T17:16:36.142Z",
+      "leadId": "LN-021",
+      "action": "ignorar",
+      "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "8eb688d2-8e5a-40fd-aef3-ca6800e86234",
+      "timestamp": "2026-10-06T17:16:36.141Z",
+      "leadId": "LN-020",
+      "action": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-020"
+    },
+    {
+      "id": "d5a74433-176d-46db-a915-cca973ede5df",
+      "timestamp": "2026-10-06T17:16:36.139Z",
+      "leadId": "LN-019",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-019"
+    },
+    {
+      "id": "143e8e55-842d-4228-bee9-33636b6d6cb7",
+      "timestamp": "2026-10-06T17:16:36.137Z",
+      "leadId": "LN-018",
+      "action": "ignorar",
+      "reason": "Mensaje no relacionado o publicidad según reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "fcb86c4c-f0b5-42d8-ab0e-1e74a1f481a3",
+      "timestamp": "2026-10-06T17:16:36.136Z",
+      "leadId": "LN-017",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-017"
+    },
+    {
+      "id": "30374b94-5f36-4368-b274-e4375847ad4b",
+      "timestamp": "2026-10-06T17:16:36.134Z",
+      "leadId": "LN-016",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-016"
+    },
+    {
+      "id": "33531eb5-59f6-47d4-8bd3-3e2080b07698",
+      "timestamp": "2026-10-06T17:16:36.132Z",
+      "leadId": "LN-015",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-015"
+    },
+    {
+      "id": "7284ab00-71fd-4dc1-88ff-54c72d96cc88",
+      "timestamp": "2026-10-06T17:16:36.131Z",
+      "leadId": "LN-014",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-014"
+    },
+    {
+      "id": "0c492034-274c-4fb4-9f4e-502fce32a0c4",
+      "timestamp": "2026-10-06T17:16:36.130Z",
+      "leadId": "LN-013",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-013"
+    },
+    {
+      "id": "99723742-2a6b-4609-be4e-fa489501a443",
+      "timestamp": "2026-10-06T17:16:36.129Z",
+      "leadId": "LN-012",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-012"
+    },
+    {
+      "id": "02a6daba-bdb9-4a81-b665-43345414ca8b",
+      "timestamp": "2026-10-06T17:16:36.127Z",
+      "leadId": "LN-011",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-011"
+    },
+    {
+      "id": "ec22ace4-d499-4219-b02f-0d4e40ddfa6c",
+      "timestamp": "2026-10-06T17:16:36.126Z",
+      "leadId": "LN-010",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-010"
+    },
+    {
+      "id": "8b09058d-a380-4cb4-b083-0e36ead93ce8",
+      "timestamp": "2026-10-06T17:16:36.125Z",
+      "leadId": "LN-009",
+      "action": "ignorar",
+      "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "5ccec0bb-87bb-478e-bf04-5964003cd524",
+      "timestamp": "2026-10-06T17:16:36.124Z",
+      "leadId": "LN-008",
+      "action": "escalar_humano",
+      "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-008"
+    },
+    {
+      "id": "3ecc51d4-4609-4852-8994-fa94ba485bb6",
+      "timestamp": "2026-10-06T17:16:36.122Z",
+      "leadId": "LN-007",
+      "action": "escalar_humano",
+      "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-007"
+    },
+    {
+      "id": "8d989b08-486e-4fce-9141-48776a2ddbd7",
+      "timestamp": "2026-10-06T17:16:36.121Z",
+      "leadId": "LN-006",
+      "action": "ignorar",
+      "reason": "Mensaje no relacionado o publicidad según reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": null
+    },
+    {
+      "id": "3a75af79-d97f-403a-accc-c3b0debe8bf1",
+      "timestamp": "2026-10-06T17:16:36.120Z",
+      "leadId": "LN-005",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-005"
+    },
+    {
+      "id": "657e1b0c-69bf-44a3-84da-7f356d60464f",
+      "timestamp": "2026-10-06T17:16:36.118Z",
+      "leadId": "LN-004",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-004"
+    },
+    {
+      "id": "2af2325d-d1a5-4159-ac82-c57b89b9733d",
+      "timestamp": "2026-10-06T17:16:36.117Z",
+      "leadId": "LN-003",
+      "action": "responder",
+      "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-003"
+    },
+    {
+      "id": "a84375d8-69e8-467c-86c7-f76b1c24f25b",
+      "timestamp": "2026-10-06T17:16:36.116Z",
+      "leadId": "LN-002",
+      "action": "escalar_humano",
+      "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-002"
+    },
+    {
+      "id": "c83f5b14-75e1-43e3-8a2f-2a42e47c8f36",
+      "timestamp": "2026-10-06T17:16:36.114Z",
+      "leadId": "LN-001",
+      "action": "responder",
+      "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla ceca54cb911b.",
+      "actor": "worker",
+      "draftLink": "/?tab=inbox&draft=draft-EV-001"
+    },
+    {
+      "id": "5e1528ec-2445-4684-b470-134ac73f1da8",
+      "timestamp": "2026-10-06T17:16:36.110Z",
+      "leadId": "LN-048",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "5766e378-cca8-4bf4-8aac-3a0841bd7d26",
+      "timestamp": "2026-10-06T17:16:36.109Z",
+      "leadId": "LN-047",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "7a2209d7-013e-4c0a-a50d-b1487b65ce7a",
+      "timestamp": "2026-10-06T17:16:36.108Z",
+      "leadId": "LN-046",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "a5b717c7-948c-4485-aeca-94a7379f66ac",
+      "timestamp": "2026-10-06T17:16:36.106Z",
+      "leadId": "LN-045",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "93bea667-dce7-4d1b-98ea-2c51123fee9a",
+      "timestamp": "2026-10-06T17:16:36.105Z",
+      "leadId": "LN-044",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "fe4e528f-b793-4289-a4a3-e66c67c0c5e6",
+      "timestamp": "2026-10-06T17:16:36.104Z",
+      "leadId": "LN-043",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "b38060ec-0f0a-4412-8d31-d6d274657967",
+      "timestamp": "2026-10-06T17:16:36.103Z",
+      "leadId": "LN-042",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "aa6ac7e1-8865-4679-81be-b48adcc8daad",
+      "timestamp": "2026-10-06T17:16:36.102Z",
+      "leadId": "LN-041",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "4df9d4f0-8cba-41f1-a565-4e4eefc19b65",
+      "timestamp": "2026-10-06T17:16:36.101Z",
+      "leadId": "LN-040",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "d32471a7-2b09-4bcc-bb3f-4927b0b2c129",
+      "timestamp": "2026-10-06T17:16:36.100Z",
+      "leadId": "LN-039",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "a927870f-c1ea-48f0-9602-2fed56cd8281",
+      "timestamp": "2026-10-06T17:16:36.100Z",
+      "leadId": "LN-038",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "47ecd6dd-c82e-4358-8806-c7199d244f5a",
+      "timestamp": "2026-10-06T17:16:36.099Z",
+      "leadId": "LN-037",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "0837efc9-f51e-4723-9252-2b9a07dc8d4a",
+      "timestamp": "2026-10-06T17:16:36.098Z",
+      "leadId": "LN-036",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "a16cc57a-f0ec-426d-8e4f-0b998e6d7c86",
+      "timestamp": "2026-10-06T17:16:36.097Z",
+      "leadId": "LN-035",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "0123871e-fe55-4540-89cb-4515d806aa3d",
+      "timestamp": "2026-10-06T17:16:36.096Z",
+      "leadId": "LN-034",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "2b3f1273-b28a-4c50-81b2-993b20b9048c",
+      "timestamp": "2026-10-06T17:16:36.095Z",
+      "leadId": "LN-033",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "e5cca857-7791-4b18-8226-b81e645f3772",
+      "timestamp": "2026-10-06T17:16:36.095Z",
+      "leadId": "LN-032",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "5ad9b6cd-ed13-40c0-9037-21cfb014d977",
+      "timestamp": "2026-10-06T17:16:36.094Z",
+      "leadId": "LN-031",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "43c12853-16d1-44b4-b557-f40b25a2752a",
+      "timestamp": "2026-10-06T17:16:36.093Z",
+      "leadId": "LN-030",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "9e4854f7-e718-45c0-87d9-9f605c7cbf10",
+      "timestamp": "2026-10-06T17:16:36.092Z",
+      "leadId": "LN-029",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "2224bcef-ab74-4fe0-ade8-63095860fc0f",
+      "timestamp": "2026-10-06T17:16:36.091Z",
+      "leadId": "LN-028",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "fc0c9f2f-d14d-4bfc-bbbc-e07308e5005d",
+      "timestamp": "2026-10-06T17:16:36.090Z",
+      "leadId": "LN-027",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "c0b64891-2210-40a3-9ab8-394062623bb6",
+      "timestamp": "2026-10-06T17:16:36.089Z",
+      "leadId": "LN-026",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "3215d5cc-dd7b-44c4-bd25-4e5031f09102",
+      "timestamp": "2026-10-06T17:16:36.088Z",
+      "leadId": "LN-025",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "db9a61fe-86d3-4c00-a73d-07ed78d0119e",
+      "timestamp": "2026-10-06T17:16:36.087Z",
+      "leadId": "LN-024",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "8f0e7ee4-c0e7-4cb2-938a-2bcc158e1c44",
+      "timestamp": "2026-10-06T17:16:36.087Z",
+      "leadId": "LN-023",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "9e958b0d-a6a5-4023-b9f0-6dc997a918f7",
+      "timestamp": "2026-10-06T17:16:36.086Z",
+      "leadId": "LN-022",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "ad162580-baa9-41d4-acb3-0721579c14e3",
+      "timestamp": "2026-10-06T17:16:36.085Z",
+      "leadId": "LN-021",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "e27abcaa-2286-40fb-bb86-4c8e78ed0df1",
+      "timestamp": "2026-10-06T17:16:36.084Z",
+      "leadId": "LN-020",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "811ef389-33ed-4907-bfe4-9e27fe218d2a",
+      "timestamp": "2026-10-06T17:16:36.083Z",
+      "leadId": "LN-019",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "3b5f0c61-82e2-458b-90df-f99dba40cf7c",
+      "timestamp": "2026-10-06T17:16:36.082Z",
+      "leadId": "LN-018",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "37185bed-ae0d-4efd-acde-3f75f0f57e2b",
+      "timestamp": "2026-10-06T17:16:36.081Z",
+      "leadId": "LN-017",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "2e51a0ec-3fdd-464f-a04d-b3371ff06297",
+      "timestamp": "2026-10-06T17:16:36.081Z",
+      "leadId": "LN-016",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "b7a92a4c-2581-4599-a1f0-0c1a8d9db315",
+      "timestamp": "2026-10-06T17:16:36.080Z",
+      "leadId": "LN-015",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "a8b7af4a-ea01-4ce8-9197-98a867269625",
+      "timestamp": "2026-10-06T17:16:36.079Z",
+      "leadId": "LN-014",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "0d820a3d-cc8f-460b-a7f3-3eccf5cbbd6e",
+      "timestamp": "2026-10-06T17:16:36.078Z",
+      "leadId": "LN-013",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "068e6195-5a01-4c9d-b23b-e1537a048972",
+      "timestamp": "2026-10-06T17:16:36.077Z",
+      "leadId": "LN-012",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "d6b4b507-463f-42d9-a239-648f2cc0f9e2",
+      "timestamp": "2026-10-06T17:16:36.076Z",
+      "leadId": "LN-011",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "b34b602a-d81f-4f8c-b532-bb3d03eeb6a2",
+      "timestamp": "2026-10-06T17:16:36.075Z",
+      "leadId": "LN-010",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "e6243869-fcbc-4561-b791-0b3adfa66cb9",
+      "timestamp": "2026-10-06T17:16:36.074Z",
+      "leadId": "LN-009",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "c4d0a7d4-fb6e-4ba0-823b-c1f0692e89fa",
+      "timestamp": "2026-10-06T17:16:36.073Z",
+      "leadId": "LN-008",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "97a8a8c6-7ee2-45c3-9ea0-c5e64b38de72",
+      "timestamp": "2026-10-06T17:16:36.072Z",
+      "leadId": "LN-007",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "a42bb9fc-3e86-4b9d-9dfd-b82ea0b537ae",
+      "timestamp": "2026-10-06T17:16:36.071Z",
+      "leadId": "LN-006",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "098acc33-92db-4b5c-8143-93eab3bd6441",
+      "timestamp": "2026-10-06T17:16:36.070Z",
+      "leadId": "LN-005",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "a4d9e1d3-40ca-4ea0-a795-530e665af058",
+      "timestamp": "2026-10-06T17:16:36.069Z",
+      "leadId": "LN-004",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "42837f3a-cce2-4786-81e3-7d39f29d5795",
+      "timestamp": "2026-10-06T17:16:36.069Z",
+      "leadId": "LN-003",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "2c87e2db-9588-48b4-8847-243d6afc31a2",
+      "timestamp": "2026-10-06T17:16:36.068Z",
+      "leadId": "LN-002",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    },
+    {
+      "id": "66911c40-f6b3-4ff7-ae50-514a4373e6fb",
+      "timestamp": "2026-10-06T17:16:36.065Z",
+      "leadId": "LN-001",
+      "action": "ingested",
+      "reason": "Mensaje recibido en cola durable.",
+      "actor": "webhook",
+      "draftLink": null
+    }
+  ],
+  "inbox": [
+    {
+      "input": {
+        "eventId": "EV-001",
+        "leadId": "LN-001",
+        "timestamp": "2026-09-20T10:00:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+        "phone": "+12025550100",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-002",
+        "leadId": "LN-002",
+        "timestamp": "2026-09-20T10:01:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+        "phone": "+12025550101",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-003",
+        "leadId": "LN-003",
+        "timestamp": "2026-09-20T10:02:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Hola, necesito información sobre mis deudas.",
+        "phone": "+12025550102",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-004",
+        "leadId": "LN-004",
+        "timestamp": "2026-09-20T10:03:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+        "phone": "+12025550103",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-005",
+        "leadId": "LN-005",
+        "timestamp": "2026-09-20T10:04:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "¿Me garantizan ahorro y un mejor puntaje?",
+        "phone": "+12025550104",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-006",
+        "leadId": "LN-006",
+        "timestamp": "2026-09-20T10:05:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Publicidad: gana dinero desde casa.",
+        "phone": "+12025550105",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-007",
+        "leadId": "LN-007",
+        "timestamp": "2026-09-20T10:06:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+        "phone": "+12025550106",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-008",
+        "leadId": "LN-008",
+        "timestamp": "2026-09-20T10:07:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+        "phone": "+12025550107",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-009",
+        "leadId": "LN-009",
+        "timestamp": "2026-09-20T10:08:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No me contacten, quiero la baja.",
+        "phone": "+12025550108",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-010",
+        "leadId": "LN-010",
+        "timestamp": "2026-09-20T10:09:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+        "phone": "+12025550109",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-011",
+        "leadId": "LN-011",
+        "timestamp": "2026-09-20T10:10:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 42000 USD de hipoteca.",
+        "phone": "+12025550110",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-012",
+        "leadId": "LN-012",
+        "timestamp": "2026-09-20T10:11:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No entiendo qué sigue después de pedir información.",
+        "phone": "+12025550111",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-013",
+        "leadId": "LN-013",
+        "timestamp": "2026-09-20T10:12:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+        "phone": "+12025550112",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-014",
+        "leadId": "LN-014",
+        "timestamp": "2026-09-20T10:13:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+        "phone": "+12025550113",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-015",
+        "leadId": "LN-015",
+        "timestamp": "2026-09-20T10:14:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Hola, necesito información sobre mis deudas.",
+        "phone": "+12025550114",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-016",
+        "leadId": "LN-016",
+        "timestamp": "2026-09-20T10:15:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+        "phone": "",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-017",
+        "leadId": "LN-017",
+        "timestamp": "2026-09-20T10:16:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "¿Me garantizan ahorro y un mejor puntaje?",
+        "phone": "+12025550116",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-018",
+        "leadId": "LN-018",
+        "timestamp": "2026-09-20T10:17:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Publicidad: gana dinero desde casa.",
+        "phone": "+12025550117",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-019",
+        "leadId": "LN-019",
+        "timestamp": "2026-09-20T10:18:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+        "phone": "+12025550118",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-020",
+        "leadId": "LN-020",
+        "timestamp": "2026-09-20T10:19:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+        "phone": "+12025550119",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-021",
+        "leadId": "LN-021",
+        "timestamp": "2026-09-20T10:20:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No me contacten, quiero la baja.",
+        "phone": "+12025550120",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-022",
+        "leadId": "LN-022",
+        "timestamp": "2026-09-20T10:21:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+        "phone": "+12025550121",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-023",
+        "leadId": "LN-023",
+        "timestamp": "2026-09-20T10:22:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 42000 USD de hipoteca.",
+        "phone": "+12025550122",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-024",
+        "leadId": "LN-024",
+        "timestamp": "2026-09-20T10:23:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No entiendo qué sigue después de pedir información.",
+        "phone": "+12025550123",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-025",
+        "leadId": "LN-025",
+        "timestamp": "2026-09-20T10:24:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+        "phone": "+12025550124",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-026",
+        "leadId": "LN-026",
+        "timestamp": "2026-09-20T10:25:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+        "phone": "+12025550125",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-027",
+        "leadId": "LN-027",
+        "timestamp": "2026-09-20T10:26:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Hola, necesito información sobre mis deudas.",
+        "phone": "+12025550126",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-028",
+        "leadId": "LN-028",
+        "timestamp": "2026-09-20T10:27:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+        "phone": "+12025550127",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-029",
+        "leadId": "LN-029",
+        "timestamp": "2026-09-20T10:28:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "¿Me garantizan ahorro y un mejor puntaje?",
+        "phone": "+12025550128",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-030",
+        "leadId": "LN-030",
+        "timestamp": "2026-09-20T10:29:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Publicidad: gana dinero desde casa.",
+        "phone": "+12025550129",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-031",
+        "leadId": "LN-031",
+        "timestamp": "2026-09-20T10:30:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+        "phone": "+12025550130",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-032",
+        "leadId": "LN-032",
+        "timestamp": "2026-09-20T10:31:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+        "phone": "+12025550131",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-033",
+        "leadId": "LN-033",
+        "timestamp": "2026-09-20T10:32:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No me contacten, quiero la baja.",
+        "phone": "+12025550132",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-034",
+        "leadId": "LN-034",
+        "timestamp": "2026-09-20T10:33:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+        "phone": "+12025550133",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-035",
+        "leadId": "LN-035",
+        "timestamp": "2026-09-20T10:34:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 42000 USD de hipoteca.",
+        "phone": "+12025550134",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-036",
+        "leadId": "LN-036",
+        "timestamp": "2026-09-20T10:35:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No entiendo qué sigue después de pedir información.",
+        "phone": "+12025550135",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-037",
+        "leadId": "LN-037",
+        "timestamp": "2026-09-20T10:36:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+        "phone": "+12025550136",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-038",
+        "leadId": "LN-038",
+        "timestamp": "2026-09-20T10:37:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
+        "phone": "+12025550137",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-039",
+        "leadId": "LN-039",
+        "timestamp": "2026-09-20T10:38:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Hola, necesito información sobre mis deudas.",
+        "phone": "+12025550138",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-040",
+        "leadId": "LN-040",
+        "timestamp": "2026-09-20T10:39:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
+        "phone": "+12025550139",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-041",
+        "leadId": "LN-041",
+        "timestamp": "2026-09-20T10:40:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "¿Me garantizan ahorro y un mejor puntaje?",
+        "phone": "+12025550140",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-042",
+        "leadId": "LN-042",
+        "timestamp": "2026-09-20T10:41:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "Publicidad: gana dinero desde casa.",
+        "phone": "+12025550141",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-043",
+        "leadId": "LN-043",
+        "timestamp": "2026-09-20T10:42:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
+        "phone": "+12025550142",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-044",
+        "leadId": "LN-044",
+        "timestamp": "2026-09-20T10:43:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
+        "phone": "+12025550143",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-045",
+        "leadId": "LN-045",
+        "timestamp": "2026-09-20T10:44:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No me contacten, quiero la baja.",
+        "phone": "+12025550144",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-046",
+        "leadId": "LN-046",
+        "timestamp": "2026-09-20T10:45:00.000Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
+        "phone": "+12025550145",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-047",
+        "leadId": "LN-047",
+        "timestamp": "2026-09-20T10:46:00.000Z",
+        "creator": "CR-LUIS",
+        "channel": "orgánico",
+        "message": "Debo 42000 USD de hipoteca.",
+        "phone": "+12025550146",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "EV-048",
+        "leadId": "LN-048",
+        "timestamp": "2026-09-20T10:47:00.000Z",
+        "creator": "CR-MARIA",
+        "channel": "orgánico",
+        "message": "No entiendo qué sigue después de pedir información.",
+        "phone": "+12025550147",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "WEB-af1d6d4f",
+        "leadId": "DEMO-af1d6d4f",
+        "timestamp": "2026-10-06T17:28:13.247Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+        "phone": "+12025550190",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "WEB-8001b3de",
+        "leadId": "DEMO-8001b3de",
+        "timestamp": "2026-10-06T17:28:31.633Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y tengo una demanda urgente.",
+        "phone": "+12025550190",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "WEB-cb646af6",
+        "leadId": "DEMO-cb646af6",
+        "timestamp": "2026-10-06T17:28:51.598Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y deseo hablar con un Consejero.",
+        "phone": "+12025550190",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "WEB-a652ee86",
+        "leadId": "DEMO-a652ee86",
+        "timestamp": "2026-10-06T17:29:20.594Z",
+        "creator": "CR-ANA",
+        "channel": "CTWA",
+        "message": "Debo 16000 USD en tarjeta y quiero Consejero.",
+        "phone": "+12025550190",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    },
+    {
+      "input": {
+        "eventId": "WEB-ef784d35",
+        "leadId": "DEMO-ef784d35",
+        "timestamp": "2026-10-06T17:56:49.592Z",
+        "creator": "CR-LUIS",
+        "channel": "CTWA",
+        "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
+        "phone": "+12025550190",
+        "initialState": "Nuevo"
+      },
+      "status": "done"
+    }
+  ],
+  "worker": {
+    "timestamp": "2026-10-06T23:04:12.797Z",
+    "error": null
+  },
+  "partner": {
+    "mode": "healthy"
+  },
+  "metrics": {
+    "leads": 53,
+    "pending": 40,
+    "escalated": 21,
+    "qualified": 16,
+    "transferred": 1,
+    "enrolled": 16,
+    "quarantine": 14,
+    "failed": 0
+  }
+}

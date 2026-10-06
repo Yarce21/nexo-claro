@@ -1,0 +1,9 @@
+node_modules/
+.next/
+runtime/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+alivio-norte-entrega.zip
