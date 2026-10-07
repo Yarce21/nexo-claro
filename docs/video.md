@@ -1,16 +1,9 @@
-# Video de entrega (máximo 6 minutos)
+# Video de entrega
 
-`deliverables/demo.mp4` muestra la aplicación real, sin audio y con subtítulos en español. `scripts/record-demo.ts` automatiza los clicks y verifica estados con Playwright; no es un mockup animado. Duración final: `deliverables/video-verification.json`.
+Grabo la aplicación real con npm run demo:record, Chrome y ffmpeg opcional. Genero simultáneamente las capturas; no uso pantallas simuladas para los casos de negocio. Los subtítulos explican la secuencia, sin narración. El video debe durar menos de seis minutos.
 
-Secuencia aproximada, dependiente de los reintentos:
+Muestro Nexo Claro, un lead en inglés, ES/EN, modo oscuro, borrador sin envío automático, aprobación humana, escalamiento sensible, moneda CHF no admitida y revocación de consentimiento con intento de transferencia rechazado. También muestro cambio/restauración de umbral, disposición y handoff confirmado, y conciliación/contenido.
 
-1. Vista general y carácter ficticio del entorno.
-2. Ingesta de deuda 18000; respuesta en borrador y aprobación humana.
-3. Solicitud sensible con demanda; escalamiento sin envío.
-4. Cambio de umbral a 20000; nuevo mensaje de 18000 se escala.
-5. Disposición Transferido; etapa pendiente, borrador y confirmación del simulador.
-6. HTTP 503, reintentos, fallo terminal, restauración y recuperación.
-7. Conciliación del CSV y comisiones retenidas.
-8. Guiones, fuentes y entregables.
+Para grabar uso una instancia exclusiva y una base nueva mediante DATA_DIR, con puertos 3000/4010 libres. No hay otros operadores durante la pasada. El script restaura reglas y partner incluso ante fallo; solo codifica el video si pasan las verificaciones. video-verification.json y screenshots/manifest.json vinculan los artefactos con la huella de las fuentes.
 
-Para repetir: iniciar la demo y ejecutar `npm run demo:record`. Usar una instancia sin operadores concurrentes: modifica temporalmente reglas y agrega ejemplos. El bloque de limpieza restaura reglas y partner aunque falle una aserción. Para presentación narrada por el candidato, seguir los mismos pasos y explicar decisiones sin leer todo el código en pantalla.
+npm run package:deliverables ejecuta esa pasada, la prueba de carga y el export final; elimina copias antiguas únicamente dentro de deliverables. No publica nada.

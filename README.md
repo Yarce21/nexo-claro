@@ -47,7 +47,7 @@ La interfaz es una consola local de confianza, sin autenticación. Escucha en lo
 4. **Reglas del agente:** cambiar `minDebt` de 5000 a 20000 y guardar. Ingresar otra vez una deuda de 18000: se escala. Restaurar 5000. También se edita `config/rules.json` sin recompilar. Un JSON inválido detiene el procesamiento de forma segura y queda visible en el estado del worker.
 5. **Leads y seguimiento:** buscar el lead precalificado y aplicar `Transferido`. Primero pasa a **Transferencia pendiente** y crea un borrador. Aprobarlo desde la bandeja autoriza WhatsApp + handoff ficticios; solo el recibo HTTP cambia la etapa a **Transferido**.
 6. **Registro de actividad:** activar **Simular partner caído**, aprobar otro borrador y observar reintentos a 3 y 6 segundos. Tras 3 intentos queda en `failed`. Restaurar partner y pulsar **Reintentar**. Un teléfono vacío falla inmediatamente y requiere corrección humana, no reintentos ciegos.
-7. **Datos y atribución:** inspeccionar cada fila del CSV, motivo de cuarentena y creador atribuible. **Estudio de contenido:** tres guiones con fuente y prioridad.
+7. **Datos y atribución:** inspeccionar cada fila del CSV, motivo de cuarentena y creador atribuible. **Guiones de contenido:** tres guiones con fuente y prioridad.
 
 ## Datos incluidos
 
@@ -146,3 +146,18 @@ El export no incluye ejecutables ni secretos; los prefijos de fórmula se neutra
 Next.js/React: stack solicitado e interfaz/API en un proyecto. Zod: validación consistente. `csv-parse`: CSV con comillas, BOM y delimitadores. `node:sqlite`: persistencia nativa sin ORM ni servicio adicional. TypeScript/tsx: tipado y herramientas; Playwright: verificación de navegador; ffmpeg opcional: video local.
 
 Motor de reglas conservador, sin asesoramiento financiero ni LLM que comprenda lenguaje arbitrario. No hay tasas, tarifas, puntajes ni ahorro garantizado. Producción requiere autenticación/roles, consentimiento verificable, retención/cifrado, aprobación legal de textos y observabilidad; ver decisiones y escala. Referencias: [Next.js](https://nextjs.org/docs/app/getting-started/installation), [SQLite de Node.js](https://nodejs.org/api/sqlite.html).
+
+## Correcciones QA y entrega final
+
+Pruebas automatizadas: **50**.
+<!-- test-count: 50 -->
+
+La moneda usa lista permitida: ninguna indicación, USD, US$, $, dólares/dolares o dollars sin calificativo. Códigos distintos y símbolos no USD escalan con motivo explícito, sin aceptar su monto ni convertirlo. Reviso símbolos antes de normalizar y mantengo límites de palabra.
+
+Las negativas ES/EN revocan consentimiento; la ambigüedad o contradicción no conserva un sí histórico. Cancelo la transferencia pendiente y audito el intento rechazado. Transferido, aprobación del borrador y despacho handoff consultan el consentimiento actual. Una reafirmación posterior exige una aprobación nueva. Un envío HTTP ya en vuelo no puede deshacerse: su carrera queda auditada.
+
+SAFETY_FLOOR no es editable: mantiene bajas y términos mínimos de protección legales/sensibles, tasas, tarifas, puntajes y promesas en ES/EN. JSON permite añadir vocabulario y modificar umbrales/reintentos. Los términos generan plurales s/es/ies manteniendo palabras completas: feedback, rated, separate y stopover no activan términos por subcadena.
+
+La detección de conversación no depende de ES/EN de la interfaz; jerga, idiomas mixtos, falta de evidencia y negaciones complejas pueden exigir un humano. No traduzco automáticamente mensajes históricos, CSV, fuentes ni guiones; la marca sí es Nexo Claro en todas las fuentes.
+
+Con demo exclusiva corriendo: npm run package:deliverables genera video y capturas en una sola pasada, prueba de carga y export final. deliverables contiene únicamente artefactos generados. npm run verify:delivery vuelve a ejecutar las pruebas y falla ante marca vieja, copias de fuentes, artefactos obsoletos, conteos documentados incorrectos, cambios sin commit o exclusiones insuficientes. Requiere Git; test:browser requiere Chrome y la demo corriendo. La reproducción del video también necesita ffmpeg, sin nuevas dependencias.

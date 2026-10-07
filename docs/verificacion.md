@@ -1,18 +1,14 @@
-# Evidencia de verificación — 6 de octubre de 2026
+# Verificación de entrega
 
-- `npm run typecheck`: correcto con TypeScript estricto.
-- `npm test`: **27 pruebas aprobadas**, sin fallos.
-- `npm run build`: compilación de producción correcta.
-- `npm run test:browser`: siete vistas, viewport móvil de 390 px sin desbordamiento horizontal, cero errores React, entradas inválidas HTTP 400 y origen externo HTTP 403.
-- `npm run demo:record`: recorrido real aprobado por Playwright: ingesta, borrador, aprobación, escalamiento, cambio/restauración de regla, disposición, handoff confirmado, HTTP 503, fallo terminal y recuperación.
-- Video H.264, 1440×1000, 12 fps, **2 min 6 s**, sin audio y con subtítulos en español. Se inspeccionaron capturas del video y de escritorio/móvil.
-- Ráfaga local de 200 eventos en SQLite en disco: **462 ms**, 200 borradores, cero envíos sin autorización. Alcance y límites en `escala.md`.
-- Dependencias: se detectó y corrigió una vulnerabilidad moderada en `csv-parse`, actualizando a 7.0.3. La instalación auditada terminó con **0 vulnerabilidades reportadas**; no constituye garantía de ausencia de vulnerabilidades.
+Pruebas automatizadas: **50**.
+<!-- test-count: 50 -->
 
-## Casos críticos cubiertos
+Ejecuté npm ci, npm run typecheck, npm test, npm run build y npm run test:browser. La verificación final repetible está en npm run verify:delivery; ejecuta nuevamente las pruebas y comprueba el número declarado, la marca, ausencia de copias de fuentes, vigencia de artefactos, higiene de Git y exclusiones de .gitignore.
 
-Eventos idempotentes y payloads contradictorios; reglas externas y versión de borrador; conversación con contexto; bajas y consentimiento retirado; eventos atrasados; escalamiento obligatorio; etapas de transferencia y confirmación; disposiciones inválidas; Call Back con fecha; reintentos y fallos permanentes; recuperación de lease; transacciones; identidad incompatible; fecha de adquisición estable; atribución conservadora; duplicados contradictorios; fechas ambiguas y CSV con comillas.
+Añadí regresiones para consentimiento ES/EN, revocación, contradicción, reafirmación con nueva aprobación, lectura actual al aprobar/despachar, moneda como lista permitida, plurales sensibles, protección mínima no removible y falsos positivos. Las pruebas de las correcciones fallaron antes de arreglarlas. No cambié el contrato histórico de lang ausente equivalente a es.
 
-## Límites verificados y declarados
+El smoke prueba siete vistas, ES/EN, día/oscuro, persistencia, foco de teclado, contraste medido de texto y controles, y ancho de 390 px. No constituye certificación exhaustiva de accesibilidad.
 
-Las pruebas se hicieron localmente en Windows/Node 24.16.0. No se realizó un despliegue público, ni prueba de infraestructura distribuida, ni envío por WhatsApp real. La grabación prueba el simulador HTTP local. La vista móvil permite scroll horizontal dentro de tablas y navegación, sin desbordar la página. El runtime conserva los ejemplos de la grabación; un `setup` sobre una carpeta nueva inicia con los 48 leads originales.
+npm run package:deliverables genera una nueva grabación y capturas, ejecuta la carga local y exporta el estado final. video-verification.json registra duración, casos comprobados, errores del navegador y huella de app/lib/config. load-test.json guarda la medición actual: no afirmo un tiempo fijo ni capacidad de infraestructura productiva.
+
+Verifiqué localmente Windows y Node 24.16.0. No hice envíos reales, despliegue público ni certificación financiera. Un receptor puede haber recibido un envío que estaba en vuelo al retirarse consentimiento: cancelo lo pendiente y dejo auditoría; no puedo deshacer HTTP. Una carpeta nueva arranca con 48 leads; la grabación agrega sus propios ejemplos.
