@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T05:55:00.397Z",
-  "sourceFingerprint": "f725d518b8975301b2dd695984df1716c809c6f27a59f02627afd3ac980b45c5",
+  "generatedAt": "2026-10-07T15:12:59.247Z",
+  "sourceFingerprint": "95260e7eebcccd80189bc0b860702298ec651ea285f5257c9a66dd5f403f56bb",
   "captures": [
     "overview-light-es.png",
     "inbox-dark-en.png",
@@ -9,8 +9,8 @@
     "overview-final.png",
     "mobile-light-es.png"
   ],
-  "durationSeconds": 151.42000000000002,
-  "frames": 293,
+  "durationSeconds": 152.07999999999998,
+  "frames": 296,
   "browserErrors": [],
   "checks": [
     "brand",

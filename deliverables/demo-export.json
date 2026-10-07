@@ -1,20 +1,20 @@
 {
-  "exportedAt": "2026-10-07T05:55:02.807Z",
+  "exportedAt": "2026-10-07T15:13:00.526Z",
   "fictional": true,
   "leads": [
     {
       "eventId": "EV-001",
       "leadId": "LN-001",
-      "timestamp": "2026-09-20T10:00:00.000Z",
+      "timestamp": "2026-10-04T15:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
       "phone": "+12025550100",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:00:00.000Z",
+      "acquiredAt": "2026-10-04T15:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:00:00.000Z",
+      "updatedAt": "2026-10-04T15:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -27,16 +27,16 @@
     {
       "eventId": "EV-002",
       "leadId": "LN-002",
-      "timestamp": "2026-09-20T10:01:00.000Z",
+      "timestamp": "2026-10-04T14:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
       "phone": "+12025550101",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:01:00.000Z",
+      "acquiredAt": "2026-10-04T14:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:01:00.000Z",
+      "updatedAt": "2026-10-04T14:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -49,16 +49,16 @@
     {
       "eventId": "EV-003",
       "leadId": "LN-003",
-      "timestamp": "2026-09-20T10:02:00.000Z",
+      "timestamp": "2026-10-04T13:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Hola, necesito información sobre mis deudas.",
       "phone": "+12025550102",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:02:00.000Z",
+      "acquiredAt": "2026-10-04T13:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:02:00.000Z",
+      "updatedAt": "2026-10-04T13:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -71,16 +71,16 @@
     {
       "eventId": "EV-004",
       "leadId": "LN-004",
-      "timestamp": "2026-09-20T10:03:00.000Z",
+      "timestamp": "2026-10-04T12:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
       "phone": "+12025550103",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:03:00.000Z",
+      "acquiredAt": "2026-10-04T12:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:03:00.000Z",
+      "updatedAt": "2026-10-04T12:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -93,15 +93,15 @@
     {
       "eventId": "EV-005",
       "leadId": "LN-005",
-      "timestamp": "2026-09-20T10:04:00.000Z",
+      "timestamp": "2026-10-04T11:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "¿Me garantizan ahorro y un mejor puntaje?",
       "phone": "+12025550104",
       "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:04:00.000Z",
+      "acquiredAt": "2026-10-04T11:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:04:00.000Z",
+      "updatedAt": "2026-10-04T11:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -114,16 +114,16 @@
     {
       "eventId": "EV-006",
       "leadId": "LN-006",
-      "timestamp": "2026-09-20T10:05:00.000Z",
+      "timestamp": "2026-10-04T10:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Publicidad: gana dinero desde casa.",
       "phone": "+12025550105",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:05:00.000Z",
+      "acquiredAt": "2026-10-04T10:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:05:00.000Z",
+      "updatedAt": "2026-10-04T10:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -136,16 +136,16 @@
     {
       "eventId": "EV-007",
       "leadId": "LN-007",
-      "timestamp": "2026-09-20T10:06:00.000Z",
+      "timestamp": "2026-10-04T09:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
       "phone": "+12025550106",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:06:00.000Z",
+      "acquiredAt": "2026-10-04T09:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:06:00.000Z",
+      "updatedAt": "2026-10-04T09:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -158,16 +158,16 @@
     {
       "eventId": "EV-008",
       "leadId": "LN-008",
-      "timestamp": "2026-09-20T10:07:00.000Z",
+      "timestamp": "2026-10-04T08:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
       "phone": "+12025550107",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:07:00.000Z",
+      "acquiredAt": "2026-10-04T08:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:07:00.000Z",
+      "updatedAt": "2026-10-04T08:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -180,38 +180,38 @@
     {
       "eventId": "EV-009",
       "leadId": "LN-009",
-      "timestamp": "2026-09-20T10:08:00.000Z",
+      "timestamp": "2026-10-04T07:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No me contacten, quiero la baja.",
       "phone": "+12025550108",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:08:00.000Z",
+      "acquiredAt": "2026-10-04T07:09:31.359Z",
       "stage": "No le interesa",
-      "updatedAt": "2026-09-20T10:08:00.000Z",
+      "updatedAt": "2026-10-04T07:09:31.359Z",
       "optedOut": true,
       "needsReview": false,
       "qualification": {
         "amount": null,
         "debtType": null,
-        "wantsCounselor": null,
+        "wantsCounselor": false,
         "eligible": false
       }
     },
     {
       "eventId": "EV-010",
       "leadId": "LN-010",
-      "timestamp": "2026-09-20T10:09:00.000Z",
+      "timestamp": "2026-10-04T06:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
       "phone": "+12025550109",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:09:00.000Z",
+      "acquiredAt": "2026-10-04T06:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:09:00.000Z",
+      "updatedAt": "2026-10-04T06:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -224,16 +224,16 @@
     {
       "eventId": "EV-011",
       "leadId": "LN-011",
-      "timestamp": "2026-09-20T10:10:00.000Z",
+      "timestamp": "2026-10-04T05:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 42000 USD de hipoteca.",
       "phone": "+12025550110",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:10:00.000Z",
+      "acquiredAt": "2026-10-04T05:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:10:00.000Z",
+      "updatedAt": "2026-10-04T05:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -246,16 +246,16 @@
     {
       "eventId": "EV-012",
       "leadId": "LN-012",
-      "timestamp": "2026-09-20T10:11:00.000Z",
+      "timestamp": "2026-10-04T04:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No entiendo qué sigue después de pedir información.",
       "phone": "+12025550111",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:11:00.000Z",
+      "acquiredAt": "2026-10-04T04:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:11:00.000Z",
+      "updatedAt": "2026-10-04T04:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -268,16 +268,16 @@
     {
       "eventId": "EV-013",
       "leadId": "LN-013",
-      "timestamp": "2026-09-20T10:12:00.000Z",
+      "timestamp": "2026-10-07T14:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
       "phone": "+12025550112",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:12:00.000Z",
+      "acquiredAt": "2026-10-07T14:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:12:00.000Z",
+      "updatedAt": "2026-10-07T14:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -290,16 +290,16 @@
     {
       "eventId": "EV-014",
       "leadId": "LN-014",
-      "timestamp": "2026-09-20T10:13:00.000Z",
+      "timestamp": "2026-10-07T13:39:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
       "phone": "+12025550113",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:13:00.000Z",
+      "acquiredAt": "2026-10-07T13:39:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:13:00.000Z",
+      "updatedAt": "2026-10-07T13:39:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -312,16 +312,16 @@
     {
       "eventId": "EV-015",
       "leadId": "LN-015",
-      "timestamp": "2026-09-20T10:14:00.000Z",
+      "timestamp": "2026-10-07T13:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Hola, necesito información sobre mis deudas.",
       "phone": "+12025550114",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:14:00.000Z",
+      "acquiredAt": "2026-10-07T13:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:14:00.000Z",
+      "updatedAt": "2026-10-07T13:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -334,16 +334,16 @@
     {
       "eventId": "EV-016",
       "leadId": "LN-016",
-      "timestamp": "2026-09-20T10:15:00.000Z",
+      "timestamp": "2026-10-07T12:39:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
       "phone": "",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:15:00.000Z",
+      "acquiredAt": "2026-10-07T12:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:15:00.000Z",
+      "updatedAt": "2026-10-07T12:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -356,15 +356,15 @@
     {
       "eventId": "EV-017",
       "leadId": "LN-017",
-      "timestamp": "2026-09-20T10:16:00.000Z",
+      "timestamp": "2026-10-07T12:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "¿Me garantizan ahorro y un mejor puntaje?",
       "phone": "+12025550116",
       "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:16:00.000Z",
+      "acquiredAt": "2026-10-07T12:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:16:00.000Z",
+      "updatedAt": "2026-10-07T12:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -377,16 +377,16 @@
     {
       "eventId": "EV-018",
       "leadId": "LN-018",
-      "timestamp": "2026-09-20T10:17:00.000Z",
+      "timestamp": "2026-10-07T11:39:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Publicidad: gana dinero desde casa.",
       "phone": "+12025550117",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:17:00.000Z",
+      "acquiredAt": "2026-10-07T11:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:17:00.000Z",
+      "updatedAt": "2026-10-07T11:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -399,16 +399,16 @@
     {
       "eventId": "EV-019",
       "leadId": "LN-019",
-      "timestamp": "2026-09-20T10:18:00.000Z",
+      "timestamp": "2026-10-07T11:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
       "phone": "+12025550118",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:18:00.000Z",
+      "acquiredAt": "2026-10-07T11:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:18:00.000Z",
+      "updatedAt": "2026-10-07T11:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -421,16 +421,16 @@
     {
       "eventId": "EV-020",
       "leadId": "LN-020",
-      "timestamp": "2026-09-20T10:19:00.000Z",
+      "timestamp": "2026-10-07T10:39:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
       "phone": "+12025550119",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:19:00.000Z",
+      "acquiredAt": "2026-10-07T10:39:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:19:00.000Z",
+      "updatedAt": "2026-10-07T10:39:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -443,38 +443,38 @@
     {
       "eventId": "EV-021",
       "leadId": "LN-021",
-      "timestamp": "2026-09-20T10:20:00.000Z",
+      "timestamp": "2026-10-07T10:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No me contacten, quiero la baja.",
       "phone": "+12025550120",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:20:00.000Z",
+      "acquiredAt": "2026-10-07T10:09:31.359Z",
       "stage": "No le interesa",
-      "updatedAt": "2026-09-20T10:20:00.000Z",
+      "updatedAt": "2026-10-07T10:09:31.359Z",
       "optedOut": true,
       "needsReview": false,
       "qualification": {
         "amount": null,
         "debtType": null,
-        "wantsCounselor": null,
+        "wantsCounselor": false,
         "eligible": false
       }
     },
     {
       "eventId": "EV-022",
       "leadId": "LN-022",
-      "timestamp": "2026-09-20T10:21:00.000Z",
+      "timestamp": "2026-10-07T09:39:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
       "phone": "+12025550121",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:21:00.000Z",
+      "acquiredAt": "2026-10-07T09:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:21:00.000Z",
+      "updatedAt": "2026-10-07T09:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -487,16 +487,16 @@
     {
       "eventId": "EV-023",
       "leadId": "LN-023",
-      "timestamp": "2026-09-20T10:22:00.000Z",
+      "timestamp": "2026-10-07T09:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 42000 USD de hipoteca.",
       "phone": "+12025550122",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:22:00.000Z",
+      "acquiredAt": "2026-10-07T09:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:22:00.000Z",
+      "updatedAt": "2026-10-07T09:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -509,16 +509,16 @@
     {
       "eventId": "EV-024",
       "leadId": "LN-024",
-      "timestamp": "2026-09-20T10:23:00.000Z",
+      "timestamp": "2026-10-07T08:39:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No entiendo qué sigue después de pedir información.",
       "phone": "+12025550123",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:23:00.000Z",
+      "acquiredAt": "2026-10-07T08:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:23:00.000Z",
+      "updatedAt": "2026-10-07T08:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -531,16 +531,16 @@
     {
       "eventId": "EV-025",
       "leadId": "LN-025",
-      "timestamp": "2026-09-20T10:24:00.000Z",
+      "timestamp": "2026-10-07T08:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
       "phone": "+12025550124",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:24:00.000Z",
+      "acquiredAt": "2026-10-07T08:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:24:00.000Z",
+      "updatedAt": "2026-10-07T08:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -553,16 +553,16 @@
     {
       "eventId": "EV-026",
       "leadId": "LN-026",
-      "timestamp": "2026-09-20T10:25:00.000Z",
+      "timestamp": "2026-10-07T07:39:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
       "phone": "+12025550125",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:25:00.000Z",
+      "acquiredAt": "2026-10-07T07:39:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:25:00.000Z",
+      "updatedAt": "2026-10-07T07:39:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -575,16 +575,16 @@
     {
       "eventId": "EV-027",
       "leadId": "LN-027",
-      "timestamp": "2026-09-20T10:26:00.000Z",
+      "timestamp": "2026-10-07T07:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Hola, necesito información sobre mis deudas.",
       "phone": "+12025550126",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:26:00.000Z",
+      "acquiredAt": "2026-10-07T07:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:26:00.000Z",
+      "updatedAt": "2026-10-07T07:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -597,16 +597,16 @@
     {
       "eventId": "EV-028",
       "leadId": "LN-028",
-      "timestamp": "2026-09-20T10:27:00.000Z",
+      "timestamp": "2026-10-07T06:39:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
       "phone": "+12025550127",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:27:00.000Z",
+      "acquiredAt": "2026-10-07T06:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:27:00.000Z",
+      "updatedAt": "2026-10-07T06:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -619,15 +619,15 @@
     {
       "eventId": "EV-029",
       "leadId": "LN-029",
-      "timestamp": "2026-09-20T10:28:00.000Z",
+      "timestamp": "2026-10-07T06:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "¿Me garantizan ahorro y un mejor puntaje?",
       "phone": "+12025550128",
       "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:28:00.000Z",
+      "acquiredAt": "2026-10-07T06:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:28:00.000Z",
+      "updatedAt": "2026-10-07T06:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -640,16 +640,16 @@
     {
       "eventId": "EV-030",
       "leadId": "LN-030",
-      "timestamp": "2026-09-20T10:29:00.000Z",
+      "timestamp": "2026-10-07T05:39:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Publicidad: gana dinero desde casa.",
       "phone": "+12025550129",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:29:00.000Z",
+      "acquiredAt": "2026-10-07T05:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:29:00.000Z",
+      "updatedAt": "2026-10-07T05:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -662,16 +662,16 @@
     {
       "eventId": "EV-031",
       "leadId": "LN-031",
-      "timestamp": "2026-09-20T10:30:00.000Z",
+      "timestamp": "2026-10-07T05:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
       "phone": "+12025550130",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:30:00.000Z",
+      "acquiredAt": "2026-10-07T05:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:30:00.000Z",
+      "updatedAt": "2026-10-07T05:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -684,16 +684,16 @@
     {
       "eventId": "EV-032",
       "leadId": "LN-032",
-      "timestamp": "2026-09-20T10:31:00.000Z",
+      "timestamp": "2026-10-07T04:39:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
       "phone": "+12025550131",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:31:00.000Z",
+      "acquiredAt": "2026-10-07T04:39:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:31:00.000Z",
+      "updatedAt": "2026-10-07T04:39:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -706,38 +706,38 @@
     {
       "eventId": "EV-033",
       "leadId": "LN-033",
-      "timestamp": "2026-09-20T10:32:00.000Z",
+      "timestamp": "2026-10-07T04:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No me contacten, quiero la baja.",
       "phone": "+12025550132",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:32:00.000Z",
+      "acquiredAt": "2026-10-07T04:09:31.359Z",
       "stage": "No le interesa",
-      "updatedAt": "2026-09-20T10:32:00.000Z",
+      "updatedAt": "2026-10-07T04:09:31.359Z",
       "optedOut": true,
       "needsReview": false,
       "qualification": {
         "amount": null,
         "debtType": null,
-        "wantsCounselor": null,
+        "wantsCounselor": false,
         "eligible": false
       }
     },
     {
       "eventId": "EV-034",
       "leadId": "LN-034",
-      "timestamp": "2026-09-20T10:33:00.000Z",
+      "timestamp": "2026-10-07T03:39:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
       "phone": "+12025550133",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:33:00.000Z",
+      "acquiredAt": "2026-10-07T03:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:33:00.000Z",
+      "updatedAt": "2026-10-07T03:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -750,16 +750,16 @@
     {
       "eventId": "EV-035",
       "leadId": "LN-035",
-      "timestamp": "2026-09-20T10:34:00.000Z",
+      "timestamp": "2026-10-07T03:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 42000 USD de hipoteca.",
       "phone": "+12025550134",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:34:00.000Z",
+      "acquiredAt": "2026-10-07T03:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:34:00.000Z",
+      "updatedAt": "2026-10-07T03:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -772,16 +772,16 @@
     {
       "eventId": "EV-036",
       "leadId": "LN-036",
-      "timestamp": "2026-09-20T10:35:00.000Z",
+      "timestamp": "2026-10-07T02:39:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No entiendo qué sigue después de pedir información.",
       "phone": "+12025550135",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:35:00.000Z",
+      "acquiredAt": "2026-10-07T02:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:35:00.000Z",
+      "updatedAt": "2026-10-07T02:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -794,16 +794,16 @@
     {
       "eventId": "EV-037",
       "leadId": "LN-037",
-      "timestamp": "2026-09-20T10:36:00.000Z",
+      "timestamp": "2026-10-07T02:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
       "phone": "+12025550136",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:36:00.000Z",
+      "acquiredAt": "2026-10-07T02:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:36:00.000Z",
+      "updatedAt": "2026-10-07T02:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -816,16 +816,16 @@
     {
       "eventId": "EV-038",
       "leadId": "LN-038",
-      "timestamp": "2026-09-20T10:37:00.000Z",
+      "timestamp": "2026-10-07T01:39:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
       "phone": "+12025550137",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:37:00.000Z",
+      "acquiredAt": "2026-10-07T01:39:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:37:00.000Z",
+      "updatedAt": "2026-10-07T01:39:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -838,16 +838,16 @@
     {
       "eventId": "EV-039",
       "leadId": "LN-039",
-      "timestamp": "2026-09-20T10:38:00.000Z",
+      "timestamp": "2026-10-07T01:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Hola, necesito información sobre mis deudas.",
       "phone": "+12025550138",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:38:00.000Z",
+      "acquiredAt": "2026-10-07T01:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:38:00.000Z",
+      "updatedAt": "2026-10-07T01:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -860,16 +860,16 @@
     {
       "eventId": "EV-040",
       "leadId": "LN-040",
-      "timestamp": "2026-09-20T10:39:00.000Z",
+      "timestamp": "2026-10-07T00:39:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
       "phone": "+12025550139",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:39:00.000Z",
+      "acquiredAt": "2026-10-07T00:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:39:00.000Z",
+      "updatedAt": "2026-10-07T00:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -882,15 +882,15 @@
     {
       "eventId": "EV-041",
       "leadId": "LN-041",
-      "timestamp": "2026-09-20T10:40:00.000Z",
+      "timestamp": "2026-10-07T00:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "¿Me garantizan ahorro y un mejor puntaje?",
       "phone": "+12025550140",
       "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:40:00.000Z",
+      "acquiredAt": "2026-10-07T00:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:40:00.000Z",
+      "updatedAt": "2026-10-07T00:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -903,16 +903,16 @@
     {
       "eventId": "EV-042",
       "leadId": "LN-042",
-      "timestamp": "2026-09-20T10:41:00.000Z",
+      "timestamp": "2026-10-06T23:39:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Publicidad: gana dinero desde casa.",
       "phone": "+12025550141",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:41:00.000Z",
+      "acquiredAt": "2026-10-06T23:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:41:00.000Z",
+      "updatedAt": "2026-10-06T23:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -925,16 +925,16 @@
     {
       "eventId": "EV-043",
       "leadId": "LN-043",
-      "timestamp": "2026-09-20T10:42:00.000Z",
+      "timestamp": "2026-10-06T23:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
       "phone": "+12025550142",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:42:00.000Z",
+      "acquiredAt": "2026-10-06T23:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:42:00.000Z",
+      "updatedAt": "2026-10-06T23:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -947,16 +947,16 @@
     {
       "eventId": "EV-044",
       "leadId": "LN-044",
-      "timestamp": "2026-09-20T10:43:00.000Z",
+      "timestamp": "2026-10-06T22:39:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
       "phone": "+12025550143",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:43:00.000Z",
+      "acquiredAt": "2026-10-06T22:39:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:43:00.000Z",
+      "updatedAt": "2026-10-06T22:39:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -969,38 +969,38 @@
     {
       "eventId": "EV-045",
       "leadId": "LN-045",
-      "timestamp": "2026-09-20T10:44:00.000Z",
+      "timestamp": "2026-10-06T22:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No me contacten, quiero la baja.",
       "phone": "+12025550144",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:44:00.000Z",
+      "acquiredAt": "2026-10-06T22:09:31.359Z",
       "stage": "No le interesa",
-      "updatedAt": "2026-09-20T10:44:00.000Z",
+      "updatedAt": "2026-10-06T22:09:31.359Z",
       "optedOut": true,
       "needsReview": false,
       "qualification": {
         "amount": null,
         "debtType": null,
-        "wantsCounselor": null,
+        "wantsCounselor": false,
         "eligible": false
       }
     },
     {
       "eventId": "EV-046",
       "leadId": "LN-046",
-      "timestamp": "2026-09-20T10:45:00.000Z",
+      "timestamp": "2026-10-06T21:39:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
       "phone": "+12025550145",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:45:00.000Z",
+      "acquiredAt": "2026-10-06T21:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:45:00.000Z",
+      "updatedAt": "2026-10-06T21:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -1013,16 +1013,16 @@
     {
       "eventId": "EV-047",
       "leadId": "LN-047",
-      "timestamp": "2026-09-20T10:46:00.000Z",
+      "timestamp": "2026-10-06T21:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 42000 USD de hipoteca.",
       "phone": "+12025550146",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:46:00.000Z",
+      "acquiredAt": "2026-10-06T21:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:46:00.000Z",
+      "updatedAt": "2026-10-06T21:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -1035,16 +1035,16 @@
     {
       "eventId": "EV-048",
       "leadId": "LN-048",
-      "timestamp": "2026-09-20T10:47:00.000Z",
+      "timestamp": "2026-10-06T20:39:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No entiendo qué sigue después de pedir información.",
       "phone": "+12025550147",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:47:00.000Z",
+      "acquiredAt": "2026-10-06T20:39:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:47:00.000Z",
+      "updatedAt": "2026-10-06T20:39:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -1055,18 +1055,18 @@
       }
     },
     {
-      "eventId": "VIDEO-REVOKE-61b4a409-4c4e-47e4-874c-bf8e81d72a20",
-      "leadId": "DEMO-5351085a",
-      "timestamp": "2026-10-07T05:52:13.958Z",
+      "eventId": "VIDEO-REVOKE-a54eeede-2769-4f28-8c97-687e67917384",
+      "leadId": "DEMO-6e8548b5",
+      "timestamp": "2026-10-07T15:10:32.568Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "I don't want a counselor to call me",
       "phone": "+12025550190",
       "initialState": "Nuevo",
       "lang": "en",
-      "acquiredAt": "2026-10-07T05:52:06.459Z",
+      "acquiredAt": "2026-10-07T15:10:21.703Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-10-07T05:52:14.929Z",
+      "updatedAt": "2026-10-07T15:10:33.497Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -1077,18 +1077,18 @@
       }
     },
     {
-      "eventId": "WEB-7dc3b4ad",
-      "leadId": "DEMO-7dc3b4ad",
-      "timestamp": "2026-10-07T05:52:23.192Z",
+      "eventId": "WEB-d47451ff",
+      "leadId": "DEMO-d47451ff",
+      "timestamp": "2026-10-07T15:10:40.781Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "I owe 18000 CHF on a credit card",
       "phone": "+12025550190",
       "initialState": "Nuevo",
       "lang": "en",
-      "acquiredAt": "2026-10-07T05:52:23.192Z",
+      "acquiredAt": "2026-10-07T15:10:40.781Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-10-07T05:52:24.002Z",
+      "updatedAt": "2026-10-07T15:10:41.646Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -1099,18 +1099,18 @@
       }
     },
     {
-      "eventId": "WEB-251ead78",
-      "leadId": "DEMO-251ead78",
-      "timestamp": "2026-10-07T05:52:31.758Z",
+      "eventId": "WEB-b81d7f99",
+      "leadId": "DEMO-b81d7f99",
+      "timestamp": "2026-10-07T15:10:50.331Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
       "phone": "+12025550190",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-10-07T05:52:31.758Z",
+      "acquiredAt": "2026-10-07T15:10:50.331Z",
       "stage": "Transferido",
-      "updatedAt": "2026-10-07T05:53:30.912Z",
+      "updatedAt": "2026-10-07T15:11:48.490Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -1121,18 +1121,18 @@
       }
     },
     {
-      "eventId": "WEB-e9feb7e5",
-      "leadId": "DEMO-e9feb7e5",
-      "timestamp": "2026-10-07T05:52:50.934Z",
+      "eventId": "WEB-549f117c",
+      "leadId": "DEMO-549f117c",
+      "timestamp": "2026-10-07T15:11:09.785Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y tengo una demanda urgente.",
       "phone": "+12025550190",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-10-07T05:52:50.934Z",
+      "acquiredAt": "2026-10-07T15:11:09.785Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-10-07T05:52:51.290Z",
+      "updatedAt": "2026-10-07T15:11:10.160Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -1143,18 +1143,18 @@
       }
     },
     {
-      "eventId": "WEB-036f4823",
-      "leadId": "DEMO-036f4823",
-      "timestamp": "2026-10-07T05:53:08.913Z",
+      "eventId": "WEB-4ab4bd84",
+      "leadId": "DEMO-4ab4bd84",
+      "timestamp": "2026-10-07T15:11:27.069Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y deseo hablar con un Consejero.",
       "phone": "+12025550190",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-10-07T05:53:08.913Z",
+      "acquiredAt": "2026-10-07T15:11:27.069Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-10-07T05:53:09.554Z",
+      "updatedAt": "2026-10-07T15:11:27.298Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -1165,18 +1165,18 @@
       }
     },
     {
-      "eventId": "WEB-a9bc7961",
-      "leadId": "DEMO-a9bc7961",
-      "timestamp": "2026-10-07T05:53:37.901Z",
+      "eventId": "WEB-d81bdf73",
+      "leadId": "DEMO-d81bdf73",
+      "timestamp": "2026-10-07T15:11:55.534Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 16000 USD en tarjeta y quiero Consejero.",
       "phone": "+12025550190",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-10-07T05:53:37.901Z",
+      "acquiredAt": "2026-10-07T15:11:55.534Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-10-07T05:53:37.981Z",
+      "updatedAt": "2026-10-07T15:11:55.551Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -1189,14 +1189,14 @@
   ],
   "drafts": [
     {
-      "id": "draft-WEB-a9bc7961",
-      "leadId": "DEMO-a9bc7961",
-      "eventId": "WEB-a9bc7961",
+      "id": "draft-WEB-d81bdf73",
+      "leadId": "DEMO-d81bdf73",
+      "eventId": "WEB-d81bdf73",
       "decision": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "approved",
-      "createdAt": "2026-10-07T05:53:37.981Z",
+      "createdAt": "2026-10-07T15:11:55.551Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 16000,
@@ -1208,14 +1208,14 @@
       "transfer": false
     },
     {
-      "id": "crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe",
-      "leadId": "DEMO-251ead78",
-      "eventId": "WEB-251ead78",
+      "id": "crm-65cda321-9b88-44e4-be4e-6807e961e47e",
+      "leadId": "DEMO-b81d7f99",
+      "eventId": "WEB-b81d7f99",
       "decision": "responder",
       "reason": "Disposición Transferido aplicada por humano.",
       "text": "Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio.",
       "status": "approved",
-      "createdAt": "2026-10-07T05:53:18.841Z",
+      "createdAt": "2026-10-07T15:11:37.272Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1227,14 +1227,14 @@
       "transfer": true
     },
     {
-      "id": "draft-WEB-036f4823",
-      "leadId": "DEMO-036f4823",
-      "eventId": "WEB-036f4823",
+      "id": "draft-WEB-4ab4bd84",
+      "leadId": "DEMO-4ab4bd84",
+      "eventId": "WEB-4ab4bd84",
       "decision": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:53:09.554Z",
+      "createdAt": "2026-10-07T15:11:27.298Z",
       "ruleVersion": "099fe8d82851",
       "qualification": {
         "amount": 18000,
@@ -1246,14 +1246,14 @@
       "transfer": false
     },
     {
-      "id": "draft-WEB-e9feb7e5",
-      "leadId": "DEMO-e9feb7e5",
-      "eventId": "WEB-e9feb7e5",
+      "id": "draft-WEB-549f117c",
+      "leadId": "DEMO-549f117c",
+      "eventId": "WEB-549f117c",
       "decision": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:52:51.290Z",
+      "createdAt": "2026-10-07T15:11:10.160Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1265,14 +1265,14 @@
       "transfer": false
     },
     {
-      "id": "draft-WEB-251ead78",
-      "leadId": "DEMO-251ead78",
-      "eventId": "WEB-251ead78",
+      "id": "draft-WEB-b81d7f99",
+      "leadId": "DEMO-b81d7f99",
+      "eventId": "WEB-b81d7f99",
       "decision": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "approved",
-      "createdAt": "2026-10-07T05:52:32.065Z",
+      "createdAt": "2026-10-07T15:10:50.786Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1284,14 +1284,14 @@
       "transfer": false
     },
     {
-      "id": "draft-WEB-7dc3b4ad",
-      "leadId": "DEMO-7dc3b4ad",
-      "eventId": "WEB-7dc3b4ad",
+      "id": "draft-WEB-d47451ff",
+      "leadId": "DEMO-d47451ff",
+      "eventId": "WEB-d47451ff",
       "decision": "escalar_humano",
       "reason": "Moneda no admitida o calificada: solo USD o monto sin indicación de moneda; confirmar con humano.",
       "text": "A human agent must confirm the amount and currency before continuing.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:52:24.002Z",
+      "createdAt": "2026-10-07T15:10:41.646Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1303,14 +1303,14 @@
       "transfer": false
     },
     {
-      "id": "draft-VIDEO-REVOKE-61b4a409-4c4e-47e4-874c-bf8e81d72a20",
-      "leadId": "DEMO-5351085a",
-      "eventId": "VIDEO-REVOKE-61b4a409-4c4e-47e4-874c-bf8e81d72a20",
+      "id": "draft-VIDEO-REVOKE-a54eeede-2769-4f28-8c97-687e67917384",
+      "leadId": "DEMO-6e8548b5",
+      "eventId": "VIDEO-REVOKE-a54eeede-2769-4f28-8c97-687e67917384",
       "decision": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Thank you for clarifying. We will not request contact with a Counselor. A human agent can review your questions.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:52:14.929Z",
+      "createdAt": "2026-10-07T15:10:33.497Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1322,14 +1322,14 @@
       "transfer": false
     },
     {
-      "id": "crm-7b75a1f6-3788-420d-81a4-d4a92450a1cc",
-      "leadId": "DEMO-5351085a",
-      "eventId": "WEB-5351085a",
+      "id": "crm-7cff23c2-a62d-4cca-97a9-f5f6f846906b",
+      "leadId": "DEMO-6e8548b5",
+      "eventId": "WEB-6e8548b5",
       "decision": "responder",
       "reason": "Disposición Transferido aplicada por humano.",
       "text": "We recorded your request to speak with a Counselor at Consejería Clara. The transfer awaits human approval and confirmation from the fictional partner.",
       "status": "rejected",
-      "createdAt": "2026-10-07T05:52:13.901Z",
+      "createdAt": "2026-10-07T15:10:32.548Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1341,14 +1341,14 @@
       "transfer": true
     },
     {
-      "id": "draft-WEB-5351085a",
-      "leadId": "DEMO-5351085a",
-      "eventId": "WEB-5351085a",
+      "id": "draft-WEB-6e8548b5",
+      "leadId": "DEMO-6e8548b5",
+      "eventId": "WEB-6e8548b5",
       "decision": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Thank you. A human agent will review your information and your request to speak with a Counselor at Consejería Clara. In many cases there could be options to organize payments; they depend on an evaluation. Savings and acceptance are not promised.",
       "status": "rejected",
-      "createdAt": "2026-10-07T05:52:06.857Z",
+      "createdAt": "2026-10-07T15:10:22.312Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1367,7 +1367,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.636Z",
+      "createdAt": "2026-10-07T15:09:31.504Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1386,7 +1386,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.634Z",
+      "createdAt": "2026-10-07T15:09:31.503Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 42000,
@@ -1405,7 +1405,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.633Z",
+      "createdAt": "2026-10-07T15:09:31.502Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 12000,
@@ -1424,7 +1424,7 @@
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
       "text": "Un agente debe confirmar monto y moneda antes de continuar.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.629Z",
+      "createdAt": "2026-10-07T15:09:31.498Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 25,
@@ -1443,7 +1443,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.627Z",
+      "createdAt": "2026-10-07T15:09:31.496Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 2500,
@@ -1462,7 +1462,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.625Z",
+      "createdAt": "2026-10-07T15:09:31.493Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1481,7 +1481,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.623Z",
+      "createdAt": "2026-10-07T15:09:31.492Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 9000,
@@ -1500,7 +1500,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.622Z",
+      "createdAt": "2026-10-07T15:09:31.490Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1519,7 +1519,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.620Z",
+      "createdAt": "2026-10-07T15:09:31.488Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1538,7 +1538,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.619Z",
+      "createdAt": "2026-10-07T15:09:31.487Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1557,7 +1557,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.618Z",
+      "createdAt": "2026-10-07T15:09:31.486Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1576,7 +1576,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.616Z",
+      "createdAt": "2026-10-07T15:09:31.484Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 42000,
@@ -1595,7 +1595,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.614Z",
+      "createdAt": "2026-10-07T15:09:31.482Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 12000,
@@ -1614,7 +1614,7 @@
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
       "text": "Un agente debe confirmar monto y moneda antes de continuar.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.612Z",
+      "createdAt": "2026-10-07T15:09:31.479Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 25,
@@ -1633,7 +1633,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.610Z",
+      "createdAt": "2026-10-07T15:09:31.478Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 2500,
@@ -1652,7 +1652,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.607Z",
+      "createdAt": "2026-10-07T15:09:31.472Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1671,7 +1671,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.606Z",
+      "createdAt": "2026-10-07T15:09:31.469Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 9000,
@@ -1690,7 +1690,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.604Z",
+      "createdAt": "2026-10-07T15:09:31.467Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1709,7 +1709,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.602Z",
+      "createdAt": "2026-10-07T15:09:31.466Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1728,7 +1728,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.601Z",
+      "createdAt": "2026-10-07T15:09:31.464Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1747,7 +1747,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.600Z",
+      "createdAt": "2026-10-07T15:09:31.463Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1766,7 +1766,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.598Z",
+      "createdAt": "2026-10-07T15:09:31.461Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 42000,
@@ -1785,7 +1785,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.597Z",
+      "createdAt": "2026-10-07T15:09:31.460Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 12000,
@@ -1804,7 +1804,7 @@
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
       "text": "Un agente debe confirmar monto y moneda antes de continuar.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.594Z",
+      "createdAt": "2026-10-07T15:09:31.457Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 25,
@@ -1823,7 +1823,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.593Z",
+      "createdAt": "2026-10-07T15:09:31.456Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 2500,
@@ -1842,7 +1842,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.590Z",
+      "createdAt": "2026-10-07T15:09:31.453Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1861,7 +1861,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.588Z",
+      "createdAt": "2026-10-07T15:09:31.451Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 9000,
@@ -1880,7 +1880,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.587Z",
+      "createdAt": "2026-10-07T15:09:31.450Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1899,7 +1899,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.585Z",
+      "createdAt": "2026-10-07T15:09:31.448Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1918,7 +1918,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.584Z",
+      "createdAt": "2026-10-07T15:09:31.446Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -1937,7 +1937,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.582Z",
+      "createdAt": "2026-10-07T15:09:31.445Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -1956,7 +1956,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.580Z",
+      "createdAt": "2026-10-07T15:09:31.443Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 42000,
@@ -1975,7 +1975,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.579Z",
+      "createdAt": "2026-10-07T15:09:31.441Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 12000,
@@ -1994,7 +1994,7 @@
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra.",
       "text": "Un agente debe confirmar monto y moneda antes de continuar.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.577Z",
+      "createdAt": "2026-10-07T15:09:31.439Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 25,
@@ -2013,7 +2013,7 @@
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión.",
       "text": "Revisión de elegibilidad por un agente; no se promete aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.573Z",
+      "createdAt": "2026-10-07T15:09:31.437Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 2500,
@@ -2032,7 +2032,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.570Z",
+      "createdAt": "2026-10-07T15:09:31.432Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -2051,7 +2051,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.569Z",
+      "createdAt": "2026-10-07T15:09:31.430Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 9000,
@@ -2070,7 +2070,7 @@
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario.",
       "text": "Gracias por escribir a Nexo Claro. ¿Cuál es el monto aproximado de tu deuda en USD, sin separadores? ¿Es deuda de tarjeta o préstamo personal? ¿Quieres hablar con un Consejero de Consejería Clara? No compartas datos bancarios ni documentos.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.567Z",
+      "createdAt": "2026-10-07T15:09:31.429Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -2089,7 +2089,7 @@
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.",
       "text": "Revisión humana requerida. No se generó una recomendación financiera.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.563Z",
+      "createdAt": "2026-10-07T15:09:31.423Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": null,
@@ -2108,7 +2108,7 @@
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana.",
       "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.",
       "status": "pending",
-      "createdAt": "2026-10-07T05:51:38.561Z",
+      "createdAt": "2026-10-07T15:09:31.420Z",
       "ruleVersion": "d1636673b2a6",
       "qualification": {
         "amount": 18000,
@@ -2122,60 +2122,60 @@
   ],
   "jobs": [
     {
-      "id": "draft-WEB-a9bc7961-whatsapp",
-      "leadId": "DEMO-a9bc7961",
-      "draftId": "draft-WEB-a9bc7961",
+      "id": "draft-WEB-d81bdf73-whatsapp",
+      "leadId": "DEMO-d81bdf73",
+      "draftId": "draft-WEB-d81bdf73",
       "kind": "whatsapp",
       "status": "delivered",
       "attempts": 1,
       "maxAttempts": 3,
       "retryBaseSeconds": 3,
-      "nextAt": "2026-10-07T05:53:53.352Z",
+      "nextAt": "2026-10-07T15:12:10.001Z",
       "payload": {
         "phone": "+12025550190",
         "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación."
       }
     },
     {
-      "id": "crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe-handoff",
-      "leadId": "DEMO-251ead78",
-      "draftId": "crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe",
+      "id": "crm-65cda321-9b88-44e4-be4e-6807e961e47e-handoff",
+      "leadId": "DEMO-b81d7f99",
+      "draftId": "crm-65cda321-9b88-44e4-be4e-6807e961e47e",
       "kind": "handoff",
       "status": "delivered",
       "attempts": 1,
       "maxAttempts": 3,
       "retryBaseSeconds": 3,
-      "nextAt": "2026-10-07T05:53:30.039Z",
+      "nextAt": "2026-10-07T15:11:48.406Z",
       "payload": {
         "phone": "+12025550190",
         "text": "Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio."
       }
     },
     {
-      "id": "crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe-whatsapp",
-      "leadId": "DEMO-251ead78",
-      "draftId": "crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe",
+      "id": "crm-65cda321-9b88-44e4-be4e-6807e961e47e-whatsapp",
+      "leadId": "DEMO-b81d7f99",
+      "draftId": "crm-65cda321-9b88-44e4-be4e-6807e961e47e",
       "kind": "whatsapp",
       "status": "delivered",
       "attempts": 1,
       "maxAttempts": 3,
       "retryBaseSeconds": 3,
-      "nextAt": "2026-10-07T05:53:30.039Z",
+      "nextAt": "2026-10-07T15:11:48.406Z",
       "payload": {
         "phone": "+12025550190",
         "text": "Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio."
       }
     },
     {
-      "id": "draft-WEB-251ead78-whatsapp",
-      "leadId": "DEMO-251ead78",
-      "draftId": "draft-WEB-251ead78",
+      "id": "draft-WEB-b81d7f99-whatsapp",
+      "leadId": "DEMO-b81d7f99",
+      "draftId": "draft-WEB-b81d7f99",
       "kind": "whatsapp",
       "status": "delivered",
       "attempts": 1,
       "maxAttempts": 3,
       "retryBaseSeconds": 3,
-      "nextAt": "2026-10-07T05:52:43.091Z",
+      "nextAt": "2026-10-07T15:11:01.656Z",
       "payload": {
         "phone": "+12025550190",
         "text": "Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación."
@@ -2188,7 +2188,7 @@
       "enrollment_id": "EN-001",
       "phone": "+1 202 555 0100",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550100",
       "leadId": "LN-001",
@@ -2201,7 +2201,7 @@
       "enrollment_id": "EN-002",
       "phone": "(202) 555-0101",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550101",
       "leadId": "LN-002",
@@ -2214,7 +2214,7 @@
       "enrollment_id": "EN-003",
       "phone": "+1 202 555 0102",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550102",
       "leadId": "LN-003",
@@ -2229,7 +2229,7 @@
       "enrollment_id": "EN-004",
       "phone": "+12025550199",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550199",
       "leadId": null,
@@ -2244,7 +2244,7 @@
       "enrollment_id": "EN-005",
       "phone": "+1 202 555 0104",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550104",
       "leadId": "LN-005",
@@ -2257,7 +2257,7 @@
       "enrollment_id": "EN-006",
       "phone": "(202) 555-0105",
       "creator_id": "",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550105",
       "leadId": "LN-006",
@@ -2272,7 +2272,7 @@
       "enrollment_id": "EN-007",
       "phone": "+1 202 555 0106",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550106",
       "leadId": "LN-007",
@@ -2300,7 +2300,7 @@
       "enrollment_id": "EN-009",
       "phone": "+1 202 555 0108",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550108",
       "leadId": "LN-009",
@@ -2328,7 +2328,7 @@
       "enrollment_id": "EN-011",
       "phone": "+1 202 555 0110",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550110",
       "leadId": "LN-011",
@@ -2341,7 +2341,7 @@
       "enrollment_id": "EN-012",
       "phone": "(202) 555-0111",
       "creator_id": "CR-DESCONOCIDO",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550111",
       "leadId": "LN-012",
@@ -2356,7 +2356,7 @@
       "enrollment_id": "EN-013",
       "phone": "+1 202 555 0112",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550112",
       "leadId": "LN-013",
@@ -2369,7 +2369,7 @@
       "enrollment_id": "EN-014",
       "phone": "sin teléfono",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": null,
       "leadId": null,
@@ -2384,7 +2384,7 @@
       "enrollment_id": "EN-015",
       "phone": "+1 202 555 0114",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550114",
       "leadId": "LN-015",
@@ -2397,7 +2397,7 @@
       "enrollment_id": "EN-016",
       "phone": "(202) 555-0115",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2099-01-01T00:00:00.000Z",
+      "enrolled_at": "2026-10-08T15:09:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550115",
       "leadId": null,
@@ -2413,7 +2413,7 @@
       "enrollment_id": "EN-017",
       "phone": "+1 202 555 0116",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550116",
       "leadId": "LN-017",
@@ -2426,7 +2426,7 @@
       "enrollment_id": "EN-018",
       "phone": "(202) 555-0117",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2020-01-01T00:00:00.000Z",
+      "enrolled_at": "2026-09-27T15:09:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550117",
       "leadId": "LN-018",
@@ -2441,7 +2441,7 @@
       "enrollment_id": "EN-019",
       "phone": "+1 202 555 0118",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550118",
       "leadId": "LN-019",
@@ -2454,7 +2454,7 @@
       "enrollment_id": "EN-020",
       "phone": "(202) 555-0119",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "pending",
       "normalizedPhone": "+12025550119",
       "leadId": "LN-020",
@@ -2469,7 +2469,7 @@
       "enrollment_id": "EN-021",
       "phone": "+1 202 555 0120",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550120",
       "leadId": "LN-021",
@@ -2482,7 +2482,7 @@
       "enrollment_id": "EN-022",
       "phone": "(202) 555-0121",
       "creator_id": "",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550121",
       "leadId": "LN-022",
@@ -2497,7 +2497,7 @@
       "enrollment_id": "EN-023",
       "phone": "+1 202 555 0122",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550122",
       "leadId": "LN-023",
@@ -2510,7 +2510,7 @@
       "enrollment_id": "EN-024",
       "phone": "(202) 555-0123",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550123",
       "leadId": "LN-024",
@@ -2523,7 +2523,7 @@
       "enrollment_id": "EN-025",
       "phone": "+1 202 555 0124",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550124",
       "leadId": "LN-025",
@@ -2536,7 +2536,7 @@
       "enrollment_id": "EN-001",
       "phone": "+1 202 555 0100",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550100",
       "leadId": "LN-001",
@@ -2552,7 +2552,7 @@
       "enrollment_id": "EN-003",
       "phone": "+1 202 555 0102",
       "creator_id": "CR-ANA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550102",
       "leadId": "LN-003",
@@ -2569,7 +2569,7 @@
       "enrollment_id": "EN-028",
       "phone": "+1 202 555 0104",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550104",
       "leadId": "LN-005",
@@ -2584,7 +2584,7 @@
       "enrollment_id": "EN-029",
       "phone": "+1 202 555 0128",
       "creator_id": "CR-LUIS",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550128",
       "leadId": "LN-029",
@@ -2597,7 +2597,7 @@
       "enrollment_id": "EN-030",
       "phone": "(202) 555-0129",
       "creator_id": "CR-MARIA",
-      "enrolled_at": "2026-09-25T14:00:00.000Z",
+      "enrolled_at": "2026-10-07T14:39:31.359Z",
       "status": "enrolled",
       "normalizedPhone": "+12025550129",
       "leadId": "LN-030",
@@ -2690,16 +2690,16 @@
     {
       "eventId": "EV-001",
       "leadId": "LN-001",
-      "timestamp": "2026-09-20T10:00:00.000Z",
+      "timestamp": "2026-10-04T15:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
       "phone": "+12025550100",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:00:00.000Z",
+      "acquiredAt": "2026-10-04T15:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:00:00.000Z",
+      "updatedAt": "2026-10-04T15:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -2712,16 +2712,16 @@
     {
       "eventId": "EV-002",
       "leadId": "LN-002",
-      "timestamp": "2026-09-20T10:01:00.000Z",
+      "timestamp": "2026-10-04T14:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
       "phone": "+12025550101",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:01:00.000Z",
+      "acquiredAt": "2026-10-04T14:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:01:00.000Z",
+      "updatedAt": "2026-10-04T14:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -2734,16 +2734,16 @@
     {
       "eventId": "EV-003",
       "leadId": "LN-003",
-      "timestamp": "2026-09-20T10:02:00.000Z",
+      "timestamp": "2026-10-04T13:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Hola, necesito información sobre mis deudas.",
       "phone": "+12025550102",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:02:00.000Z",
+      "acquiredAt": "2026-10-04T13:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:02:00.000Z",
+      "updatedAt": "2026-10-04T13:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -2756,16 +2756,16 @@
     {
       "eventId": "EV-004",
       "leadId": "LN-004",
-      "timestamp": "2026-09-20T10:03:00.000Z",
+      "timestamp": "2026-10-04T12:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
       "phone": "+12025550103",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:03:00.000Z",
+      "acquiredAt": "2026-10-04T12:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:03:00.000Z",
+      "updatedAt": "2026-10-04T12:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -2778,15 +2778,15 @@
     {
       "eventId": "EV-005",
       "leadId": "LN-005",
-      "timestamp": "2026-09-20T10:04:00.000Z",
+      "timestamp": "2026-10-04T11:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "¿Me garantizan ahorro y un mejor puntaje?",
       "phone": "+12025550104",
       "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:04:00.000Z",
+      "acquiredAt": "2026-10-04T11:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:04:00.000Z",
+      "updatedAt": "2026-10-04T11:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -2799,16 +2799,16 @@
     {
       "eventId": "EV-006",
       "leadId": "LN-006",
-      "timestamp": "2026-09-20T10:05:00.000Z",
+      "timestamp": "2026-10-04T10:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "Publicidad: gana dinero desde casa.",
       "phone": "+12025550105",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:05:00.000Z",
+      "acquiredAt": "2026-10-04T10:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:05:00.000Z",
+      "updatedAt": "2026-10-04T10:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -2821,16 +2821,16 @@
     {
       "eventId": "EV-007",
       "leadId": "LN-007",
-      "timestamp": "2026-09-20T10:06:00.000Z",
+      "timestamp": "2026-10-04T09:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
       "phone": "+12025550106",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:06:00.000Z",
+      "acquiredAt": "2026-10-04T09:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:06:00.000Z",
+      "updatedAt": "2026-10-04T09:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -2843,16 +2843,16 @@
     {
       "eventId": "EV-008",
       "leadId": "LN-008",
-      "timestamp": "2026-09-20T10:07:00.000Z",
+      "timestamp": "2026-10-04T08:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
       "phone": "+12025550107",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:07:00.000Z",
+      "acquiredAt": "2026-10-04T08:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:07:00.000Z",
+      "updatedAt": "2026-10-04T08:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -2865,16 +2865,16 @@
     {
       "eventId": "EV-010",
       "leadId": "LN-010",
-      "timestamp": "2026-09-20T10:09:00.000Z",
+      "timestamp": "2026-10-04T06:09:31.359Z",
       "creator": "CR-ANA",
       "channel": "CTWA",
       "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
       "phone": "+12025550109",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:09:00.000Z",
+      "acquiredAt": "2026-10-04T06:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:09:00.000Z",
+      "updatedAt": "2026-10-04T06:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -2887,16 +2887,16 @@
     {
       "eventId": "EV-011",
       "leadId": "LN-011",
-      "timestamp": "2026-09-20T10:10:00.000Z",
+      "timestamp": "2026-10-04T05:09:31.359Z",
       "creator": "CR-LUIS",
       "channel": "orgánico",
       "message": "Debo 42000 USD de hipoteca.",
       "phone": "+12025550110",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:10:00.000Z",
+      "acquiredAt": "2026-10-04T05:09:31.359Z",
       "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:10:00.000Z",
+      "updatedAt": "2026-10-04T05:09:31.359Z",
       "optedOut": false,
       "needsReview": true,
       "qualification": {
@@ -2909,739 +2909,16 @@
     {
       "eventId": "EV-012",
       "leadId": "LN-012",
-      "timestamp": "2026-09-20T10:11:00.000Z",
+      "timestamp": "2026-10-04T04:09:31.359Z",
       "creator": "CR-MARIA",
       "channel": "orgánico",
       "message": "No entiendo qué sigue después de pedir información.",
       "phone": "+12025550111",
       "initialState": "Nuevo",
       "lang": "es",
-      "acquiredAt": "2026-09-20T10:11:00.000Z",
+      "acquiredAt": "2026-10-04T04:09:31.359Z",
       "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:11:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-013",
-      "leadId": "LN-013",
-      "timestamp": "2026-09-20T10:12:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
-      "phone": "+12025550112",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:12:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:12:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 18000,
-        "debtType": "tarjeta",
-        "wantsCounselor": true,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-014",
-      "leadId": "LN-014",
-      "timestamp": "2026-09-20T10:13:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
-      "phone": "+12025550113",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:13:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:13:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-015",
-      "leadId": "LN-015",
-      "timestamp": "2026-09-20T10:14:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "Hola, necesito información sobre mis deudas.",
-      "phone": "+12025550114",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:14:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:14:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-016",
-      "leadId": "LN-016",
-      "timestamp": "2026-09-20T10:15:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
-      "phone": "",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:15:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:15:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 9000,
-        "debtType": "prestamo_personal",
-        "wantsCounselor": true,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-017",
-      "leadId": "LN-017",
-      "timestamp": "2026-09-20T10:16:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "¿Me garantizan ahorro y un mejor puntaje?",
-      "phone": "+12025550116",
-      "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:16:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:16:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-018",
-      "leadId": "LN-018",
-      "timestamp": "2026-09-20T10:17:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "Publicidad: gana dinero desde casa.",
-      "phone": "+12025550117",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:17:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:17:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-019",
-      "leadId": "LN-019",
-      "timestamp": "2026-09-20T10:18:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
-      "phone": "+12025550118",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:18:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:18:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 2500,
-        "debtType": "tarjeta",
-        "wantsCounselor": true,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-020",
-      "leadId": "LN-020",
-      "timestamp": "2026-09-20T10:19:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
-      "phone": "+12025550119",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:19:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:19:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 25,
-        "debtType": "tarjeta",
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-022",
-      "leadId": "LN-022",
-      "timestamp": "2026-09-20T10:21:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
-      "phone": "+12025550121",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:21:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:21:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 12000,
-        "debtType": "tarjeta",
-        "wantsCounselor": false,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-023",
-      "leadId": "LN-023",
-      "timestamp": "2026-09-20T10:22:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Debo 42000 USD de hipoteca.",
-      "phone": "+12025550122",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:22:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:22:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 42000,
-        "debtType": "hipoteca",
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-024",
-      "leadId": "LN-024",
-      "timestamp": "2026-09-20T10:23:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "No entiendo qué sigue después de pedir información.",
-      "phone": "+12025550123",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:23:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:23:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-025",
-      "leadId": "LN-025",
-      "timestamp": "2026-09-20T10:24:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
-      "phone": "+12025550124",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:24:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:24:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 18000,
-        "debtType": "tarjeta",
-        "wantsCounselor": true,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-026",
-      "leadId": "LN-026",
-      "timestamp": "2026-09-20T10:25:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
-      "phone": "+12025550125",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:25:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:25:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-027",
-      "leadId": "LN-027",
-      "timestamp": "2026-09-20T10:26:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "Hola, necesito información sobre mis deudas.",
-      "phone": "+12025550126",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:26:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:26:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-028",
-      "leadId": "LN-028",
-      "timestamp": "2026-09-20T10:27:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
-      "phone": "+12025550127",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:27:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:27:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 9000,
-        "debtType": "prestamo_personal",
-        "wantsCounselor": true,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-029",
-      "leadId": "LN-029",
-      "timestamp": "2026-09-20T10:28:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "¿Me garantizan ahorro y un mejor puntaje?",
-      "phone": "+12025550128",
-      "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:28:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:28:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-030",
-      "leadId": "LN-030",
-      "timestamp": "2026-09-20T10:29:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "Publicidad: gana dinero desde casa.",
-      "phone": "+12025550129",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:29:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:29:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-031",
-      "leadId": "LN-031",
-      "timestamp": "2026-09-20T10:30:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
-      "phone": "+12025550130",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:30:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:30:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 2500,
-        "debtType": "tarjeta",
-        "wantsCounselor": true,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-032",
-      "leadId": "LN-032",
-      "timestamp": "2026-09-20T10:31:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
-      "phone": "+12025550131",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:31:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:31:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 25,
-        "debtType": "tarjeta",
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-034",
-      "leadId": "LN-034",
-      "timestamp": "2026-09-20T10:33:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
-      "phone": "+12025550133",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:33:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:33:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 12000,
-        "debtType": "tarjeta",
-        "wantsCounselor": false,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-035",
-      "leadId": "LN-035",
-      "timestamp": "2026-09-20T10:34:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Debo 42000 USD de hipoteca.",
-      "phone": "+12025550134",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:34:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:34:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 42000,
-        "debtType": "hipoteca",
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-036",
-      "leadId": "LN-036",
-      "timestamp": "2026-09-20T10:35:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "No entiendo qué sigue después de pedir información.",
-      "phone": "+12025550135",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:35:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:35:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-037",
-      "leadId": "LN-037",
-      "timestamp": "2026-09-20T10:36:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
-      "phone": "+12025550136",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:36:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:36:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 18000,
-        "debtType": "tarjeta",
-        "wantsCounselor": true,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-038",
-      "leadId": "LN-038",
-      "timestamp": "2026-09-20T10:37:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
-      "phone": "+12025550137",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:37:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:37:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-039",
-      "leadId": "LN-039",
-      "timestamp": "2026-09-20T10:38:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "Hola, necesito información sobre mis deudas.",
-      "phone": "+12025550138",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:38:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:38:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-040",
-      "leadId": "LN-040",
-      "timestamp": "2026-09-20T10:39:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
-      "phone": "+12025550139",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:39:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:39:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 9000,
-        "debtType": "prestamo_personal",
-        "wantsCounselor": true,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-041",
-      "leadId": "LN-041",
-      "timestamp": "2026-09-20T10:40:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "¿Me garantizan ahorro y un mejor puntaje?",
-      "phone": "+12025550140",
-      "initialState": "Nuevo",
-      "acquiredAt": "2026-09-20T10:40:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:40:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-042",
-      "leadId": "LN-042",
-      "timestamp": "2026-09-20T10:41:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "Publicidad: gana dinero desde casa.",
-      "phone": "+12025550141",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:41:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:41:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": null,
-        "debtType": null,
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-043",
-      "leadId": "LN-043",
-      "timestamp": "2026-09-20T10:42:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
-      "phone": "+12025550142",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:42:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:42:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 2500,
-        "debtType": "tarjeta",
-        "wantsCounselor": true,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-044",
-      "leadId": "LN-044",
-      "timestamp": "2026-09-20T10:43:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
-      "phone": "+12025550143",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:43:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:43:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 25,
-        "debtType": "tarjeta",
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-046",
-      "leadId": "LN-046",
-      "timestamp": "2026-09-20T10:45:00.000Z",
-      "creator": "CR-ANA",
-      "channel": "CTWA",
-      "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
-      "phone": "+12025550145",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:45:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:45:00.000Z",
-      "optedOut": false,
-      "needsReview": false,
-      "qualification": {
-        "amount": 12000,
-        "debtType": "tarjeta",
-        "wantsCounselor": false,
-        "eligible": true
-      }
-    },
-    {
-      "eventId": "EV-047",
-      "leadId": "LN-047",
-      "timestamp": "2026-09-20T10:46:00.000Z",
-      "creator": "CR-LUIS",
-      "channel": "orgánico",
-      "message": "Debo 42000 USD de hipoteca.",
-      "phone": "+12025550146",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:46:00.000Z",
-      "stage": "Revisión humana",
-      "updatedAt": "2026-09-20T10:46:00.000Z",
-      "optedOut": false,
-      "needsReview": true,
-      "qualification": {
-        "amount": 42000,
-        "debtType": "hipoteca",
-        "wantsCounselor": null,
-        "eligible": false
-      }
-    },
-    {
-      "eventId": "EV-048",
-      "leadId": "LN-048",
-      "timestamp": "2026-09-20T10:47:00.000Z",
-      "creator": "CR-MARIA",
-      "channel": "orgánico",
-      "message": "No entiendo qué sigue después de pedir información.",
-      "phone": "+12025550147",
-      "initialState": "Nuevo",
-      "lang": "es",
-      "acquiredAt": "2026-09-20T10:47:00.000Z",
-      "stage": "Nuevo",
-      "updatedAt": "2026-09-20T10:47:00.000Z",
+      "updatedAt": "2026-10-04T04:09:31.359Z",
       "optedOut": false,
       "needsReview": false,
       "qualification": {
@@ -3725,8 +3002,8 @@
   "ruleVersion": "d1636673b2a6",
   "audit": [
     {
-      "id": "a93e6211-dacf-4f5e-8bd3-d2ebee19ded2",
-      "timestamp": "2026-10-07T05:54:28.359Z",
+      "id": "275fa75a-fd5b-4a84-ae08-fc3a7bca6487",
+      "timestamp": "2026-10-07T15:12:44.794Z",
       "leadId": "-",
       "action": "partner_mode",
       "reason": "Simulador: healthy",
@@ -3734,8 +3011,8 @@
       "draftLink": null
     },
     {
-      "id": "6f46e28f-7b2a-4bdf-91d7-78359e60ae42",
-      "timestamp": "2026-10-07T05:54:28.334Z",
+      "id": "8a9e015e-6a54-4b6d-a06f-c399c942896d",
+      "timestamp": "2026-10-07T15:12:44.786Z",
       "leadId": "-",
       "action": "rules_updated",
       "reason": "d1636673b2a6 → d1636673b2a6; afecta mensajes nuevos.",
@@ -3743,26 +3020,26 @@
       "draftLink": null
     },
     {
-      "id": "3f1c00df-4de3-488b-baaf-a12555d69d07",
-      "timestamp": "2026-10-07T05:53:54.230Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "fef8c35c-0cd2-4b68-a122-8aca371974cb",
+      "timestamp": "2026-10-07T15:12:10.689Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "delivered",
       "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "be9d33d3-d693-4997-85c9-64d5ff5e9de5",
-      "timestamp": "2026-10-07T05:53:53.352Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "4df7ae00-ba48-447c-9fab-04d211e87843",
+      "timestamp": "2026-10-07T15:12:10.001Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "manual_retry",
       "reason": "Reintento manual autorizado.",
       "actor": "operador-demo",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "0b654ab4-f11f-4ead-82a2-1e13b04afff1",
-      "timestamp": "2026-10-07T05:53:53.263Z",
+      "id": "ec0d115c-414f-4669-986f-fb270990cc16",
+      "timestamp": "2026-10-07T15:12:09.916Z",
       "leadId": "-",
       "action": "partner_mode",
       "reason": "Simulador: healthy",
@@ -3770,62 +3047,62 @@
       "draftLink": null
     },
     {
-      "id": "0d5373e4-b2da-494d-ace1-7de92e6ce66e",
-      "timestamp": "2026-10-07T05:53:49.163Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "aede8945-2eb8-4ed9-910e-264592fbd8c7",
+      "timestamp": "2026-10-07T15:12:05.642Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "delivery_failed",
       "reason": "Partner ficticio respondió HTTP 503.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "4ebad9d6-a667-44c8-a111-72335e5fb801",
-      "timestamp": "2026-10-07T05:53:43.095Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "cb56333e-d2f4-4a19-91ae-e8971abe0a94",
+      "timestamp": "2026-10-07T15:11:59.583Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "retry_scheduled",
       "reason": "Partner ficticio respondió HTTP 503.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "f8bdfadb-cbf9-486d-8ea3-b0f4c7fd77a9",
-      "timestamp": "2026-10-07T05:53:40.006Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "894af9d8-cbe7-4439-b046-dab57380e70a",
+      "timestamp": "2026-10-07T15:11:56.563Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "retry_scheduled",
       "reason": "Partner ficticio respondió HTTP 503.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "c163de29-9c32-4a68-83f3-33a7cb1d25f7",
-      "timestamp": "2026-10-07T05:53:39.982Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "17da66ec-c5ab-498c-afc5-719a52eb0912",
+      "timestamp": "2026-10-07T15:11:55.698Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "approved",
       "reason": "Humano autorizó envío al simulador local.",
       "actor": "operador-demo",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "83a0b15a-b062-4369-96c0-4f5d5a6380ff",
-      "timestamp": "2026-10-07T05:53:37.983Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "ab32ade1-2234-4cbf-ba89-7252a9bcddce",
+      "timestamp": "2026-10-07T15:11:55.552Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-a9bc7961"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d81bdf73"
     },
     {
-      "id": "524e406d-097c-486e-bd14-835b0b26e903",
-      "timestamp": "2026-10-07T05:53:37.902Z",
-      "leadId": "DEMO-a9bc7961",
+      "id": "1b8cf059-4c25-48ce-a048-8594dde48934",
+      "timestamp": "2026-10-07T15:11:55.536Z",
+      "leadId": "DEMO-d81bdf73",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "68eed56e-05dd-4c47-97f5-a9e14d313f8f",
-      "timestamp": "2026-10-07T05:53:37.738Z",
+      "id": "6c569564-5ffe-4d70-b86c-f4b165cbc892",
+      "timestamp": "2026-10-07T15:11:55.390Z",
       "leadId": "-",
       "action": "partner_mode",
       "reason": "Simulador: down",
@@ -3833,44 +3110,44 @@
       "draftLink": null
     },
     {
-      "id": "208cd7da-d114-400c-8774-bb4451d727b2",
-      "timestamp": "2026-10-07T05:53:30.913Z",
-      "leadId": "DEMO-251ead78",
+      "id": "eaa7b120-14a7-4c70-9604-2c2cad79c194",
+      "timestamp": "2026-10-07T15:11:48.490Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "delivered",
       "reason": "handoff: recibo confirmado por simulador, intento 1.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe"
+      "draftLink": "/?tab=inbox&draft=crm-65cda321-9b88-44e4-be4e-6807e961e47e"
     },
     {
-      "id": "cd89000b-85c2-4108-95be-a15101bd0a33",
-      "timestamp": "2026-10-07T05:53:30.906Z",
-      "leadId": "DEMO-251ead78",
+      "id": "e83560e0-74cd-47a5-a882-52acc15088bd",
+      "timestamp": "2026-10-07T15:11:48.483Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "delivered",
       "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe"
+      "draftLink": "/?tab=inbox&draft=crm-65cda321-9b88-44e4-be4e-6807e961e47e"
     },
     {
-      "id": "3a0b1934-74cb-42fc-bcfd-be44371fd050",
-      "timestamp": "2026-10-07T05:53:30.039Z",
-      "leadId": "DEMO-251ead78",
+      "id": "7523407f-26ed-4a06-b43d-159735714ff7",
+      "timestamp": "2026-10-07T15:11:48.406Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "approved",
       "reason": "Humano autorizó envío al simulador local.",
       "actor": "operador-demo",
-      "draftLink": "/?tab=inbox&draft=crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe"
+      "draftLink": "/?tab=inbox&draft=crm-65cda321-9b88-44e4-be4e-6807e961e47e"
     },
     {
-      "id": "27f21e6f-fa68-4580-9642-b7e5929378c1",
-      "timestamp": "2026-10-07T05:53:18.841Z",
-      "leadId": "DEMO-251ead78",
+      "id": "74291518-01c2-4870-b90e-3c5a8c9ba593",
+      "timestamp": "2026-10-07T15:11:37.273Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "disposition",
       "reason": "Transferido → Transferencia pendiente",
       "actor": "operador-demo",
-      "draftLink": "/?tab=inbox&draft=crm-0e2f704e-759c-4018-b7a9-fcec6c5e0dbe"
+      "draftLink": "/?tab=inbox&draft=crm-65cda321-9b88-44e4-be4e-6807e961e47e"
     },
     {
-      "id": "c2f2b5df-49b6-4bdf-90b9-55dd1ae045f9",
-      "timestamp": "2026-10-07T05:53:18.583Z",
+      "id": "b600020f-ea1f-4269-a5c7-d4b8a6d6eea8",
+      "timestamp": "2026-10-07T15:11:36.994Z",
       "leadId": "-",
       "action": "rules_updated",
       "reason": "099fe8d82851 → d1636673b2a6; afecta mensajes nuevos.",
@@ -3878,26 +3155,26 @@
       "draftLink": null
     },
     {
-      "id": "2d9d3ca9-acd0-4e39-8a6d-a2a2955f6fb5",
-      "timestamp": "2026-10-07T05:53:09.554Z",
-      "leadId": "DEMO-036f4823",
+      "id": "e03e71fa-8cb7-4299-b987-404340a50bbc",
+      "timestamp": "2026-10-07T15:11:27.298Z",
+      "leadId": "DEMO-4ab4bd84",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla 099fe8d82851.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-036f4823"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-4ab4bd84"
     },
     {
-      "id": "49a5abc9-4211-4042-bba1-33c94709aec1",
-      "timestamp": "2026-10-07T05:53:08.915Z",
-      "leadId": "DEMO-036f4823",
+      "id": "88918d06-1629-4546-80bd-0cc3ef81e742",
+      "timestamp": "2026-10-07T15:11:27.071Z",
+      "leadId": "DEMO-4ab4bd84",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "dfe5c24e-b1f9-4183-9774-95c384d618f6",
-      "timestamp": "2026-10-07T05:53:04.849Z",
+      "id": "40a0c41b-38f3-4da6-b917-31ced1153546",
+      "timestamp": "2026-10-07T15:11:22.997Z",
       "leadId": "-",
       "action": "rules_updated",
       "reason": "d1636673b2a6 → 099fe8d82851; afecta mensajes nuevos.",
@@ -3905,152 +3182,152 @@
       "draftLink": null
     },
     {
-      "id": "3f5668f7-9119-41ed-8920-cbf7c0730956",
-      "timestamp": "2026-10-07T05:52:51.291Z",
-      "leadId": "DEMO-e9feb7e5",
+      "id": "a2f2f1dc-948e-4edc-bc53-91ae70df3801",
+      "timestamp": "2026-10-07T15:11:10.160Z",
+      "leadId": "DEMO-549f117c",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-e9feb7e5"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-549f117c"
     },
     {
-      "id": "8c464bcf-87ae-48e9-bfe7-699b28d9735e",
-      "timestamp": "2026-10-07T05:52:50.936Z",
-      "leadId": "DEMO-e9feb7e5",
+      "id": "c0aea46d-1744-4d37-9db9-41a140fdf334",
+      "timestamp": "2026-10-07T15:11:09.788Z",
+      "leadId": "DEMO-549f117c",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "2feb6c6a-481a-4f25-ae3f-03fa97b293b6",
-      "timestamp": "2026-10-07T05:52:43.226Z",
-      "leadId": "DEMO-251ead78",
+      "id": "7aca0e07-ecd7-4ea1-bddd-93c17f3c4aa6",
+      "timestamp": "2026-10-07T15:11:02.051Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "delivered",
       "reason": "whatsapp: recibo confirmado por simulador, intento 1.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-251ead78"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-b81d7f99"
     },
     {
-      "id": "c33b248d-e855-42b8-92a3-6389efbfd951",
-      "timestamp": "2026-10-07T05:52:43.091Z",
-      "leadId": "DEMO-251ead78",
+      "id": "fa645231-7003-4608-a48c-a5274c3b7ff6",
+      "timestamp": "2026-10-07T15:11:01.657Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "approved",
       "reason": "Humano autorizó envío al simulador local.",
       "actor": "operador-demo",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-251ead78"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-b81d7f99"
     },
     {
-      "id": "c00e9ffe-00ba-49ec-a92b-fa1165e9ce19",
-      "timestamp": "2026-10-07T05:52:32.065Z",
-      "leadId": "DEMO-251ead78",
+      "id": "2d3814e3-9266-412e-acb0-102e8f122615",
+      "timestamp": "2026-10-07T15:10:50.786Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-251ead78"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-b81d7f99"
     },
     {
-      "id": "76ac375b-a9a2-4b44-8a89-e1739a3ee360",
-      "timestamp": "2026-10-07T05:52:31.758Z",
-      "leadId": "DEMO-251ead78",
+      "id": "070572d1-ff7c-4a10-820e-4e332d2b8f3b",
+      "timestamp": "2026-10-07T15:10:50.333Z",
+      "leadId": "DEMO-b81d7f99",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "ec2fdb1c-5181-46da-a27f-4fca6e361581",
-      "timestamp": "2026-10-07T05:52:24.002Z",
-      "leadId": "DEMO-7dc3b4ad",
+      "id": "ee91bb19-0986-4feb-9f16-02d3f1787a3a",
+      "timestamp": "2026-10-07T15:10:41.646Z",
+      "leadId": "DEMO-d47451ff",
       "action": "escalar_humano",
       "reason": "Moneda no admitida o calificada: solo USD o monto sin indicación de moneda; confirmar con humano. Regla d1636673b2a6.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-7dc3b4ad"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-d47451ff"
     },
     {
-      "id": "41e63b53-e249-4483-b037-3c1701424f87",
-      "timestamp": "2026-10-07T05:52:23.192Z",
-      "leadId": "DEMO-7dc3b4ad",
+      "id": "708bcc68-709c-4bf1-a7e9-e64118914770",
+      "timestamp": "2026-10-07T15:10:40.783Z",
+      "leadId": "DEMO-d47451ff",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "2bafdf60-ee5b-4dc2-a81c-3302a7695658",
-      "timestamp": "2026-10-07T05:52:15.923Z",
-      "leadId": "DEMO-5351085a",
+      "id": "b4fa3774-566e-47b7-838b-99dc3c6a824c",
+      "timestamp": "2026-10-07T15:10:33.598Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "transfer_blocked",
       "reason": "Transferencia rechazada: consentimiento explícito actual y precalificación vigente obligatorios.",
       "actor": "operador-demo",
       "draftLink": null
     },
     {
-      "id": "0375676b-e2b2-4f06-89bd-65910dcee624",
-      "timestamp": "2026-10-07T05:52:14.930Z",
-      "leadId": "DEMO-5351085a",
+      "id": "6f1423bc-bb23-436c-beb1-920996c4aa35",
+      "timestamp": "2026-10-07T15:10:33.498Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-VIDEO-REVOKE-61b4a409-4c4e-47e4-874c-bf8e81d72a20"
+      "draftLink": "/?tab=inbox&draft=draft-VIDEO-REVOKE-a54eeede-2769-4f28-8c97-687e67917384"
     },
     {
-      "id": "135ad823-9ef3-472d-8a9a-b76b158c71ce",
-      "timestamp": "2026-10-07T05:52:14.930Z",
-      "leadId": "DEMO-5351085a",
+      "id": "b8166d1f-b3c7-45d6-8051-d4746ab3baf6",
+      "timestamp": "2026-10-07T15:10:33.498Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "consent_revoked",
       "reason": "Consentimiento retirado o ambiguo; transferencia pendiente cancelada.",
       "actor": "worker",
       "draftLink": null
     },
     {
-      "id": "2041203e-43c2-460b-9b7a-8710ce80035c",
-      "timestamp": "2026-10-07T05:52:13.965Z",
-      "leadId": "DEMO-5351085a",
+      "id": "564544b1-f24e-45e6-b0c9-89eb1b0b1c69",
+      "timestamp": "2026-10-07T15:10:32.580Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "6ba3ca71-2a78-4384-9a44-1115049b4cb4",
-      "timestamp": "2026-10-07T05:52:13.902Z",
-      "leadId": "DEMO-5351085a",
+      "id": "7cb538d5-5af0-4d84-a822-dbdd533ddc8a",
+      "timestamp": "2026-10-07T15:10:32.548Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "disposition",
       "reason": "Transferido → Transferencia pendiente",
       "actor": "operador-demo",
-      "draftLink": "/?tab=inbox&draft=crm-7b75a1f6-3788-420d-81a4-d4a92450a1cc"
+      "draftLink": "/?tab=inbox&draft=crm-7cff23c2-a62d-4cca-97a9-f5f6f846906b"
     },
     {
-      "id": "1be35394-0f13-429c-b3f8-b661973ad0ab",
-      "timestamp": "2026-10-07T05:52:06.858Z",
-      "leadId": "DEMO-5351085a",
+      "id": "1263e7af-c69b-4d28-a37e-54ba74794108",
+      "timestamp": "2026-10-07T15:10:22.313Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
       "actor": "worker",
-      "draftLink": "/?tab=inbox&draft=draft-WEB-5351085a"
+      "draftLink": "/?tab=inbox&draft=draft-WEB-6e8548b5"
     },
     {
-      "id": "9143ed61-3874-4636-b5f5-a24b0b43c692",
-      "timestamp": "2026-10-07T05:52:06.467Z",
-      "leadId": "DEMO-5351085a",
+      "id": "1468ae2d-f116-45e0-ac42-e5ebfd1e5478",
+      "timestamp": "2026-10-07T15:10:21.706Z",
+      "leadId": "DEMO-6e8548b5",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
       "actor": "webhook",
       "draftLink": null
     },
     {
-      "id": "4042239f-cbe4-47b6-be57-d16b13941357",
-      "timestamp": "2026-10-07T05:51:38.639Z",
+      "id": "09954111-c782-4272-895f-54f20a8b03f7",
+      "timestamp": "2026-10-07T15:09:31.513Z",
       "leadId": "-",
       "action": "seed",
-      "reason": "48 leads ficticios históricos. updatedAt conserva la fecha ficticia para demostrar estancamiento.",
+      "reason": "48 leads con offsets relativos a setup: recientes y estancados; histórico del partner fijado al mismo corte.",
       "actor": "setup",
       "draftLink": null
     },
     {
-      "id": "9467bfd3-9760-4183-929e-1c540d465b9a",
-      "timestamp": "2026-10-07T05:51:38.637Z",
+      "id": "6cef5f09-e80c-4a90-82ed-02cd60f030db",
+      "timestamp": "2026-10-07T15:09:31.505Z",
       "leadId": "LN-048",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4058,8 +3335,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-048"
     },
     {
-      "id": "85663a26-d5ec-4d84-ad36-d2dbf5a5347b",
-      "timestamp": "2026-10-07T05:51:38.635Z",
+      "id": "bff243d7-15ad-4509-9920-eacb7179039e",
+      "timestamp": "2026-10-07T15:09:31.503Z",
       "leadId": "LN-047",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4067,8 +3344,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-047"
     },
     {
-      "id": "0509cc46-9a62-4b12-a850-967eb4d6290b",
-      "timestamp": "2026-10-07T05:51:38.633Z",
+      "id": "d3e14ce6-4f7c-4876-9ba2-a5c10ec719d8",
+      "timestamp": "2026-10-07T15:09:31.502Z",
       "leadId": "LN-046",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4076,8 +3353,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-046"
     },
     {
-      "id": "8253ab2d-508c-4bd7-bd51-65900ad50019",
-      "timestamp": "2026-10-07T05:51:38.631Z",
+      "id": "471ccf17-09a5-412f-97a4-1753ca09d829",
+      "timestamp": "2026-10-07T15:09:31.499Z",
       "leadId": "LN-045",
       "action": "ignorar",
       "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla d1636673b2a6.",
@@ -4085,8 +3362,8 @@
       "draftLink": null
     },
     {
-      "id": "37dadaf2-b3cf-4497-91b8-6d683fa406f3",
-      "timestamp": "2026-10-07T05:51:38.630Z",
+      "id": "e73a2354-23b5-49b2-b42c-82d222944559",
+      "timestamp": "2026-10-07T15:09:31.498Z",
       "leadId": "LN-044",
       "action": "escalar_humano",
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla d1636673b2a6.",
@@ -4094,8 +3371,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-044"
     },
     {
-      "id": "077d74d3-83ad-4e28-852a-5a54e31e9259",
-      "timestamp": "2026-10-07T05:51:38.628Z",
+      "id": "96289570-32e0-4656-9e6a-dda3395bf477",
+      "timestamp": "2026-10-07T15:09:31.496Z",
       "leadId": "LN-043",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4103,8 +3380,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-043"
     },
     {
-      "id": "cca7e5f5-c6b6-4b69-b21f-b2db93124dc5",
-      "timestamp": "2026-10-07T05:51:38.626Z",
+      "id": "cfea0309-dab5-43b0-b70a-6705b629bf43",
+      "timestamp": "2026-10-07T15:09:31.495Z",
       "leadId": "LN-042",
       "action": "ignorar",
       "reason": "Mensaje no relacionado o publicidad según reglas. Regla d1636673b2a6.",
@@ -4112,8 +3389,8 @@
       "draftLink": null
     },
     {
-      "id": "78d6f320-5d9a-40c6-a23b-913e05084e1f",
-      "timestamp": "2026-10-07T05:51:38.625Z",
+      "id": "dc8f2e5c-a310-43bb-a214-c1224fdbb9b3",
+      "timestamp": "2026-10-07T15:09:31.494Z",
       "leadId": "LN-041",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4121,8 +3398,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-041"
     },
     {
-      "id": "0a5c6cf0-cb34-4a24-aa60-765c64a9562a",
-      "timestamp": "2026-10-07T05:51:38.623Z",
+      "id": "489d5d24-10f7-4902-81c0-ed1d60728a4e",
+      "timestamp": "2026-10-07T15:09:31.492Z",
       "leadId": "LN-040",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4130,8 +3407,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-040"
     },
     {
-      "id": "af82fd05-e4f5-4678-9865-18f34a2fe350",
-      "timestamp": "2026-10-07T05:51:38.622Z",
+      "id": "aa16314b-be8a-4a6b-9a39-e7994022c512",
+      "timestamp": "2026-10-07T15:09:31.490Z",
       "leadId": "LN-039",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4139,8 +3416,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-039"
     },
     {
-      "id": "2e101aca-52fb-4bd9-89c7-18001b85f2b1",
-      "timestamp": "2026-10-07T05:51:38.621Z",
+      "id": "af0b6476-8a70-40ac-90c8-08aacb3a9c07",
+      "timestamp": "2026-10-07T15:09:31.489Z",
       "leadId": "LN-038",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4148,8 +3425,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-038"
     },
     {
-      "id": "fcc316ad-6da7-4d0f-8e88-eca7f9f1a78b",
-      "timestamp": "2026-10-07T05:51:38.620Z",
+      "id": "ed807873-839e-43f2-ae1e-1f55a0d79a8c",
+      "timestamp": "2026-10-07T15:09:31.487Z",
       "leadId": "LN-037",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4157,8 +3434,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-037"
     },
     {
-      "id": "0b271bfb-2184-4328-873c-b55a12590ae7",
-      "timestamp": "2026-10-07T05:51:38.618Z",
+      "id": "3b4d72e6-ac7c-4251-a8a6-fd381ecb1c50",
+      "timestamp": "2026-10-07T15:09:31.486Z",
       "leadId": "LN-036",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4166,8 +3443,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-036"
     },
     {
-      "id": "09c378b6-c674-4ebb-b21d-2a77cb1b62f2",
-      "timestamp": "2026-10-07T05:51:38.616Z",
+      "id": "fbd0ce5a-446f-4b86-b6fb-8e8460c1a673",
+      "timestamp": "2026-10-07T15:09:31.484Z",
       "leadId": "LN-035",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4175,8 +3452,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-035"
     },
     {
-      "id": "3dfe7cb4-61c2-40e4-8727-cf8853417aa2",
-      "timestamp": "2026-10-07T05:51:38.615Z",
+      "id": "5fdd68b8-6ec5-4d3d-a069-03814bfc5872",
+      "timestamp": "2026-10-07T15:09:31.483Z",
       "leadId": "LN-034",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4184,8 +3461,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-034"
     },
     {
-      "id": "aad6b763-3922-4b1d-8a12-f1428ceccb38",
-      "timestamp": "2026-10-07T05:51:38.613Z",
+      "id": "6076f9ac-e596-4848-a05f-c4ab2408a916",
+      "timestamp": "2026-10-07T15:09:31.481Z",
       "leadId": "LN-033",
       "action": "ignorar",
       "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla d1636673b2a6.",
@@ -4193,8 +3470,8 @@
       "draftLink": null
     },
     {
-      "id": "f4b1ba3f-40fb-4706-84ae-38cbac0c81b1",
-      "timestamp": "2026-10-07T05:51:38.612Z",
+      "id": "245b1997-5f59-4a05-a41b-435f305609ab",
+      "timestamp": "2026-10-07T15:09:31.480Z",
       "leadId": "LN-032",
       "action": "escalar_humano",
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla d1636673b2a6.",
@@ -4202,8 +3479,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-032"
     },
     {
-      "id": "ffe60205-93dc-4885-879d-4f0a67b909f2",
-      "timestamp": "2026-10-07T05:51:38.611Z",
+      "id": "c8704c0a-f876-409c-af69-8b346e976284",
+      "timestamp": "2026-10-07T15:09:31.478Z",
       "leadId": "LN-031",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4211,8 +3488,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-031"
     },
     {
-      "id": "8742891c-e541-478b-a63d-921696fc0962",
-      "timestamp": "2026-10-07T05:51:38.609Z",
+      "id": "5f8f9f76-1a78-4650-805a-7f82533579ec",
+      "timestamp": "2026-10-07T15:09:31.476Z",
       "leadId": "LN-030",
       "action": "ignorar",
       "reason": "Mensaje no relacionado o publicidad según reglas. Regla d1636673b2a6.",
@@ -4220,8 +3497,8 @@
       "draftLink": null
     },
     {
-      "id": "f20666ae-1322-4cfe-b5a3-e12bf08f9e24",
-      "timestamp": "2026-10-07T05:51:38.607Z",
+      "id": "5c7f8ca2-3a75-40ea-bf90-4068c3def974",
+      "timestamp": "2026-10-07T15:09:31.473Z",
       "leadId": "LN-029",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4229,8 +3506,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-029"
     },
     {
-      "id": "95c4bf2a-3547-4bad-8084-9d64f1190211",
-      "timestamp": "2026-10-07T05:51:38.606Z",
+      "id": "d9006f35-efd7-44a1-b5e4-070004ab3bb4",
+      "timestamp": "2026-10-07T15:09:31.469Z",
       "leadId": "LN-028",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4238,8 +3515,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-028"
     },
     {
-      "id": "b66632eb-aa26-4cce-ae9b-5300e288b28d",
-      "timestamp": "2026-10-07T05:51:38.604Z",
+      "id": "874d3719-b14b-499f-ab89-de969129db37",
+      "timestamp": "2026-10-07T15:09:31.468Z",
       "leadId": "LN-027",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4247,8 +3524,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-027"
     },
     {
-      "id": "7949547a-53e3-49a9-bbcf-bf3046df153f",
-      "timestamp": "2026-10-07T05:51:38.603Z",
+      "id": "e299155a-ab3d-4437-b68c-94605b9807c0",
+      "timestamp": "2026-10-07T15:09:31.466Z",
       "leadId": "LN-026",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4256,8 +3533,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-026"
     },
     {
-      "id": "be03a974-17e7-4cc8-9392-48eb6b98e2f9",
-      "timestamp": "2026-10-07T05:51:38.601Z",
+      "id": "630745bc-1ce5-46ca-aa14-73c0070e7cc5",
+      "timestamp": "2026-10-07T15:09:31.465Z",
       "leadId": "LN-025",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4265,8 +3542,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-025"
     },
     {
-      "id": "d481ebdf-8d93-42ca-947f-ac8dc76cc735",
-      "timestamp": "2026-10-07T05:51:38.600Z",
+      "id": "8cb0011a-397d-4f49-9043-e65b62041956",
+      "timestamp": "2026-10-07T15:09:31.463Z",
       "leadId": "LN-024",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4274,8 +3551,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-024"
     },
     {
-      "id": "2c462a81-9978-4fa7-9d12-3c9fe1461371",
-      "timestamp": "2026-10-07T05:51:38.598Z",
+      "id": "41bd175e-dc91-4c53-be88-169f5cb0cf1a",
+      "timestamp": "2026-10-07T15:09:31.462Z",
       "leadId": "LN-023",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4283,8 +3560,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-023"
     },
     {
-      "id": "6fdfaaa6-e7c7-4e40-8ee1-571983175487",
-      "timestamp": "2026-10-07T05:51:38.597Z",
+      "id": "5bd2ecb3-f6aa-4f56-92b9-0625befec7b2",
+      "timestamp": "2026-10-07T15:09:31.460Z",
       "leadId": "LN-022",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4292,8 +3569,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-022"
     },
     {
-      "id": "23173064-52ca-4bad-9af6-c1683c9a23de",
-      "timestamp": "2026-10-07T05:51:38.595Z",
+      "id": "ce205f56-fe80-4ca1-bc67-04f8e306013d",
+      "timestamp": "2026-10-07T15:09:31.459Z",
       "leadId": "LN-021",
       "action": "ignorar",
       "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla d1636673b2a6.",
@@ -4301,8 +3578,8 @@
       "draftLink": null
     },
     {
-      "id": "b61edf51-ed78-4ff9-9c66-a9573ed477b6",
-      "timestamp": "2026-10-07T05:51:38.594Z",
+      "id": "7e49743e-3747-4c7a-b472-e9ca052a7259",
+      "timestamp": "2026-10-07T15:09:31.458Z",
       "leadId": "LN-020",
       "action": "escalar_humano",
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla d1636673b2a6.",
@@ -4310,8 +3587,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-020"
     },
     {
-      "id": "925aa51a-89d1-4600-9ed6-b55320e86bd2",
-      "timestamp": "2026-10-07T05:51:38.593Z",
+      "id": "5e351144-577a-4267-9d37-de140193b699",
+      "timestamp": "2026-10-07T15:09:31.456Z",
       "leadId": "LN-019",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4319,8 +3596,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-019"
     },
     {
-      "id": "7d04e0c3-c6f4-4a13-8927-ab55ee5ad56f",
-      "timestamp": "2026-10-07T05:51:38.592Z",
+      "id": "1130a452-9bc6-420b-b7ce-1f17c6a55c23",
+      "timestamp": "2026-10-07T15:09:31.454Z",
       "leadId": "LN-018",
       "action": "ignorar",
       "reason": "Mensaje no relacionado o publicidad según reglas. Regla d1636673b2a6.",
@@ -4328,8 +3605,8 @@
       "draftLink": null
     },
     {
-      "id": "1ea66de8-ddfc-4230-bf00-485beee2ad79",
-      "timestamp": "2026-10-07T05:51:38.590Z",
+      "id": "1fd0a3a3-f60e-4551-a219-e74cbcbbeccc",
+      "timestamp": "2026-10-07T15:09:31.453Z",
       "leadId": "LN-017",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4337,8 +3614,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-017"
     },
     {
-      "id": "cd497ddb-250c-4a67-9394-4602fb014976",
-      "timestamp": "2026-10-07T05:51:38.588Z",
+      "id": "b38062d4-4c33-4c61-aedc-3966dcc10ab5",
+      "timestamp": "2026-10-07T15:09:31.451Z",
       "leadId": "LN-016",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4346,8 +3623,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-016"
     },
     {
-      "id": "0792864d-f385-4929-86bc-6d55f6dcd5c7",
-      "timestamp": "2026-10-07T05:51:38.587Z",
+      "id": "26f17651-241a-4c5b-875d-049b6d362f12",
+      "timestamp": "2026-10-07T15:09:31.450Z",
       "leadId": "LN-015",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4355,8 +3632,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-015"
     },
     {
-      "id": "a0291267-7407-4b2f-8d03-85d061b2cc7f",
-      "timestamp": "2026-10-07T05:51:38.585Z",
+      "id": "1ed3d275-3653-41bd-ae02-979c89f50772",
+      "timestamp": "2026-10-07T15:09:31.448Z",
       "leadId": "LN-014",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4364,8 +3641,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-014"
     },
     {
-      "id": "f41b11dc-3e65-4c36-bb45-c970158bf044",
-      "timestamp": "2026-10-07T05:51:38.584Z",
+      "id": "18b69263-13d6-4a93-929a-e6aa7b676431",
+      "timestamp": "2026-10-07T15:09:31.447Z",
       "leadId": "LN-013",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4373,8 +3650,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-013"
     },
     {
-      "id": "e8123fc8-dbda-44e2-bd3c-296965f4dc88",
-      "timestamp": "2026-10-07T05:51:38.582Z",
+      "id": "4d68afe4-8baf-4072-9f74-83b55b7bbc7a",
+      "timestamp": "2026-10-07T15:09:31.445Z",
       "leadId": "LN-012",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4382,8 +3659,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-012"
     },
     {
-      "id": "7f6456d0-4c86-4b5c-b4fa-371bc897335a",
-      "timestamp": "2026-10-07T05:51:38.581Z",
+      "id": "f005a443-c7f7-456e-8d2c-d6cfba628f50",
+      "timestamp": "2026-10-07T15:09:31.443Z",
       "leadId": "LN-011",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4391,8 +3668,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-011"
     },
     {
-      "id": "75b36c7a-8b83-48be-bc90-9da4f5ac680b",
-      "timestamp": "2026-10-07T05:51:38.579Z",
+      "id": "8d9d7ed6-47dd-4083-bc8e-faa9259b5ac6",
+      "timestamp": "2026-10-07T15:09:31.442Z",
       "leadId": "LN-010",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4400,8 +3677,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-010"
     },
     {
-      "id": "78910f18-aa64-48ee-854a-77d52ef4e62c",
-      "timestamp": "2026-10-07T05:51:38.578Z",
+      "id": "51822c12-df29-4b69-967a-1875295f66c4",
+      "timestamp": "2026-10-07T15:09:31.440Z",
       "leadId": "LN-009",
       "action": "ignorar",
       "reason": "Solicitud de baja: se bloquea todo contacto pendiente. Regla d1636673b2a6.",
@@ -4409,8 +3686,8 @@
       "draftLink": null
     },
     {
-      "id": "778a6ab4-0262-4c18-b0fc-7731c4074ea1",
-      "timestamp": "2026-10-07T05:51:38.577Z",
+      "id": "f9f1e7a3-91f9-4fa8-b754-940ec40567fc",
+      "timestamp": "2026-10-07T15:09:31.439Z",
       "leadId": "LN-008",
       "action": "escalar_humano",
       "reason": "Monto, moneda o rango ambiguo; no se infiere una cifra. Regla d1636673b2a6.",
@@ -4418,8 +3695,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-008"
     },
     {
-      "id": "f3487e23-4e79-4a67-842c-c0fb6750a63a",
-      "timestamp": "2026-10-07T05:51:38.574Z",
+      "id": "ee4aa71c-a375-42af-bd13-13ba4eadbb75",
+      "timestamp": "2026-10-07T15:09:31.437Z",
       "leadId": "LN-007",
       "action": "escalar_humano",
       "reason": "Fuera de los criterios ficticios de monto o tipo; requiere revisión. Regla d1636673b2a6.",
@@ -4427,8 +3704,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-007"
     },
     {
-      "id": "4c6b0245-0027-4ab0-bacf-c88a3f61584c",
-      "timestamp": "2026-10-07T05:51:38.572Z",
+      "id": "0d9ecbd1-562f-4ea3-8cbf-9dc860b7d7b5",
+      "timestamp": "2026-10-07T15:09:31.435Z",
       "leadId": "LN-006",
       "action": "ignorar",
       "reason": "Mensaje no relacionado o publicidad según reglas. Regla d1636673b2a6.",
@@ -4436,8 +3713,8 @@
       "draftLink": null
     },
     {
-      "id": "bc96c5bb-09f1-4821-9ee2-84d9e23ec7c3",
-      "timestamp": "2026-10-07T05:51:38.571Z",
+      "id": "42b73ce3-5690-4861-a5be-802407fa0c21",
+      "timestamp": "2026-10-07T15:09:31.432Z",
       "leadId": "LN-005",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4445,8 +3722,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-005"
     },
     {
-      "id": "c623df21-4a7d-4ed6-98c1-73125964bf8c",
-      "timestamp": "2026-10-07T05:51:38.569Z",
+      "id": "98f450f5-8ce2-4acb-a4a0-91d249726803",
+      "timestamp": "2026-10-07T15:09:31.431Z",
       "leadId": "LN-004",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4454,8 +3731,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-004"
     },
     {
-      "id": "3285d5f3-67f3-4d4d-82cf-c43ae1aa5dda",
-      "timestamp": "2026-10-07T05:51:38.568Z",
+      "id": "a0745193-93e2-4259-ba65-d0ecc1ae5a83",
+      "timestamp": "2026-10-07T15:09:31.429Z",
       "leadId": "LN-003",
       "action": "responder",
       "reason": "Faltan datos de precalificación; solicitar solo lo necesario. Regla d1636673b2a6.",
@@ -4463,8 +3740,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-003"
     },
     {
-      "id": "8f67e59e-6aa7-4414-b027-c6c4bfb8e3fa",
-      "timestamp": "2026-10-07T05:51:38.563Z",
+      "id": "b1e03fad-4f6a-4f8c-866a-39b884106d58",
+      "timestamp": "2026-10-07T15:09:31.423Z",
       "leadId": "LN-002",
       "action": "escalar_humano",
       "reason": "Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas. Regla d1636673b2a6.",
@@ -4472,8 +3749,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-002"
     },
     {
-      "id": "3350e08b-9dd3-42b5-bea8-14138ee1e700",
-      "timestamp": "2026-10-07T05:51:38.561Z",
+      "id": "f70fc754-ecc9-4454-aae6-bf9c8473389d",
+      "timestamp": "2026-10-07T15:09:31.421Z",
       "leadId": "LN-001",
       "action": "responder",
       "reason": "Datos revisados con criterios ficticios; pendiente de revisión humana. Regla d1636673b2a6.",
@@ -4481,8 +3758,8 @@
       "draftLink": "/?tab=inbox&draft=draft-EV-001"
     },
     {
-      "id": "a0d634de-9134-4bee-b9d9-45e14db395ad",
-      "timestamp": "2026-10-07T05:51:38.552Z",
+      "id": "fc093f82-04f0-42ee-bc52-e5206d2d7e1e",
+      "timestamp": "2026-10-07T15:09:31.413Z",
       "leadId": "LN-048",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4490,8 +3767,8 @@
       "draftLink": null
     },
     {
-      "id": "27560fcd-5817-4794-b9c9-028f800cdf5e",
-      "timestamp": "2026-10-07T05:51:38.551Z",
+      "id": "63c7eac0-81da-4caa-a346-af7dcd125d4b",
+      "timestamp": "2026-10-07T15:09:31.412Z",
       "leadId": "LN-047",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4499,8 +3776,8 @@
       "draftLink": null
     },
     {
-      "id": "b3fbf0df-e867-439f-b492-2ad5c254bc82",
-      "timestamp": "2026-10-07T05:51:38.549Z",
+      "id": "205cf66f-d3cd-447b-87e0-631a6c20b137",
+      "timestamp": "2026-10-07T15:09:31.411Z",
       "leadId": "LN-046",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4508,8 +3785,8 @@
       "draftLink": null
     },
     {
-      "id": "851744d5-de18-48d0-805d-d697f134c421",
-      "timestamp": "2026-10-07T05:51:38.548Z",
+      "id": "a42bf8af-53d2-4590-848a-69139ce03b7e",
+      "timestamp": "2026-10-07T15:09:31.410Z",
       "leadId": "LN-045",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4517,8 +3794,8 @@
       "draftLink": null
     },
     {
-      "id": "1f8994bc-58c0-40a6-90b8-f78254fc61c4",
-      "timestamp": "2026-10-07T05:51:38.546Z",
+      "id": "1c911ea1-d8a2-4236-88b9-a33189090bc7",
+      "timestamp": "2026-10-07T15:09:31.409Z",
       "leadId": "LN-044",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4526,8 +3803,8 @@
       "draftLink": null
     },
     {
-      "id": "00410e9c-3043-48f4-a876-4c150f44ae54",
-      "timestamp": "2026-10-07T05:51:38.545Z",
+      "id": "0d436559-a473-42cc-87a3-83d110d00908",
+      "timestamp": "2026-10-07T15:09:31.408Z",
       "leadId": "LN-043",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4535,8 +3812,8 @@
       "draftLink": null
     },
     {
-      "id": "f51ad4f0-9c28-4982-9b47-b00d6c41b6c6",
-      "timestamp": "2026-10-07T05:51:38.544Z",
+      "id": "0b34d1c9-ee2b-4b4e-9301-8cd0633cd201",
+      "timestamp": "2026-10-07T15:09:31.407Z",
       "leadId": "LN-042",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4544,8 +3821,8 @@
       "draftLink": null
     },
     {
-      "id": "d5f3117e-896b-4ad3-9142-0ab589ae8e6d",
-      "timestamp": "2026-10-07T05:51:38.543Z",
+      "id": "12d1bcf5-22b5-4e08-8195-f3930c3d7f81",
+      "timestamp": "2026-10-07T15:09:31.406Z",
       "leadId": "LN-041",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4553,8 +3830,8 @@
       "draftLink": null
     },
     {
-      "id": "b95c82f3-4772-4b67-b5d7-421711b3489b",
-      "timestamp": "2026-10-07T05:51:38.542Z",
+      "id": "85c90fa0-91fa-453c-a766-d5f631196e01",
+      "timestamp": "2026-10-07T15:09:31.405Z",
       "leadId": "LN-040",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4562,8 +3839,8 @@
       "draftLink": null
     },
     {
-      "id": "d8de968c-97eb-4cac-8025-0fbc12b0aaf3",
-      "timestamp": "2026-10-07T05:51:38.541Z",
+      "id": "fb4fb0c4-2f91-4a53-9d44-275d773088c4",
+      "timestamp": "2026-10-07T15:09:31.404Z",
       "leadId": "LN-039",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4571,8 +3848,8 @@
       "draftLink": null
     },
     {
-      "id": "a236e9e9-07f3-44ba-ba1b-e2eb57dbeca3",
-      "timestamp": "2026-10-07T05:51:38.541Z",
+      "id": "d69fe98b-e04b-4394-913f-84ff797d669d",
+      "timestamp": "2026-10-07T15:09:31.404Z",
       "leadId": "LN-038",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4580,8 +3857,8 @@
       "draftLink": null
     },
     {
-      "id": "c27f5282-126a-4bee-88e6-42ac178ebdc6",
-      "timestamp": "2026-10-07T05:51:38.540Z",
+      "id": "16afcc99-e5bb-455a-a9cd-3c9f8fbb780a",
+      "timestamp": "2026-10-07T15:09:31.403Z",
       "leadId": "LN-037",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4589,8 +3866,8 @@
       "draftLink": null
     },
     {
-      "id": "bdd6a980-e527-4794-9255-1a099e627199",
-      "timestamp": "2026-10-07T05:51:38.539Z",
+      "id": "cd989006-d76e-4346-b5e4-685a83613d40",
+      "timestamp": "2026-10-07T15:09:31.402Z",
       "leadId": "LN-036",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4598,8 +3875,8 @@
       "draftLink": null
     },
     {
-      "id": "97fbdf2e-27b4-4239-9540-e2e1ba0ee3be",
-      "timestamp": "2026-10-07T05:51:38.538Z",
+      "id": "1561fee7-7d70-468a-bd92-e32e324582a4",
+      "timestamp": "2026-10-07T15:09:31.401Z",
       "leadId": "LN-035",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4607,8 +3884,8 @@
       "draftLink": null
     },
     {
-      "id": "b15c3c08-7066-4701-905c-8a3069c22efb",
-      "timestamp": "2026-10-07T05:51:38.537Z",
+      "id": "419eaa24-6290-4540-9159-4d79dd71c00b",
+      "timestamp": "2026-10-07T15:09:31.400Z",
       "leadId": "LN-034",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4616,8 +3893,8 @@
       "draftLink": null
     },
     {
-      "id": "3b61558a-3f30-488f-a67b-8beded90c015",
-      "timestamp": "2026-10-07T05:51:38.536Z",
+      "id": "5c4df0d1-dc8e-4bd0-8f7b-a7c27ed52df6",
+      "timestamp": "2026-10-07T15:09:31.399Z",
       "leadId": "LN-033",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4625,8 +3902,8 @@
       "draftLink": null
     },
     {
-      "id": "0ac97264-9d63-49ab-bd34-b7a9ce92d22c",
-      "timestamp": "2026-10-07T05:51:38.535Z",
+      "id": "af2ab0ca-09f4-44f3-8b2f-91b0f7995c5b",
+      "timestamp": "2026-10-07T15:09:31.399Z",
       "leadId": "LN-032",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4634,8 +3911,8 @@
       "draftLink": null
     },
     {
-      "id": "1f69037a-097b-4488-bb42-89d133d2cbe7",
-      "timestamp": "2026-10-07T05:51:38.534Z",
+      "id": "3b2d523e-f0f7-4020-b1f1-e5a07cb398a6",
+      "timestamp": "2026-10-07T15:09:31.398Z",
       "leadId": "LN-031",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4643,8 +3920,8 @@
       "draftLink": null
     },
     {
-      "id": "33e4bb28-90ce-4365-a3ea-51ef056cd669",
-      "timestamp": "2026-10-07T05:51:38.534Z",
+      "id": "fbe69b81-375c-4c3c-9473-6cf63d1a00b6",
+      "timestamp": "2026-10-07T15:09:31.397Z",
       "leadId": "LN-030",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4652,8 +3929,8 @@
       "draftLink": null
     },
     {
-      "id": "363fdbb3-0efe-4e59-897d-6d76b8348aef",
-      "timestamp": "2026-10-07T05:51:38.533Z",
+      "id": "21101577-c094-4574-9929-5a856bf7276b",
+      "timestamp": "2026-10-07T15:09:31.396Z",
       "leadId": "LN-029",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4661,8 +3938,8 @@
       "draftLink": null
     },
     {
-      "id": "47d665b1-f56b-48a9-8449-f7c9914da5ca",
-      "timestamp": "2026-10-07T05:51:38.532Z",
+      "id": "999925db-cfda-4c88-aa61-142e6d663f84",
+      "timestamp": "2026-10-07T15:09:31.395Z",
       "leadId": "LN-028",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4670,8 +3947,8 @@
       "draftLink": null
     },
     {
-      "id": "02d46a03-bf00-440a-a53f-bdc256b699fe",
-      "timestamp": "2026-10-07T05:51:38.531Z",
+      "id": "5be298c5-7368-4c7e-8f57-e60a398a0667",
+      "timestamp": "2026-10-07T15:09:31.394Z",
       "leadId": "LN-027",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4679,8 +3956,8 @@
       "draftLink": null
     },
     {
-      "id": "00bfb348-5ed1-4549-9bb2-26fa0c7dbff1",
-      "timestamp": "2026-10-07T05:51:38.530Z",
+      "id": "36606c9e-166f-4527-8539-d52f57df36db",
+      "timestamp": "2026-10-07T15:09:31.394Z",
       "leadId": "LN-026",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4688,8 +3965,8 @@
       "draftLink": null
     },
     {
-      "id": "725ba5d6-3bd9-4ae0-a0b1-bd1731695d5b",
-      "timestamp": "2026-10-07T05:51:38.529Z",
+      "id": "2059a74a-1240-476e-b641-e811d22e50cb",
+      "timestamp": "2026-10-07T15:09:31.393Z",
       "leadId": "LN-025",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4697,8 +3974,8 @@
       "draftLink": null
     },
     {
-      "id": "3752f792-b408-48f4-9ba1-129e6da1c98b",
-      "timestamp": "2026-10-07T05:51:38.528Z",
+      "id": "df81f6eb-72de-4cda-931a-39923583ad82",
+      "timestamp": "2026-10-07T15:09:31.392Z",
       "leadId": "LN-024",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4706,8 +3983,8 @@
       "draftLink": null
     },
     {
-      "id": "4d3b6568-ecfe-4c88-b9fe-b0c636192407",
-      "timestamp": "2026-10-07T05:51:38.527Z",
+      "id": "a490bc02-1006-40bd-b475-0c29875d8584",
+      "timestamp": "2026-10-07T15:09:31.391Z",
       "leadId": "LN-023",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4715,8 +3992,8 @@
       "draftLink": null
     },
     {
-      "id": "8b605d6f-5186-47ab-b5cc-44003edcaa2b",
-      "timestamp": "2026-10-07T05:51:38.526Z",
+      "id": "b7f6e4c8-8047-4dd8-bd2c-d45a0590c92e",
+      "timestamp": "2026-10-07T15:09:31.390Z",
       "leadId": "LN-022",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4724,8 +4001,8 @@
       "draftLink": null
     },
     {
-      "id": "c71511fc-84d7-4878-be63-e54bbd2430f7",
-      "timestamp": "2026-10-07T05:51:38.525Z",
+      "id": "991c2bad-d166-40b4-8a89-8d3e94162f97",
+      "timestamp": "2026-10-07T15:09:31.389Z",
       "leadId": "LN-021",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4733,8 +4010,8 @@
       "draftLink": null
     },
     {
-      "id": "94fd6b62-453e-4844-8de6-91da532a0c01",
-      "timestamp": "2026-10-07T05:51:38.524Z",
+      "id": "63a18d0d-773a-4caf-b685-e856664d8b11",
+      "timestamp": "2026-10-07T15:09:31.388Z",
       "leadId": "LN-020",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4742,8 +4019,8 @@
       "draftLink": null
     },
     {
-      "id": "ba1313a7-700c-45ef-aad1-8f16f0c75b15",
-      "timestamp": "2026-10-07T05:51:38.523Z",
+      "id": "0b0a21c7-a628-40dc-875b-4d8ce40f78ad",
+      "timestamp": "2026-10-07T15:09:31.387Z",
       "leadId": "LN-019",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4751,8 +4028,8 @@
       "draftLink": null
     },
     {
-      "id": "1fa54535-6421-4b47-8d65-5f61b972054a",
-      "timestamp": "2026-10-07T05:51:38.522Z",
+      "id": "cc98e433-4bc9-4886-bdcd-71d82461a694",
+      "timestamp": "2026-10-07T15:09:31.386Z",
       "leadId": "LN-018",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4760,8 +4037,8 @@
       "draftLink": null
     },
     {
-      "id": "05d29cd8-e2f2-4c92-89ba-ad8188c4c0fa",
-      "timestamp": "2026-10-07T05:51:38.521Z",
+      "id": "1f0a8478-a02f-4efe-aa9f-f3bb9d004bb5",
+      "timestamp": "2026-10-07T15:09:31.385Z",
       "leadId": "LN-017",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4769,8 +4046,8 @@
       "draftLink": null
     },
     {
-      "id": "ed2b18b4-8142-411f-b225-8a773054a08c",
-      "timestamp": "2026-10-07T05:51:38.519Z",
+      "id": "8f1fc1b6-517c-48f2-bd83-79633a14bc76",
+      "timestamp": "2026-10-07T15:09:31.384Z",
       "leadId": "LN-016",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4778,8 +4055,8 @@
       "draftLink": null
     },
     {
-      "id": "96b86118-e108-410d-a067-e7213defba4f",
-      "timestamp": "2026-10-07T05:51:38.518Z",
+      "id": "f8d45d86-1a46-4a20-84fe-1177a241bf56",
+      "timestamp": "2026-10-07T15:09:31.383Z",
       "leadId": "LN-015",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4787,8 +4064,8 @@
       "draftLink": null
     },
     {
-      "id": "c0462eae-a311-4552-b670-149beb769436",
-      "timestamp": "2026-10-07T05:51:38.517Z",
+      "id": "eb41e80f-1aea-43c6-8ffa-6d0511309b57",
+      "timestamp": "2026-10-07T15:09:31.382Z",
       "leadId": "LN-014",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4796,8 +4073,8 @@
       "draftLink": null
     },
     {
-      "id": "e9047004-92fd-408d-9542-908d1622be16",
-      "timestamp": "2026-10-07T05:51:38.515Z",
+      "id": "5d866948-eca1-49d7-9433-bbfee7f0b324",
+      "timestamp": "2026-10-07T15:09:31.382Z",
       "leadId": "LN-013",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4805,8 +4082,8 @@
       "draftLink": null
     },
     {
-      "id": "434ffd1a-2421-46c2-8c85-bb734907526e",
-      "timestamp": "2026-10-07T05:51:38.514Z",
+      "id": "f32ac95c-702a-4853-a22b-e831a9d69c85",
+      "timestamp": "2026-10-07T15:09:31.381Z",
       "leadId": "LN-012",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4814,8 +4091,8 @@
       "draftLink": null
     },
     {
-      "id": "1c14c1d5-a7f4-462c-aae8-74e1dd3262fb",
-      "timestamp": "2026-10-07T05:51:38.513Z",
+      "id": "524beb72-c135-4533-a5d7-e049c3f0c31a",
+      "timestamp": "2026-10-07T15:09:31.379Z",
       "leadId": "LN-011",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4823,8 +4100,8 @@
       "draftLink": null
     },
     {
-      "id": "61ebe331-7d4c-4e2d-b2f8-6d5790e40b1b",
-      "timestamp": "2026-10-07T05:51:38.512Z",
+      "id": "50140818-ce97-49cf-848a-487e89d824f1",
+      "timestamp": "2026-10-07T15:09:31.379Z",
       "leadId": "LN-010",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4832,8 +4109,8 @@
       "draftLink": null
     },
     {
-      "id": "347e9f03-dcbb-4a39-90e6-23e5c663f525",
-      "timestamp": "2026-10-07T05:51:38.511Z",
+      "id": "db985222-3228-4b7a-9ee2-cc112f346a36",
+      "timestamp": "2026-10-07T15:09:31.378Z",
       "leadId": "LN-009",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4841,8 +4118,8 @@
       "draftLink": null
     },
     {
-      "id": "f78c41fc-4509-4767-bf2f-5c55b3aabbca",
-      "timestamp": "2026-10-07T05:51:38.510Z",
+      "id": "bebd11f8-2981-4fdb-9c17-f25315d25df6",
+      "timestamp": "2026-10-07T15:09:31.377Z",
       "leadId": "LN-008",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4850,8 +4127,8 @@
       "draftLink": null
     },
     {
-      "id": "0aa62452-cd9f-468b-af40-6a83b14dd5db",
-      "timestamp": "2026-10-07T05:51:38.509Z",
+      "id": "950ea391-648a-403a-b1e2-fb762b1a137d",
+      "timestamp": "2026-10-07T15:09:31.376Z",
       "leadId": "LN-007",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4859,8 +4136,8 @@
       "draftLink": null
     },
     {
-      "id": "15757d7d-e1ca-4cfe-94ab-af076b533817",
-      "timestamp": "2026-10-07T05:51:38.508Z",
+      "id": "40eab802-9082-4b8c-95b9-e1a2ed5c8229",
+      "timestamp": "2026-10-07T15:09:31.375Z",
       "leadId": "LN-006",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4868,8 +4145,8 @@
       "draftLink": null
     },
     {
-      "id": "354a0e3a-2f51-4130-bab4-c7fc74a6f103",
-      "timestamp": "2026-10-07T05:51:38.506Z",
+      "id": "225556b0-27ad-4222-8eef-7b772d24e285",
+      "timestamp": "2026-10-07T15:09:31.374Z",
       "leadId": "LN-005",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4877,8 +4154,8 @@
       "draftLink": null
     },
     {
-      "id": "318b2ce2-747f-4334-bc09-e05d0ae2e435",
-      "timestamp": "2026-10-07T05:51:38.505Z",
+      "id": "1d92b814-f463-4c4e-b775-7936c01091a3",
+      "timestamp": "2026-10-07T15:09:31.373Z",
       "leadId": "LN-004",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4886,8 +4163,8 @@
       "draftLink": null
     },
     {
-      "id": "bf9491c9-45e2-4bc8-8fe0-ded3f81b0e9a",
-      "timestamp": "2026-10-07T05:51:38.504Z",
+      "id": "51266db5-14b7-4a00-b9d8-2f193bd76aa8",
+      "timestamp": "2026-10-07T15:09:31.372Z",
       "leadId": "LN-003",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4895,8 +4172,8 @@
       "draftLink": null
     },
     {
-      "id": "9780635e-f2b7-4ead-8052-c8f63bfcbf21",
-      "timestamp": "2026-10-07T05:51:38.503Z",
+      "id": "11627359-22e7-4ba6-9d98-e63ea737b700",
+      "timestamp": "2026-10-07T15:09:31.370Z",
       "leadId": "LN-002",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4904,8 +4181,8 @@
       "draftLink": null
     },
     {
-      "id": "78ab745d-9ec2-4b22-9342-9d875ea36940",
-      "timestamp": "2026-10-07T05:51:38.501Z",
+      "id": "6970a805-a4b5-4316-87c9-f82bb14e8ecd",
+      "timestamp": "2026-10-07T15:09:31.369Z",
       "leadId": "LN-001",
       "action": "ingested",
       "reason": "Mensaje recibido en cola durable.",
@@ -4918,7 +4195,7 @@
       "input": {
         "eventId": "EV-001",
         "leadId": "LN-001",
-        "timestamp": "2026-09-20T10:00:00.000Z",
+        "timestamp": "2026-10-04T15:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
@@ -4931,7 +4208,7 @@
       "input": {
         "eventId": "EV-002",
         "leadId": "LN-002",
-        "timestamp": "2026-09-20T10:01:00.000Z",
+        "timestamp": "2026-10-04T14:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
@@ -4944,7 +4221,7 @@
       "input": {
         "eventId": "EV-003",
         "leadId": "LN-003",
-        "timestamp": "2026-09-20T10:02:00.000Z",
+        "timestamp": "2026-10-04T13:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Hola, necesito información sobre mis deudas.",
@@ -4957,7 +4234,7 @@
       "input": {
         "eventId": "EV-004",
         "leadId": "LN-004",
-        "timestamp": "2026-09-20T10:03:00.000Z",
+        "timestamp": "2026-10-04T12:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
@@ -4970,7 +4247,7 @@
       "input": {
         "eventId": "EV-005",
         "leadId": "LN-005",
-        "timestamp": "2026-09-20T10:04:00.000Z",
+        "timestamp": "2026-10-04T11:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "¿Me garantizan ahorro y un mejor puntaje?",
@@ -4983,7 +4260,7 @@
       "input": {
         "eventId": "EV-006",
         "leadId": "LN-006",
-        "timestamp": "2026-09-20T10:05:00.000Z",
+        "timestamp": "2026-10-04T10:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Publicidad: gana dinero desde casa.",
@@ -4996,7 +4273,7 @@
       "input": {
         "eventId": "EV-007",
         "leadId": "LN-007",
-        "timestamp": "2026-09-20T10:06:00.000Z",
+        "timestamp": "2026-10-04T09:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
@@ -5009,7 +4286,7 @@
       "input": {
         "eventId": "EV-008",
         "leadId": "LN-008",
-        "timestamp": "2026-09-20T10:07:00.000Z",
+        "timestamp": "2026-10-04T08:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
@@ -5022,7 +4299,7 @@
       "input": {
         "eventId": "EV-009",
         "leadId": "LN-009",
-        "timestamp": "2026-09-20T10:08:00.000Z",
+        "timestamp": "2026-10-04T07:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No me contacten, quiero la baja.",
@@ -5035,7 +4312,7 @@
       "input": {
         "eventId": "EV-010",
         "leadId": "LN-010",
-        "timestamp": "2026-09-20T10:09:00.000Z",
+        "timestamp": "2026-10-04T06:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
@@ -5048,7 +4325,7 @@
       "input": {
         "eventId": "EV-011",
         "leadId": "LN-011",
-        "timestamp": "2026-09-20T10:10:00.000Z",
+        "timestamp": "2026-10-04T05:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 42000 USD de hipoteca.",
@@ -5061,7 +4338,7 @@
       "input": {
         "eventId": "EV-012",
         "leadId": "LN-012",
-        "timestamp": "2026-09-20T10:11:00.000Z",
+        "timestamp": "2026-10-04T04:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No entiendo qué sigue después de pedir información.",
@@ -5074,7 +4351,7 @@
       "input": {
         "eventId": "EV-013",
         "leadId": "LN-013",
-        "timestamp": "2026-09-20T10:12:00.000Z",
+        "timestamp": "2026-10-07T14:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
@@ -5087,7 +4364,7 @@
       "input": {
         "eventId": "EV-014",
         "leadId": "LN-014",
-        "timestamp": "2026-09-20T10:13:00.000Z",
+        "timestamp": "2026-10-07T13:39:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
@@ -5100,7 +4377,7 @@
       "input": {
         "eventId": "EV-015",
         "leadId": "LN-015",
-        "timestamp": "2026-09-20T10:14:00.000Z",
+        "timestamp": "2026-10-07T13:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Hola, necesito información sobre mis deudas.",
@@ -5113,7 +4390,7 @@
       "input": {
         "eventId": "EV-016",
         "leadId": "LN-016",
-        "timestamp": "2026-09-20T10:15:00.000Z",
+        "timestamp": "2026-10-07T12:39:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
@@ -5126,7 +4403,7 @@
       "input": {
         "eventId": "EV-017",
         "leadId": "LN-017",
-        "timestamp": "2026-09-20T10:16:00.000Z",
+        "timestamp": "2026-10-07T12:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "¿Me garantizan ahorro y un mejor puntaje?",
@@ -5139,7 +4416,7 @@
       "input": {
         "eventId": "EV-018",
         "leadId": "LN-018",
-        "timestamp": "2026-09-20T10:17:00.000Z",
+        "timestamp": "2026-10-07T11:39:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Publicidad: gana dinero desde casa.",
@@ -5152,7 +4429,7 @@
       "input": {
         "eventId": "EV-019",
         "leadId": "LN-019",
-        "timestamp": "2026-09-20T10:18:00.000Z",
+        "timestamp": "2026-10-07T11:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
@@ -5165,7 +4442,7 @@
       "input": {
         "eventId": "EV-020",
         "leadId": "LN-020",
-        "timestamp": "2026-09-20T10:19:00.000Z",
+        "timestamp": "2026-10-07T10:39:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
@@ -5178,7 +4455,7 @@
       "input": {
         "eventId": "EV-021",
         "leadId": "LN-021",
-        "timestamp": "2026-09-20T10:20:00.000Z",
+        "timestamp": "2026-10-07T10:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No me contacten, quiero la baja.",
@@ -5191,7 +4468,7 @@
       "input": {
         "eventId": "EV-022",
         "leadId": "LN-022",
-        "timestamp": "2026-09-20T10:21:00.000Z",
+        "timestamp": "2026-10-07T09:39:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
@@ -5204,7 +4481,7 @@
       "input": {
         "eventId": "EV-023",
         "leadId": "LN-023",
-        "timestamp": "2026-09-20T10:22:00.000Z",
+        "timestamp": "2026-10-07T09:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 42000 USD de hipoteca.",
@@ -5217,7 +4494,7 @@
       "input": {
         "eventId": "EV-024",
         "leadId": "LN-024",
-        "timestamp": "2026-09-20T10:23:00.000Z",
+        "timestamp": "2026-10-07T08:39:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No entiendo qué sigue después de pedir información.",
@@ -5230,7 +4507,7 @@
       "input": {
         "eventId": "EV-025",
         "leadId": "LN-025",
-        "timestamp": "2026-09-20T10:24:00.000Z",
+        "timestamp": "2026-10-07T08:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
@@ -5243,7 +4520,7 @@
       "input": {
         "eventId": "EV-026",
         "leadId": "LN-026",
-        "timestamp": "2026-09-20T10:25:00.000Z",
+        "timestamp": "2026-10-07T07:39:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
@@ -5256,7 +4533,7 @@
       "input": {
         "eventId": "EV-027",
         "leadId": "LN-027",
-        "timestamp": "2026-09-20T10:26:00.000Z",
+        "timestamp": "2026-10-07T07:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Hola, necesito información sobre mis deudas.",
@@ -5269,7 +4546,7 @@
       "input": {
         "eventId": "EV-028",
         "leadId": "LN-028",
-        "timestamp": "2026-09-20T10:27:00.000Z",
+        "timestamp": "2026-10-07T06:39:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
@@ -5282,7 +4559,7 @@
       "input": {
         "eventId": "EV-029",
         "leadId": "LN-029",
-        "timestamp": "2026-09-20T10:28:00.000Z",
+        "timestamp": "2026-10-07T06:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "¿Me garantizan ahorro y un mejor puntaje?",
@@ -5295,7 +4572,7 @@
       "input": {
         "eventId": "EV-030",
         "leadId": "LN-030",
-        "timestamp": "2026-09-20T10:29:00.000Z",
+        "timestamp": "2026-10-07T05:39:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Publicidad: gana dinero desde casa.",
@@ -5308,7 +4585,7 @@
       "input": {
         "eventId": "EV-031",
         "leadId": "LN-031",
-        "timestamp": "2026-09-20T10:30:00.000Z",
+        "timestamp": "2026-10-07T05:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
@@ -5321,7 +4598,7 @@
       "input": {
         "eventId": "EV-032",
         "leadId": "LN-032",
-        "timestamp": "2026-09-20T10:31:00.000Z",
+        "timestamp": "2026-10-07T04:39:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
@@ -5334,7 +4611,7 @@
       "input": {
         "eventId": "EV-033",
         "leadId": "LN-033",
-        "timestamp": "2026-09-20T10:32:00.000Z",
+        "timestamp": "2026-10-07T04:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No me contacten, quiero la baja.",
@@ -5347,7 +4624,7 @@
       "input": {
         "eventId": "EV-034",
         "leadId": "LN-034",
-        "timestamp": "2026-09-20T10:33:00.000Z",
+        "timestamp": "2026-10-07T03:39:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
@@ -5360,7 +4637,7 @@
       "input": {
         "eventId": "EV-035",
         "leadId": "LN-035",
-        "timestamp": "2026-09-20T10:34:00.000Z",
+        "timestamp": "2026-10-07T03:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 42000 USD de hipoteca.",
@@ -5373,7 +4650,7 @@
       "input": {
         "eventId": "EV-036",
         "leadId": "LN-036",
-        "timestamp": "2026-09-20T10:35:00.000Z",
+        "timestamp": "2026-10-07T02:39:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No entiendo qué sigue después de pedir información.",
@@ -5386,7 +4663,7 @@
       "input": {
         "eventId": "EV-037",
         "leadId": "LN-037",
-        "timestamp": "2026-09-20T10:36:00.000Z",
+        "timestamp": "2026-10-07T02:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
@@ -5399,7 +4676,7 @@
       "input": {
         "eventId": "EV-038",
         "leadId": "LN-038",
-        "timestamp": "2026-09-20T10:37:00.000Z",
+        "timestamp": "2026-10-07T01:39:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
@@ -5412,7 +4689,7 @@
       "input": {
         "eventId": "EV-039",
         "leadId": "LN-039",
-        "timestamp": "2026-09-20T10:38:00.000Z",
+        "timestamp": "2026-10-07T01:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Hola, necesito información sobre mis deudas.",
@@ -5425,7 +4702,7 @@
       "input": {
         "eventId": "EV-040",
         "leadId": "LN-040",
-        "timestamp": "2026-09-20T10:39:00.000Z",
+        "timestamp": "2026-10-07T00:39:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
@@ -5438,7 +4715,7 @@
       "input": {
         "eventId": "EV-041",
         "leadId": "LN-041",
-        "timestamp": "2026-09-20T10:40:00.000Z",
+        "timestamp": "2026-10-07T00:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "¿Me garantizan ahorro y un mejor puntaje?",
@@ -5451,7 +4728,7 @@
       "input": {
         "eventId": "EV-042",
         "leadId": "LN-042",
-        "timestamp": "2026-09-20T10:41:00.000Z",
+        "timestamp": "2026-10-06T23:39:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "Publicidad: gana dinero desde casa.",
@@ -5464,7 +4741,7 @@
       "input": {
         "eventId": "EV-043",
         "leadId": "LN-043",
-        "timestamp": "2026-09-20T10:42:00.000Z",
+        "timestamp": "2026-10-06T23:09:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
@@ -5477,7 +4754,7 @@
       "input": {
         "eventId": "EV-044",
         "leadId": "LN-044",
-        "timestamp": "2026-09-20T10:43:00.000Z",
+        "timestamp": "2026-10-06T22:39:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
@@ -5490,7 +4767,7 @@
       "input": {
         "eventId": "EV-045",
         "leadId": "LN-045",
-        "timestamp": "2026-09-20T10:44:00.000Z",
+        "timestamp": "2026-10-06T22:09:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No me contacten, quiero la baja.",
@@ -5503,7 +4780,7 @@
       "input": {
         "eventId": "EV-046",
         "leadId": "LN-046",
-        "timestamp": "2026-09-20T10:45:00.000Z",
+        "timestamp": "2026-10-06T21:39:31.359Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
@@ -5516,7 +4793,7 @@
       "input": {
         "eventId": "EV-047",
         "leadId": "LN-047",
-        "timestamp": "2026-09-20T10:46:00.000Z",
+        "timestamp": "2026-10-06T21:09:31.359Z",
         "creator": "CR-LUIS",
         "channel": "orgánico",
         "message": "Debo 42000 USD de hipoteca.",
@@ -5529,7 +4806,7 @@
       "input": {
         "eventId": "EV-048",
         "leadId": "LN-048",
-        "timestamp": "2026-09-20T10:47:00.000Z",
+        "timestamp": "2026-10-06T20:39:31.359Z",
         "creator": "CR-MARIA",
         "channel": "orgánico",
         "message": "No entiendo qué sigue después de pedir información.",
@@ -5540,9 +4817,9 @@
     },
     {
       "input": {
-        "eventId": "WEB-5351085a",
-        "leadId": "DEMO-5351085a",
-        "timestamp": "2026-10-07T05:52:06.459Z",
+        "eventId": "WEB-6e8548b5",
+        "leadId": "DEMO-6e8548b5",
+        "timestamp": "2026-10-07T15:10:21.703Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "I owe 18000 USD on a credit card and want to talk to a counselor.",
@@ -5553,9 +4830,9 @@
     },
     {
       "input": {
-        "eventId": "VIDEO-REVOKE-61b4a409-4c4e-47e4-874c-bf8e81d72a20",
-        "leadId": "DEMO-5351085a",
-        "timestamp": "2026-10-07T05:52:13.958Z",
+        "eventId": "VIDEO-REVOKE-a54eeede-2769-4f28-8c97-687e67917384",
+        "leadId": "DEMO-6e8548b5",
+        "timestamp": "2026-10-07T15:10:32.568Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "I don't want a counselor to call me",
@@ -5566,9 +4843,9 @@
     },
     {
       "input": {
-        "eventId": "WEB-7dc3b4ad",
-        "leadId": "DEMO-7dc3b4ad",
-        "timestamp": "2026-10-07T05:52:23.192Z",
+        "eventId": "WEB-d47451ff",
+        "leadId": "DEMO-d47451ff",
+        "timestamp": "2026-10-07T15:10:40.781Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "I owe 18000 CHF on a credit card",
@@ -5579,9 +4856,9 @@
     },
     {
       "input": {
-        "eventId": "WEB-251ead78",
-        "leadId": "DEMO-251ead78",
-        "timestamp": "2026-10-07T05:52:31.758Z",
+        "eventId": "WEB-b81d7f99",
+        "leadId": "DEMO-b81d7f99",
+        "timestamp": "2026-10-07T15:10:50.331Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
@@ -5592,9 +4869,9 @@
     },
     {
       "input": {
-        "eventId": "WEB-e9feb7e5",
-        "leadId": "DEMO-e9feb7e5",
-        "timestamp": "2026-10-07T05:52:50.934Z",
+        "eventId": "WEB-549f117c",
+        "leadId": "DEMO-549f117c",
+        "timestamp": "2026-10-07T15:11:09.785Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y tengo una demanda urgente.",
@@ -5605,9 +4882,9 @@
     },
     {
       "input": {
-        "eventId": "WEB-036f4823",
-        "leadId": "DEMO-036f4823",
-        "timestamp": "2026-10-07T05:53:08.913Z",
+        "eventId": "WEB-4ab4bd84",
+        "leadId": "DEMO-4ab4bd84",
+        "timestamp": "2026-10-07T15:11:27.069Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 18000 USD en tarjeta y deseo hablar con un Consejero.",
@@ -5618,9 +4895,9 @@
     },
     {
       "input": {
-        "eventId": "WEB-a9bc7961",
-        "leadId": "DEMO-a9bc7961",
-        "timestamp": "2026-10-07T05:53:37.901Z",
+        "eventId": "WEB-d81bdf73",
+        "leadId": "DEMO-d81bdf73",
+        "timestamp": "2026-10-07T15:11:55.534Z",
         "creator": "CR-ANA",
         "channel": "CTWA",
         "message": "Debo 16000 USD en tarjeta y quiero Consejero.",
@@ -5631,7 +4908,7 @@
     }
   ],
   "worker": {
-    "timestamp": "2026-10-07T05:55:02.797Z",
+    "timestamp": "2026-10-07T15:13:00.111Z",
     "error": null
   },
   "partner": {

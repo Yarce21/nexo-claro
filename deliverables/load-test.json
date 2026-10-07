@@ -1,8 +1,8 @@
 {
   "events": 200,
-  "ingestionMs": 381,
-  "classificationMs": 665,
-  "totalMs": 1047,
+  "ingestionMs": 186,
+  "classificationMs": 368,
+  "totalMs": 554,
   "drafts": 200,
   "jobs": 0,
   "note": "Ráfaga local sobre SQLite en disco; no es benchmark HTTP ni prueba de infraestructura productiva."
