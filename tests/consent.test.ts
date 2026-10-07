@@ -60,3 +60,24 @@ test('lead histórico español mantiene precalificación y consentimiento explí
  const r=classify('Debo 18000 USD en tarjeta y quiero Consejero',rules);
  assert.equal(r.decision,'responder');assert.deepEqual(r.qualification,{amount:18000,debtType:'tarjeta',wantsCounselor:true,eligible:true});
 });
+
+test('negación ajena al contacto conserva previous y no usa declined en ES/EN', () => {
+ const messages=['No quiero seguir pagando 18000 por mi tarjeta, necesito ayuda','No necesito más información, debo 9000 en tarjeta',"I don't have a mortgage, I owe 8000 on a credit card"];
+ for(const message of messages)for(const value of [true,null] as const){
+  const r=classify(message,rules,{amount:18000,debtType:'tarjeta',wantsCounselor:value,eligible:true});
+  assert.equal(r.qualification.wantsCounselor,value,message);
+  assert.ok(!r.text.includes('No solicitaremos contacto')&&!r.text.includes('We will not request contact'),message);
+ }
+ for(const message of ['No quiero seguir pagando, necesito Consejero',"I don't want more information; I want a counselor",'Quiero un Consejero, no quiero que me llamen de noche']){
+  const r=classify(message,rules,{amount:18000,debtType:'tarjeta',wantsCounselor:true,eligible:true});
+  if(message.includes('de noche')){assert.equal(r.decision,'escalar_humano');assert.equal(r.qualification.wantsCounselor,false);}
+  else assert.equal(r.qualification.wantsCounselor,true,message);
+ }
+});
+test('negación de pago conserva transferencia; negación de llamada sí la bloquea', async () => {
+ for(const [message,allowed] of [['No quiero seguir pagando 18000',true],['No quiero que un Consejero me llame',false],["I don't want to keep paying 18000 on a credit card",true],["I don't want a counselor to call me",false]] as const){
+  const db=new Store(':memory:');event(db,message.startsWith('I ')?'I owe 18000 USD on a credit card and want a counselor':'Debo 18000 USD en tarjeta y quiero Consejero',1);event(db,message,2);
+  if(allowed){const draft=transfer(db);assert.equal(db.all<Job>('jobs').length,0);reviewDraft(db,draft.draftId,true,rules);await deliverJobs(db,async()=>{});assert.equal(db.get<Lead>('leads','CONSENT')?.stage,'Transferido');}
+  else assert.throws(()=>transfer(db),/consentimiento/i);db.close();
+ }
+});

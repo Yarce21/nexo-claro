@@ -17,11 +17,14 @@ export const SAFETY_FLOOR = {
   handoff: ['demanda', 'demandar', 'embargo', 'suicidio', 'garantizado', 'garantía', 'garantizamos', 'tasa', 'tasa de interés', 'puntaje', 'tarifa', 'comisión', 'comisiones', 'cuota administrativa', 'abogado', 'fraude', 'estafa', 'lawsuit', 'sue', 'attorney', 'lawyer', 'foreclosure', 'guarantee', 'guaranteed', 'rate', 'interest rate', 'fee', 'score', 'credit score', 'fraud', 'scam', 'urgent', 'suicide']
 } as const;
 function consent(text: string, previous?: boolean | null) {
-  const negative = /\b(?:no\s+(?:quiero|deseo|necesito)\b|ya no quiero\b|no me llam(?:en|e)\b|cancela\b[^.!?;]*consejero\b|sin consejero\b|(?:i\s+)?(?:don't|do not|dont)\s+(?:want|have|need)\b|i no longer want\b|no counselor\b|i changed my mind\b)/g;
-  const declined = negative.test(text);
-  negative.lastIndex = 0;
-  // Remove negative clauses before looking for a separate affirmation; “don't want” contains “want”.
-  const remaining = text.replace(negative, '');
+  const clauses = text.split(/[.!?;,]|\s+(?:pero|but)\s+/);
+  const negative = /\b(?:no\s+(?:quiero|deseo|necesito)|(?:i\s+)?(?:don't|do not|dont)\s+(?:want|have|need)|cancela|sin|no)\b/;
+  const contact = /\b(?:consejeros?|counselors?|llam\w*|call\w*|contact\w*|hablar|talk|speak)\b/;
+  // Standalone withdrawal is explicit; unrelated payment negatives must preserve prior consent.
+  const withdrawals = clauses.map(clause => /^(?:ya no quiero|i changed my mind)\s*$/.test(clause.trim()) ||
+    (negative.test(clause) && contact.test(clause)) || /\bi no longer want\b.*\bcounselors?\b/.test(clause));
+  const declined = withdrawals.some(Boolean);
+  const remaining = clauses.filter((_, index) => !withdrawals[index]).join(' ');
   const affirmative = /\b(?:quiero|deseo) (?:hablar con )?(?:un )?consejero\b|\b(?:i\s+)?want (?:to (?:talk|speak) (?:to|with) )?(?:a )?counselor\b/.test(remaining) || (declined && /\b(?:si|yes)\b/.test(remaining));
   const uncertain = /\b(?:quizas|quiza|tal vez|no se|maybe|perhaps|not sure|don't know|do not know|sarcasmo|sarcasm)\b/.test(text);
   return { value: declined ? false : uncertain ? null : affirmative ? true : previous ?? null, ambiguous: uncertain || (declined && affirmative) };
@@ -65,7 +68,7 @@ export function classify(message: string, rules: Rules, previous?: Qualification
   if (contains(text, [...rules.ignoreWords, ...rules.ignoreWordsEn])) return result('ignorar', 'Mensaje no relacionado o publicidad según reglas.', '');
   if (/\d[.,]\d|\d+\s*[-–]\s*\d+|\b(?:entre|o|between|or)\s+\d+|(?:debo|deuda de|i owe|owe)\s*-\d/.test(text) || (text.match(/\d+/g)?.length || 0) > 1) return result('escalar_humano', 'Monto, moneda o rango ambiguo; no se infiere una cifra.', copy.amountReview);
   if ((amount !== null && !qualification.eligible && debtType !== null) || debtType === 'hipoteca') return result('escalar_humano', 'Fuera de los criterios ficticios de monto o tipo; requiere revisión.', copy.eligibility);
-  if (!/deuda|debo|tarjeta|prestamo|consejero|informacion|hola|ayuda|debt|owe|credit card|personal loan|counselor|information|hello|help/.test(text) && !amountMatch && wantsCounselor !== false) return result('escalar_humano', 'Intención ambigua; el sistema no inventa una respuesta.', copy.clarify);
+  if (!/deuda|debo|tarjeta|prestamo|consejero|informacion|hola|ayuda|pagando|debt|owe|credit card|personal loan|counselor|information|hello|help|paying/.test(text) && !amountMatch && wantsCounselor !== false) return result('escalar_humano', 'Intención ambigua; el sistema no inventa una respuesta.', copy.clarify);
   const questions = [amount === null ? copy.amount : '', debtType === null ? copy.debt : '', wantsCounselor === null ? copy.consent : ''].filter(Boolean);
   const response = wantsCounselor === false ? copy.declined : questions.length ? `${copy.greeting} ${questions.join(' ')} ${copy.privacy}` : copy.complete;
   return result('responder', questions.length ? 'Faltan datos de precalificación; solicitar solo lo necesario.' : 'Datos revisados con criterios ficticios; pendiente de revisión humana.', response);
