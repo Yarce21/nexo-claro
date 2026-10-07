@@ -1,6 +1,6 @@
 # Decisiones de ingeniería — una página
 
-**Objetivo.** Demostrar una operación que ingesta, clasifica, deja trabajo humano y conserva evidencia sin depender de una pestaña abierta ni de cuentas de Influgain. Alivio Norte y Consejería Clara son ficticias.
+**Objetivo.** Demostrar una operación que ingesta, clasifica, deja trabajo humano y conserva evidencia sin depender de una pestaña abierta ni de cuentas de Influgain. Nexo Claro y Consejería Clara son ficticias.
 
 **Next.js, React y TypeScript.** Stack solicitado. Una sola aplicación reúne UI y API; módulos de dominio independientes permiten probar reglas y transacciones sin navegador. CSS propio evita sumar una biblioteca de componentes para siete vistas sencillas.
 
@@ -15,3 +15,11 @@
 **Qué no se construyó.** Integraciones reales; envío a números reales; inscripción automática; login ficticio que simule seguridad; despliegue público; atribución multi-touch; edición de identidad sin revisión; llamadas programadas reales; un sistema financiero o de comisiones monetarias. Call Back registra fecha y borrador. El actor local es operador-demo; la auditoría no es un sistema antifraude inmutable.
 
 **Tradeoffs.** Documentos JSON en SQLite mantienen poco código, pero algunas lecturas recorren colecciones completas: adecuado para esta demo, no para millones de filas. La consola local no debe exponerse mediante un túnel. Las reglas por archivo son adecuadas para un operador; varios operadores necesitan versiones transaccionales y control de concurrencia. Son límites explícitos, no características prometidas.
+
+**Temas e idiomas.** Los temas día/oscuro derivan de la identidad azul de Nexo Claro. Todos los colores de interfaz se centralizan en variables CSS; el layout aplica la preferencia antes del primer pintado. Los controles usan botones nativos, foco visible y persistencia tolerante a fallos de localStorage. Se verifican tablas, badges, formularios, errores y controles deshabilitados con contraste ≥4.5:1 en escritorio y 390 px.
+
+Se eligieron diccionarios explícitos y una heurística determinista frente a traducción automática o un detector externo: no necesitan credenciales, paquetes ni decisiones opacas. `lib/i18n.ts` traduce la presentación, no etapas/disposiciones persistidas, mensajes de leads, CSV, guiones ni evidencia histórica. El idioma de la consola no determina el idioma de una respuesta al lead. `lang` es opcional; los registros históricos sin campo siguen usando ES y los eventos originales no se reescriben al detectar idioma.
+
+La detección cuenta palabras indicativas por idioma y excluye términos compartidos, cifras y moneda. Evidencia de ambos idiomas, ninguna evidencia o contradicción con `lang` explícito obliga a revisión humana; no se infiere un idioma de números o de la preferencia visual del operador. El campo puede quedar ausente en casos nuevos sin idioma confirmado. Las bajas preceden cualquier análisis lingüístico y bloquean contacto. Las palabras inglesas son editables en JSON; `SAFETY_FLOOR` documenta los mínimos ES/EN no removibles. El idioma no reemplaza la revisión de elegibilidad, consentimiento ni seguridad.
+
+Todas las plantillas salientes están centralizadas en `lib/conversation.ts`, incluidas las disposiciones CRM y preguntas. Se conservó el texto español y se añadió su equivalente inglés con **Counselor** y lenguaje condicional. Se auditan ambas colecciones con una prueba exhaustiva de compliance. No se construyeron traducciones de datos históricos ni de guiones, localización automática de copy desconocido, un modelo multilingüe o un flujo nuevo de envío. Los límites son jerga, errores ortográficos, negaciones complejas, idiomas distintos de ES/EN y mensajes cortos: se debe confirmar con un humano cuando la heurística no aporta evidencia suficiente.

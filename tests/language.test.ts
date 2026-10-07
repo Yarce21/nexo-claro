@@ -39,7 +39,7 @@ test('un lead español histórico conserva decisión, calificación y texto orig
   assert.equal(result.decision, 'responder');
   assert.deepEqual(result.qualification, { amount: 18000, debtType: 'tarjeta', wantsCounselor: true, eligible: true });
   assert.equal(result.text, 'Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.');
-  assert.equal(crmTemplate('es', 'No Answer'), 'Hola, somos Alivio Norte. No logramos conversar. Si quieres retomar, dinos un horario conveniente.');
+  assert.equal(crmTemplate('es', 'No Answer'), 'Hola, somos Nexo Claro. No logramos conversar. Si quieres retomar, dinos un horario conveniente.');
   assert.equal(classify('Debo 9000 USD en préstamo personal', rules).decision, 'responder', 'Personal es una palabra compartida, no evidencia inglesa');
 });
 test('idioma ambiguo, mixto o contradictorio con lang requiere confirmación humana', () => {

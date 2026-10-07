@@ -1,6 +1,22 @@
-# Alivio Norte · Centro de operaciones
+# Nexo Claro · Centro de operaciones
+
+## Temas e idiomas
+
+La cabecera permite alternar **Día / Oscuro** y **ES / EN**, sin dependencias adicionales. El tema inicial sigue `prefers-color-scheme`; la elección guardada en `nexo-theme` tiene prioridad. Un script mínimo en el layout aplica `data-theme` a `<html>` antes de pintar. El idioma de interfaz es español por defecto, persiste en `nexo-language` y actualiza `html.lang`, título y descripción. Si el almacenamiento está bloqueado, los controles funcionan durante la sesión.
+
+`lib/i18n.ts` contiene el mapa de presentación de etiquetas, botones, ayudas, estados y errores conocidos. No cambia los valores internos de etapas/disposiciones, las claves del JSON ni los datos de leads, CSV, guiones y fuentes históricas. Borradores, mensajes originales y evidencia histórica conservan su idioma y contenido; los diagnósticos técnicos desconocidos permanecen visibles.
+
+El idioma de conversación es independiente del de la consola: `/api/messages` acepta opcionalmente `lang: "es" | "en"`. `lib/conversation.ts` detecta señales de palabras ES/EN y centraliza todas las plantillas salientes; el clasificador entiende deudas y consentimiento en ambos idiomas. Los leads históricos sin `lang` usan español. La detección no modifica el evento recibido; omitir `lang` y declarar `es` son equivalentes para la comparación de eventos heredados, mientras un cambio a `en` explícito sigue siendo conflicto.
+
+Se escalan idiomas mixtos, sin evidencia suficiente o contradictorios con el idioma declarado, además de montos/monedas ambiguos, hipotecas, riesgos y solicitudes fuera de los umbrales. No se usa IA en ejecución ni traducción automática. Palabras compartidas como “personal”, cifras y códigos de moneda no cuentan como evidencia. Mensajes muy cortos, jerga o idiomas distintos pueden requerir un humano. La baja siempre prevalece y bloquea contacto, incluso si el idioma es mixto. Las listas inglesas editables están en `config/rules.json`; `SAFETY_FLOOR` mantiene protección mínima ES/EN no removible.
+
+Todo envío mantiene aprobación humana. La plantilla inglesa usa **Counselor**, ahorro condicional y ningún importe, tasa o puntaje inventado. Ampliar las reglas cambia su versión: los borradores anteriores deben reevaluarse conforme al control de vigencia existente.
+
+Verificación: `npm run typecheck`, `npm test`, `npm run test:browser` (demo levantada). El smoke test comprueba siete vistas, ambos temas y tamaños 1440/390, contraste de texto ≥4.5:1, controles deshabilitados, avisos de error, teclado y persistencia. No genera capturas ni video; las escrituras de su prueba de estados se interceptan en el navegador.
 
 Prueba técnica Influgain. **Agencia, partner, personas, teléfonos, criterios y contenido completamente ficticios.** Next.js + React + TypeScript; no requiere GoHighLevel, Meta, WhatsApp, Supabase ni claves de IA.
+
+La interfaz usa la identidad Nexo Claro y el [sistema de diseño documentado](docs/design-system.md). La actualización visual conserva el motor, las APIs, las reglas y los datos originales de la prueba; los textos operativos y las plantillas usan la misma marca.
 
 ## Arranque en menos de 15 minutos
 

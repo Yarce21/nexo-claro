@@ -21,7 +21,7 @@ export const conversationTemplates = {
     amount: '¿Cuál es el monto aproximado de tu deuda en USD, sin separadores?',
     debt: '¿Es deuda de tarjeta o préstamo personal?',
     consent: '¿Quieres hablar con un Consejero de Consejería Clara?',
-    greeting: 'Gracias por escribir a Alivio Norte.',
+    greeting: 'Gracias por escribir a Nexo Claro.',
     privacy: 'No compartas datos bancarios ni documentos.',
     declined: 'Gracias por aclararlo. No solicitaremos contacto con un Consejero. Un agente puede revisar tus preguntas.',
     complete: 'Gracias. Un agente revisará tus datos y tu solicitud de hablar con un Consejero de Consejería Clara. En muchos casos podría haber opciones para organizar los pagos; dependen de una evaluación y no se garantiza ahorro ni aceptación.',
@@ -32,8 +32,8 @@ export const conversationTemplates = {
     history: 'Revisar el historial y aclarar el caso antes de continuar.',
     language: 'Un agente bilingüe debe confirmar el idioma antes de continuar.',
     crm: {
-      'No Answer': 'Hola, somos Alivio Norte. No logramos conversar. Si quieres retomar, dinos un horario conveniente.',
-      'Info Sent': 'Compartimos información general de Alivio Norte. Un Consejero de Consejería Clara podría evaluar opciones según tu situación. No se garantiza ahorro ni aceptación.',
+      'No Answer': 'Hola, somos Nexo Claro. No logramos conversar. Si quieres retomar, dinos un horario conveniente.',
+      'Info Sent': 'Compartimos información general de Nexo Claro. Un Consejero de Consejería Clara podría evaluar opciones según tu situación. No se garantiza ahorro ni aceptación.',
       Transferido: 'Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio.',
       'Call Back': 'Registramos tu preferencia para retomar el contacto el {date}. Un agente revisará la solicitud.',
       'No le interesa': 'Registramos que no deseas continuar. No enviaremos más mensajes.'
@@ -43,7 +43,7 @@ export const conversationTemplates = {
     amount: 'What is your approximate debt amount in USD, without separators?',
     debt: 'Is it credit card debt or a personal loan?',
     consent: 'Would you like to speak with a Counselor at Consejería Clara?',
-    greeting: 'Thank you for contacting Alivio Norte.',
+    greeting: 'Thank you for contacting Nexo Claro.',
     privacy: 'Do not share banking information or documents.',
     declined: 'Thank you for clarifying. We will not request contact with a Counselor. A human agent can review your questions.',
     complete: 'Thank you. A human agent will review your information and your request to speak with a Counselor at Consejería Clara. In many cases there could be options to organize payments; they depend on an evaluation. Savings and acceptance are not promised.',
@@ -54,8 +54,8 @@ export const conversationTemplates = {
     history: 'Review the history and clarify the case before continuing.',
     language: 'A bilingual human agent must confirm the language before continuing.',
     crm: {
-      'No Answer': 'Hello, we are Alivio Norte. We could not connect. If you would like to resume, tell us a convenient time.',
-      'Info Sent': 'We are sharing general information from Alivio Norte. A Counselor at Consejería Clara could evaluate options based on your situation. Savings and acceptance are not promised.',
+      'No Answer': 'Hello, we are Nexo Claro. We could not connect. If you would like to resume, tell us a convenient time.',
+      'Info Sent': 'We are sharing general information from Nexo Claro. A Counselor at Consejería Clara could evaluate options based on your situation. Savings and acceptance are not promised.',
       Transferido: 'We recorded your request to speak with a Counselor at Consejería Clara. The transfer awaits human approval and confirmation from the fictional partner.',
       'Call Back': 'We recorded your preference to resume contact on {date}. A human agent will review the request.',
       'No le interesa': 'We recorded that you do not wish to continue. We will not send further messages.'
