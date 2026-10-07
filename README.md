@@ -1,19 +1,5 @@
 # Nexo Claro · Centro de operaciones
 
-## Temas e idiomas
-
-La cabecera permite alternar **Día / Oscuro** y **ES / EN**, sin dependencias adicionales. El tema inicial sigue `prefers-color-scheme`; la elección guardada en `nexo-theme` tiene prioridad. Un script mínimo en el layout aplica `data-theme` a `<html>` antes de pintar. El idioma de interfaz es español por defecto, persiste en `nexo-language` y actualiza `html.lang`, título y descripción. Si el almacenamiento está bloqueado, los controles funcionan durante la sesión.
-
-`lib/i18n.ts` contiene el mapa de presentación de etiquetas, botones, ayudas, estados y errores conocidos. No cambia los valores internos de etapas/disposiciones, las claves del JSON ni los datos de leads, CSV, guiones y fuentes históricas. Borradores, mensajes originales y evidencia histórica conservan su idioma y contenido; los diagnósticos técnicos desconocidos permanecen visibles.
-
-El idioma de conversación es independiente del de la consola: `/api/messages` acepta opcionalmente `lang: "es" | "en"`. `lib/conversation.ts` detecta señales de palabras ES/EN y centraliza todas las plantillas salientes; el clasificador entiende deudas y consentimiento en ambos idiomas. Los leads históricos sin `lang` usan español. La detección no modifica el evento recibido; omitir `lang` y declarar `es` son equivalentes para la comparación de eventos heredados, mientras un cambio a `en` explícito sigue siendo conflicto.
-
-Se escalan idiomas mixtos, sin evidencia suficiente o contradictorios con el idioma declarado, además de montos/monedas ambiguos, hipotecas, riesgos y solicitudes fuera de los umbrales. No se usa IA en ejecución ni traducción automática. Palabras compartidas como “personal”, cifras y códigos de moneda no cuentan como evidencia. Mensajes muy cortos, jerga o idiomas distintos pueden requerir un humano. La baja siempre prevalece y bloquea contacto, incluso si el idioma es mixto. Las listas inglesas editables están en `config/rules.json`; `SAFETY_FLOOR` mantiene protección mínima ES/EN no removible.
-
-Todo envío mantiene aprobación humana. La plantilla inglesa usa **Counselor**, ahorro condicional y ningún importe, tasa o puntaje inventado. Ampliar las reglas cambia su versión: los borradores anteriores deben reevaluarse conforme al control de vigencia existente.
-
-Verificación: `npm run typecheck`, `npm test`, `npm run test:browser` (demo levantada). El smoke test comprueba siete vistas, ambos temas y tamaños 1440/390, contraste de texto ≥4.5:1, controles deshabilitados, avisos de error, teclado y persistencia. No genera capturas ni video; las escrituras de su prueba de estados se interceptan en el navegador.
-
 Prueba técnica Influgain. **Agencia, partner, personas, teléfonos, criterios y contenido completamente ficticios.** Next.js + React + TypeScript; no requiere GoHighLevel, Meta, WhatsApp, Supabase ni claves de IA.
 
 La interfaz usa la identidad Nexo Claro y el [sistema de diseño documentado](docs/design-system.md). La actualización visual conserva el motor, las APIs, las reglas y los datos originales de la prueba; los textos operativos y las plantillas usan la misma marca.
@@ -38,6 +24,20 @@ npm start
 ```
 
 La interfaz es una consola local de confianza, sin autenticación. Escucha en loopback y rechaza Host/Origin externos. **No publicar tal cual en Internet.** No existe adaptador para envío real; el destino HTTP es fijo y local. Los teléfonos admitidos están limitados al rango ficticio +1 202 555 0100–0199. “Aprobar envío ficticio” es una acción humana explícita; la ingesta nunca publica ni transfiere.
+
+## Temas e idiomas
+
+La cabecera permite alternar **Día / Oscuro** y **ES / EN**, sin dependencias adicionales. El tema inicial sigue `prefers-color-scheme`; la elección guardada en `nexo-theme` tiene prioridad. Un script mínimo en el layout aplica `data-theme` a `<html>` antes de pintar. El idioma de interfaz es español por defecto, persiste en `nexo-language` y actualiza `html.lang`, título y descripción. Si el almacenamiento está bloqueado, los controles funcionan durante la sesión.
+
+`lib/i18n.ts` contiene el mapa de presentación de etiquetas, botones, ayudas, estados y errores conocidos. No cambia los valores internos de etapas/disposiciones, las claves del JSON ni los datos de leads, CSV, guiones y fuentes históricas. Borradores, mensajes originales y evidencia histórica conservan su idioma y contenido; los diagnósticos técnicos desconocidos permanecen visibles.
+
+El idioma de conversación es independiente del de la consola: `/api/messages` acepta opcionalmente `lang: "es" | "en"`. `lib/conversation.ts` detecta señales de palabras ES/EN y centraliza todas las plantillas salientes; el clasificador entiende deudas y consentimiento en ambos idiomas. Los leads históricos sin `lang` usan español. La detección no modifica el evento recibido; omitir `lang` y declarar `es` son equivalentes para la comparación de eventos heredados, mientras un cambio a `en` explícito sigue siendo conflicto.
+
+Se escalan idiomas mixtos, sin evidencia suficiente o contradictorios con el idioma declarado, además de montos/monedas ambiguos, hipotecas, riesgos y solicitudes fuera de los umbrales. No se usa IA en ejecución ni traducción automática. Palabras compartidas como “personal”, cifras y códigos de moneda no cuentan como evidencia. Mensajes muy cortos, jerga o idiomas distintos pueden requerir un humano. La baja siempre prevalece y bloquea contacto, incluso si el idioma es mixto. Las listas inglesas editables están en `config/rules.json`; `SAFETY_FLOOR` mantiene protección mínima ES/EN no removible.
+
+Todo envío mantiene aprobación humana. La plantilla inglesa usa **Counselor**, ahorro condicional y ningún importe, tasa o puntaje inventado. Ampliar las reglas cambia su versión: los borradores anteriores deben reevaluarse conforme al control de vigencia existente.
+
+Verificación: `npm run typecheck`, `npm test`, `npm run test:browser` (demo levantada). El smoke test comprueba siete vistas, ambos temas y tamaños 1440/390, contraste de texto ≥4.5:1, controles deshabilitados, avisos de error, teclado y persistencia. No genera capturas ni video; las escrituras de su prueba de estados se interceptan en el navegador.
 
 ## Recorrido del evaluador
 
@@ -131,23 +131,7 @@ npm run export
 
 La grabación usa Chrome local y ffmpeg. En Windows el codificador es dependencia opcional; en Linux/macOS definir `FFMPEG_PATH` con un ffmpeg instalado. `DEMO_BROWSER=msedge` permite Edge. Estos requisitos **no son necesarios para levantar la demo**.
 
-## Entregables
-
-- `deliverables/demo.mp4`: grabación real de la aplicación con subtítulos; <6 minutos.
-- `deliverables/demo-export.json`: datos, estados, reglas, borradores, trabajos y auditoría completa.
-- `deliverables/reconciliation.csv`, `metrics.json`, `content-scripts.md`.
-- `deliverables/screenshots/`: escritorio y móvil.
-- [Decisiones](docs/decisiones.md), [escala](docs/escala.md), [calidad y comisiones](docs/datos-y-comisiones.md), [uso de IA](docs/uso-ia.md), [guion de video](docs/video.md).
-
-El export no incluye ejecutables ni secretos; los prefijos de fórmula se neutralizan en CSV. El repositorio contiene el código y el lockfile. No se han enviado correos ni publicado servicios externos.
-
-## Dependencias y límites
-
-Next.js/React: stack solicitado e interfaz/API en un proyecto. Zod: validación consistente. `csv-parse`: CSV con comillas, BOM y delimitadores. `node:sqlite`: persistencia nativa sin ORM ni servicio adicional. TypeScript/tsx: tipado y herramientas; Playwright: verificación de navegador; ffmpeg opcional: video local.
-
-Motor de reglas conservador, sin asesoramiento financiero ni LLM que comprenda lenguaje arbitrario. No hay tasas, tarifas, puntajes ni ahorro garantizado. Producción requiere autenticación/roles, consentimiento verificable, retención/cifrado, aprobación legal de textos y observabilidad; ver decisiones y escala. Referencias: [Next.js](https://nextjs.org/docs/app/getting-started/installation), [SQLite de Node.js](https://nodejs.org/api/sqlite.html).
-
-## Correcciones QA y entrega final
+### Seguridad y regresiones
 
 Pruebas automatizadas: **56**.
 
@@ -163,4 +147,26 @@ SAFETY_FLOOR no es editable: mantiene bajas y términos mínimos de protección 
 La detección de conversación no depende de ES/EN de la interfaz; jerga, idiomas mixtos, falta de evidencia y negaciones complejas pueden exigir un humano. No traduzco automáticamente mensajes históricos, CSV, fuentes ni guiones; la marca sí es Nexo Claro en todas las fuentes.
 
 Con demo exclusiva corriendo: npm run package:deliverables genera video y capturas en una sola pasada, prueba de carga y export final. deliverables contiene únicamente artefactos generados. npm run verify:delivery vuelve a ejecutar las pruebas y falla ante marca vieja, copias de fuentes, artefactos obsoletos, conteos documentados incorrectos, cambios sin commit o exclusiones insuficientes. Requiere Git; test:browser requiere Chrome y la demo corriendo. La reproducción del video también necesita ffmpeg, sin nuevas dependencias.
-La nota de IA conserva dos marcadores personales solicitados. npm run verify:delivery -- --author-notes activa la comprobación editorial: bloquea esos marcadores hasta completarlos con hechos reales. El modo normal omite ese caso y lo informa.
+El control editorial obligatorio para la entrega es npm run verify:delivery -- --author-notes: rechaza referencias impersonales prohibidas y marcadores personales sin completar. El modo normal omite ese caso y lo informa.
+
+El smoke también comprueba ES/EN, persistencia, foco de teclado, contraste medido de texto y controles, y ancho de 390 px. No constituye una certificación exhaustiva de accesibilidad. Las regresiones cubren consentimiento ES/EN, contradicción, reafirmación, vigencia al aprobar/despachar, moneda permitida, plurales, protección mínima, etiquetas del histórico y setup idempotente hoy y dentro de un mes. El contrato histórico de lang ausente equivalente a es se conserva.
+
+video-verification.json registra duración, casos, errores del navegador y huella de app/lib/config. load-test.json guarda la medición de cada generación: no implica capacidad de infraestructura productiva. La grabación agrega ejemplos a los 48 leads iniciales. Un receptor puede recibir un envío ya en vuelo al retirarse consentimiento; se cancela lo pendiente y queda auditoría, sin prometer deshacer HTTP.
+
+## Entregables
+
+- `deliverables/demo.mp4`: grabación real de la aplicación con subtítulos; <6 minutos.
+- `deliverables/demo-export.json`: datos, estados, reglas, borradores, trabajos y auditoría completa.
+- `deliverables/reconciliation.csv`, `metrics.json`, `content-scripts.md`.
+- `deliverables/screenshots/`: escritorio y móvil.
+- [Decisiones](docs/decisiones.md), [escala](docs/escala.md), [calidad y comisiones](docs/datos-y-comisiones.md), [uso de IA](docs/uso-ia.md), [guion de video](docs/video.md).
+
+El export no incluye ejecutables ni secretos; los prefijos de fórmula se neutralizan en CSV. El repositorio contiene el código y el lockfile. No se han enviado correos ni publicado servicios externos.
+
+El repositorio local no tiene remoto configurado. Localhost no es acceso remoto: la revisión utiliza repo reproducible, export y video. No se afirma un correo de inicio ni una fecha de comienzo del plazo; el enlace del proyecto de fidelización corresponde a otro proyecto. El historial identifica las correcciones y la etiqueta entrega-final identifica el corte aprobado de entrega. No hay envíos reales, despliegue público ni certificación financiera.
+
+## Dependencias y límites
+
+Next.js/React: stack solicitado e interfaz/API en un proyecto. Zod: validación consistente. `csv-parse`: CSV con comillas, BOM y delimitadores. `node:sqlite`: persistencia nativa sin ORM ni servicio adicional. TypeScript/tsx: tipado y herramientas; Playwright: verificación de navegador; ffmpeg opcional: video local.
+
+Motor de reglas conservador, sin orientación financiera ni LLM que comprenda lenguaje arbitrario. No hay tasas, tarifas, puntajes ni ahorro garantizado. Producción requiere autenticación/roles, consentimiento verificable, retención/cifrado, aprobación legal de textos y observabilidad; ver decisiones y escala. Referencias: [Next.js](https://nextjs.org/docs/app/getting-started/installation), [SQLite de Node.js](https://nodejs.org/api/sqlite.html).
