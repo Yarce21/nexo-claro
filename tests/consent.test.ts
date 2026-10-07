@@ -5,7 +5,7 @@ import { Store } from '../lib/db';
 import { classify } from '../lib/classifier';
 import { loadRules } from '../lib/rules';
 import { ingest, processInbox, applyDisposition, reviewDraft, deliverJobs } from '../lib/operations';
-import type { Audit, Draft, Job, Lead, MessageInput } from '../lib/types';
+import type { Audit, Job, Lead, MessageInput } from '../lib/types';
 const rules = loadRules();
 const negatives = [
  'no quiero que un Consejero me llame', 'no quiero que me llame un Consejero', 'no me llamen', 'no necesito un Consejero', 'ya no quiero', 'cancela lo del Consejero', 'no gracias, sin Consejero',
