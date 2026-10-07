@@ -1,3 +1,4 @@
+import { crmTemplate, conversationTemplates, detectLanguage } from './conversation';
 import { randomUUID } from 'node:crypto';
 import { z } from 'zod';
 import { Store } from './db';
@@ -25,7 +26,10 @@ export function ingest(db: Store, value: unknown) {
   return db.transaction(() => {
     const previous = db.get<Inbox>('inbox', input.eventId);
     if (previous) {
-      if (JSON.stringify(previous.input) !== JSON.stringify(input)) throw new DomainError('eventId reutilizado con contenido diferente.', 409);
+      // Omitted lang and explicit es are equivalent for legacy events. Detection
+      // never mutates the stored event used by this comparison.
+      const canonical = (value: typeof input) => JSON.stringify(Object.fromEntries(Object.entries({ ...value, lang: value.lang || 'es' }).sort(([a], [b]) => a.localeCompare(b))));
+      if (canonical(previous.input) !== canonical(input)) throw new DomainError('eventId reutilizado con contenido diferente.', 409);
       return { eventId: input.eventId, duplicate: true };
     }
     const lead = db.get<Lead>('leads', input.leadId);
@@ -44,8 +48,8 @@ export function processInbox(db: Store, rules: Rules) {
         const input = item.input;
         const previous = db.get<Lead>('leads', input.leadId);
         if (previous && (previous.creator !== input.creator || previous.phone !== input.phone || previous.channel !== input.channel)) throw new DomainError('Identidad inconsistente entre eventos encolados.');
-        const result = classify(input.message, rules, previous?.qualification);
-        if (previous?.needsReview && result.decision === 'responder') { result.decision = 'escalar_humano'; result.reason = 'Existe un caso sensible sin resolver; revisión humana obligatoria.'; result.text = 'Revisar el historial y aclarar el caso antes de continuar.'; }
+        const result = classify(input.message, rules, previous?.qualification, input.lang);
+        if (previous?.needsReview && result.decision === 'responder') { result.decision = 'escalar_humano'; result.reason = 'Existe un caso sensible sin resolver; revisión humana obligatoria.'; result.text = conversationTemplates[input.lang || (detectLanguage(input.message) === 'en' ? 'en' : 'es')].history; }
         if (previous?.optedOut) { result.decision = 'ignorar'; result.reason = 'Lead con baja previa; contacto bloqueado.'; result.text = ''; }
         const now = new Date().toISOString();
         const draftId = `draft-${input.eventId}`;
@@ -55,10 +59,12 @@ export function processInbox(db: Store, rules: Rules) {
           db.put<Inbox>('inbox', input.eventId, { ...item, status: 'done' });
           return;
         }
-        const lead: Lead = { ...input, acquiredAt: previous?.acquiredAt || previous?.timestamp || input.timestamp, stage: previous?.stage === 'Transferencia pendiente' ? 'Nuevo' : previous?.stage || 'Nuevo', updatedAt: now, optedOut: previous?.optedOut || result.stop, needsReview: previous?.needsReview || result.decision === 'escalar_humano', qualification: result.qualification };
+        const detected = detectLanguage(input.message);
+        const lead: Lead = { ...input, lang: detected === 'en' || detected === 'es' ? detected : previous?.lang || input.lang, acquiredAt: previous?.acquiredAt || previous?.timestamp || input.timestamp, stage: previous?.stage === 'Transferencia pendiente' ? 'Nuevo' : previous?.stage || 'Nuevo', updatedAt: now, optedOut: previous?.optedOut || result.stop, needsReview: previous?.needsReview || result.decision === 'escalar_humano', qualification: result.qualification };
         if (result.decision === 'escalar_humano') lead.stage = 'Revisión humana';
         if (lead.optedOut) lead.stage = 'No le interesa';
         db.put('leads', input.leadId, lead);
+        if (previous?.qualification?.wantsCounselor === true && lead.qualification?.wantsCounselor !== true) audit(db, lead.leadId, 'consent_revoked', 'Consentimiento retirado o ambiguo; transferencia pendiente cancelada.');
         for (const job of db.all<Job>('jobs').filter(j => j.leadId === lead.leadId && (j.status === 'pending' || j.status === 'processing'))) {
           db.put('jobs', job.id, { ...job, status: 'cancelled', error: lead.optedOut ? 'Baja solicitada.' : 'Nuevo mensaje; la aprobación anterior perdió vigencia.' });
           audit(db, lead.leadId, 'delivery_cancelled', 'Nuevo contexto invalida el envío pendiente.', 'worker', job.draftId);
@@ -83,6 +89,14 @@ export function processInbox(db: Store, rules: Rules) {
 const dispositionSchema = z.object({ leadId: z.string().min(1), disposition: z.enum(dispositions), requestId: z.string().uuid(), callbackAt: z.iso.datetime().optional() }).strict();
 export function applyDisposition(db: Store, input: unknown, rules: Rules) {
   const command = dispositionSchema.parse(input);
+  if (command.disposition === 'Transferido') {
+    const current = db.get<Lead>('leads', command.leadId);
+    if (current && (current.optedOut || current.needsReview || !eligibleNow(current, rules) || current.qualification?.wantsCounselor !== true)) {
+      // Persist the denied attempt outside the transaction that would roll back on error.
+      audit(db, current.leadId, 'transfer_blocked', 'Transferencia rechazada: consentimiento explícito actual y precalificación vigente obligatorios.', 'operador-demo');
+      throw new DomainError('Transferencia bloqueada: requiere consentimiento explícito actual, precalificación vigente y ninguna revisión sensible pendiente.', 409);
+    }
+  }
   return db.transaction(() => {
     const seen = db.get<{ command: unknown; draftId: string }>('commands', command.requestId);
     if (seen) {
@@ -95,15 +109,9 @@ export function applyDisposition(db: Store, input: unknown, rules: Rules) {
     if (lead.needsReview && command.disposition !== 'No le interesa') throw new DomainError('Resuelva la revisión sensible desde la bandeja antes de aplicar una disposición.', 409);
     if (command.disposition === 'Transferido' && (!eligibleNow(lead, rules) || lead.qualification?.wantsCounselor !== true || lead.needsReview)) throw new DomainError('Transferencia bloqueada: requiere precalificación vigente, consentimiento explícito y ninguna revisión sensible pendiente.', 409);
     if (command.disposition === 'Call Back' && (!command.callbackAt || Date.parse(command.callbackAt) <= Date.now())) throw new DomainError('Call Back requiere fecha futura en UTC.');
-    const templates = {
-      'No Answer': 'Hola, somos Alivio Norte. No logramos conversar. Si quieres retomar, dinos un horario conveniente.',
-      'Info Sent': 'Compartimos información general de Alivio Norte. Un Consejero de Consejería Clara podría evaluar opciones según tu situación. No se garantiza ahorro ni aceptación.',
-      'Transferido': 'Registramos tu solicitud de conversar con un Consejero de Consejería Clara. La transferencia está pendiente de aprobación humana y confirmación del partner ficticio.',
-      'Call Back': `Registramos tu preferencia para retomar el contacto el ${command.callbackAt || ''}. Un agente revisará la solicitud.`,
-      'No le interesa': 'Registramos que no deseas continuar. No enviaremos más mensajes.'
-    };
+
     const id = `crm-${command.requestId}`;
-    const draft: Draft = { id, leadId: lead.leadId, eventId: lead.eventId, decision: 'responder', reason: `Disposición ${command.disposition} aplicada por humano.`, text: templates[command.disposition], status: command.disposition === 'No le interesa' ? 'rejected' : 'pending', createdAt: new Date().toISOString(), ruleVersion: ruleVersion(rules), qualification: lead.qualification!, kind: 'crm', transfer: command.disposition === 'Transferido' };
+    const draft: Draft = { id, leadId: lead.leadId, eventId: lead.eventId, decision: 'responder', reason: `Disposición ${command.disposition} aplicada por humano.`, text: crmTemplate(lead.lang || 'es', command.disposition, command.callbackAt), status: command.disposition === 'No le interesa' ? 'rejected' : 'pending', createdAt: new Date().toISOString(), ruleVersion: ruleVersion(rules), qualification: lead.qualification!, kind: 'crm', transfer: command.disposition === 'Transferido' };
     const stage = command.disposition === 'Transferido' ? 'Transferencia pendiente' : command.disposition;
     db.put('leads', lead.leadId, { ...lead, stage, updatedAt: new Date().toISOString(), optedOut: lead.optedOut || command.disposition === 'No le interesa' });
     if (command.disposition === 'No le interesa') {
@@ -117,6 +125,14 @@ export function applyDisposition(db: Store, input: unknown, rules: Rules) {
   });
 }
 export function reviewDraft(db: Store, id: string, approved: boolean, rules: Rules) {
+  const candidate = db.get<Draft>('drafts', id);
+  if (approved && candidate?.transfer) {
+    const current = db.get<Lead>('leads', candidate.leadId);
+    if (!current || current.optedOut || current.needsReview || !eligibleNow(current, rules) || current.qualification?.wantsCounselor !== true) {
+      audit(db, candidate.leadId, 'transfer_blocked', 'Aprobación de transferencia rechazada: falta consentimiento actual o precalificación vigente.', 'operador-demo', id);
+      throw new DomainError('Transferencia bloqueada: falta consentimiento explícito actual o precalificación vigente.', 409);
+    }
+  }
   return db.transaction(() => {
     const draft = db.get<Draft>('drafts', id);
     if (!draft) throw new DomainError('Borrador no encontrado.', 404);
@@ -160,6 +176,11 @@ export async function deliverJobs(db: Store, send: (job: Job) => Promise<void>, 
       if (!((job.status === 'pending' && job.nextAt <= now.toISOString()) || (job.status === 'processing' && (job.leaseUntil || '') <= now.toISOString()))) return null;
       const lead = db.get<Lead>('leads', job.leadId)!;
       if (lead.optedOut) { db.put('jobs', job.id, { ...job, status: 'cancelled' }); return null; }
+      if (job.kind === 'handoff' && (lead.needsReview || lead.qualification?.wantsCounselor !== true || db.get<Draft>('drafts', job.draftId)?.status !== 'approved')) {
+        db.put('jobs', job.id, { ...job, status: 'cancelled', error: 'Transferencia bloqueada: consentimiento actual o aprobación humana ausentes.' });
+        audit(db, lead.leadId, 'transfer_blocked', 'Handoff cancelado: consentimiento actual o aprobación humana ausentes.', 'worker', job.draftId);
+        return null;
+      }
       if (job.attempts >= job.maxAttempts) { db.put('jobs', job.id, { ...job, status: 'failed', error: 'Lease expirado tras agotar intentos; revisar recibo del partner.' }); audit(db, job.leadId, 'delivery_failed', 'Intentos agotados tras interrupción del worker.'); return null; }
       const next: Job = { ...job, status: 'processing', attempts: job.attempts + 1, leaseUntil: new Date(now.getTime() + 30000).toISOString() };
       db.put('jobs', job.id, next);

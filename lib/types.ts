@@ -9,6 +9,9 @@ export const rulesSchema = z.object({
   ignoreWords: z.array(z.string().trim().min(2).max(60)).max(50),
   stopWords: z.array(z.string().trim().min(2).max(60)).min(1).max(50),
   handoffWords: z.array(z.string().trim().min(2).max(60)).min(1).max(50),
+  ignoreWordsEn: z.array(z.string().trim().min(2).max(60)).max(50).default([]),
+  stopWordsEn: z.array(z.string().trim().min(2).max(60)).max(50).default([]),
+  handoffWordsEn: z.array(z.string().trim().min(2).max(60)).max(50).default([]),
   maxAttempts: z.number().int().min(1).max(5),
   retryBaseSeconds: z.number().int().min(1).max(300)
 }).strict().refine(r => r.minDebt < r.maxDebt, { message: 'El mínimo debe ser menor que el máximo.' });
@@ -21,6 +24,7 @@ export const messageSchema = z.object({
   channel: z.enum(['CTWA', 'orgánico']),
   message: z.string().trim().min(1).max(2000),
   phone: z.string().max(30),
+  lang: z.enum(['es', 'en']).optional(),
   initialState: z.enum(['Nuevo', 'Pendiente']).default('Nuevo')
 }).strict().refine(v => Date.parse(v.timestamp) <= Date.now() + 60000, { message: 'La fecha no puede estar en el futuro.' });
 export type MessageInput = z.infer<typeof messageSchema>;
