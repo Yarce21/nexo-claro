@@ -11,3 +11,4 @@ nexo-claro-entrega.zip
 *.sqlite
 *.sqlite-*
 *.db
+*.log
