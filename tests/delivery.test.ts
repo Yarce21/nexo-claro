@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {mkdtempSync,mkdirSync,writeFileSync,rmSync} from 'node:fs';
+import {mkdtempSync,mkdirSync,writeFileSync,rmSync,readFileSync,readdirSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {deliveryIssues,sourceFingerprint} from '../scripts/delivery-integrity';
@@ -13,4 +13,13 @@ test('integridad de entrega detecta artefactos obsoletos y conteo documental inc
 });
 test('integridad acepta artefactos vinculados a fuentes y conteo real',()=>{
  const root=fixture();try{assert.deepEqual(deliveryIssues(root,50),[]);}finally{rmSync(root,{recursive:true,force:true});}
+});
+
+test('documentación final no contiene terceros ni marcadores de autor', {skip: process.env.VERIFY_AUTHOR_NOTES !== '1'}, () => {
+ const markdown = (directory:string):string[] => readdirSync(directory,{withFileTypes:true}).flatMap(entry => {
+  if (['node_modules','.next','.git','runtime'].includes(entry.name)) return [];
+  const file=path.join(directory,entry.name);
+  return entry.isDirectory()?markdown(file):file.endsWith('.md')?[file]:[];
+ });
+ for(const file of markdown(process.cwd())) assert.doesNotMatch(readFileSync(file,'utf8'),/candidato|\[COMPLETAR/i,file);
 });
