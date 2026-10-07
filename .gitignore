@@ -7,3 +7,7 @@ runtime/
 test-results/
 playwright-report/
 nexo-claro-entrega.zip
+*.zip
+*.sqlite
+*.sqlite-*
+*.db

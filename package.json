@@ -18,7 +18,9 @@
     "test:load": "tsx tests/load.ts",
     "typecheck": "tsc --noEmit",
     "export": "tsx scripts/export.ts",
-    "demo:record": "tsx scripts/record-demo.ts"
+    "demo:record": "tsx scripts/record-demo.ts",
+    "package:deliverables": "tsx scripts/package-deliverables.ts",
+    "verify:delivery": "tsx scripts/verify-delivery.ts"
   },
   "dependencies": {
     "csv-parse": "^7.0.3",
