@@ -4,7 +4,7 @@
 
 Fuente F-01: LN-003: ¿Qué datos necesito para empezar?
 
-Lucía llevaba semanas dejando los sobres en un cajón. Un domingo decidió abrir su libreta y anotar dos cosas: cuánto debía aproximadamente y qué tipo de deuda tenía. No resolvió todo esa tarde, pero llegó con preguntas más claras. Si te pasa algo parecido, puedes empezar por ahí. En Alivio Norte te pedimos solo lo necesario para orientar la conversación, sin datos bancarios ni documentos por chat. Si tú quieres, un Consejero de Consejería Clara podría evaluar opciones según tu situación. Escribe información para conocer el proceso. Cada caso es diferente; no se garantiza ahorro ni aceptación.
+Lucía llevaba semanas dejando los sobres en un cajón. Un domingo decidió abrir su libreta y anotar dos cosas: cuánto debía aproximadamente y qué tipo de deuda tenía. No resolvió todo esa tarde, pero llegó con preguntas más claras. Si te pasa algo parecido, puedes empezar por ahí. En Nexo Claro te pedimos solo lo necesario para orientar la conversación, sin datos bancarios ni documentos por chat. Si tú quieres, un Consejero de Consejería Clara podría evaluar opciones según tu situación. Escribe información para conocer el proceso. Cada caso es diferente; no se garantiza ahorro ni aceptación.
 
 Prioridad: Reduce la fricción al iniciar; CTA concreto sin pedir información sensible.
 
@@ -24,7 +24,7 @@ Duración: 96 palabras; 30–45 s a ritmo de 140–160 palabras/minuto.
 
 Fuente F-02: LN-010: No quiero hablar con nadie todavía.
 
-María vio un video sobre organizar deudas, pero no quería recibir una llamada ese día. Contestó: todavía no quiero hablar con un Consejero. Su decisión se respetó. A veces, el primer paso es entender tus preguntas y elegir cuándo conversar. En Alivio Norte puedes pedir información general sin autorizar una transferencia automática. Si más adelante lo decides, un Consejero de Consejería Clara podría revisar opciones contigo. Y si no quieres más contacto, puedes solicitar la baja. Escribe proceso para conocer los pasos a tu ritmo. No hay promesas de ahorro; las opciones dependen de una evaluación individual.
+María vio un video sobre organizar deudas, pero no quería recibir una llamada ese día. Contestó: todavía no quiero hablar con un Consejero. Su decisión se respetó. A veces, el primer paso es entender tus preguntas y elegir cuándo conversar. En Nexo Claro puedes pedir información general sin autorizar una transferencia automática. Si más adelante lo decides, un Consejero de Consejería Clara podría revisar opciones contigo. Y si no quieres más contacto, puedes solicitar la baja. Escribe proceso para conocer los pasos a tu ritmo. No hay promesas de ahorro; las opciones dependen de una evaluación individual.
 
 Prioridad: Responde una objeción frecuente y refuerza el control del lead.
 
