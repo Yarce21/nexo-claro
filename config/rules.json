@@ -26,7 +26,43 @@
     "tarifa",
     "abogado",
     "fraude",
-    "urgente"
+    "urgente",
+    "tasa de interés",
+    "comisión",
+    "comisiones",
+    "cuota administrativa",
+    "garantía",
+    "garantizamos",
+    "demandar",
+    "estafa"
+  ],
+  "ignoreWordsEn": [
+    "advertising",
+    "earn money",
+    "spam"
+  ],
+  "stopWordsEn": [
+    "stop",
+    "unsubscribe",
+    "do not contact me"
+  ],
+  "handoffWordsEn": [
+    "lawsuit",
+    "attorney",
+    "foreclosure",
+    "guaranteed",
+    "rate",
+    "fee",
+    "credit score",
+    "fraud",
+    "urgent",
+    "suicide",
+    "interest rate",
+    "score",
+    "sue",
+    "lawyer",
+    "scam",
+    "guarantee"
   ],
   "maxAttempts": 3,
   "retryBaseSeconds": 3

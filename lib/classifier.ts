@@ -1,11 +1,20 @@
 import { conversationTemplates, detectLanguage, type Language } from './conversation';
 import type { Decision, Qualification, Rules } from './types';
 export function normalize(text: string) { return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’‘]/g, "'").toLowerCase(); }
-function contains(text: string, words: string[]) { return words.some(word => new RegExp(`(?:^|\\W)${normalize(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:$|\\W)`, 'u').test(text)); }
+function contains(text: string, words: readonly string[]) {
+  return words.some(word => {
+    const variants = normalize(word).split(/\s+/).map(token => {
+      const forms = [token, `${token}s`, `${token}es`];
+      if (/[^aeiou]y$/.test(token)) forms.push(`${token.slice(0, -1)}ies`);
+      return `(?:${forms.map(form => form.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`;
+    }).join('\\s+');
+    return new RegExp(`(?:^|\\W)${variants}(?:$|\\W)`, 'u').test(text);
+  });
+}
 // Non-removable opt-out and safety terms protect leads even when editable rules change.
 export const SAFETY_FLOOR = {
   stop: ['no me contacten', 'dejen de escribirme', 'baja', 'stop', 'unsubscribe', 'do not contact me'],
-  handoff: ['demanda', 'embargo', 'suicidio', 'garantizado', 'tasa', 'puntaje', 'tarifa', 'abogado', 'fraude', 'lawsuit', 'attorney', 'foreclosure', 'guaranteed', 'rate', 'fee', 'credit score', 'fraud', 'urgent', 'suicide']
+  handoff: ['demanda', 'demandar', 'embargo', 'suicidio', 'garantizado', 'garantía', 'garantizamos', 'tasa', 'tasa de interés', 'puntaje', 'tarifa', 'comisión', 'comisiones', 'cuota administrativa', 'abogado', 'fraude', 'estafa', 'lawsuit', 'sue', 'attorney', 'lawyer', 'foreclosure', 'guarantee', 'guaranteed', 'rate', 'interest rate', 'fee', 'score', 'credit score', 'fraud', 'scam', 'urgent', 'suicide']
 } as const;
 function consent(text: string, previous?: boolean | null) {
   const negative = /\b(?:no\s+(?:quiero|deseo|necesito)\b|ya no quiero\b|no me llam(?:en|e)\b|cancela\b[^.!?;]*consejero\b|sin consejero\b|(?:i\s+)?(?:don't|do not|dont)\s+(?:want|have|need)\b|i no longer want\b|no counselor\b|i changed my mind\b)/g;
@@ -51,8 +60,8 @@ export function classify(message: string, rules: Rules, previous?: Qualification
   if (contains(text, [...rules.stopWords, ...rules.stopWordsEn, ...SAFETY_FLOOR.stop])) return result('ignorar', 'Solicitud de baja: se bloquea todo contacto pendiente.', '', true);
   if (foreignCurrency) return result('escalar_humano', 'Moneda no admitida o calificada: solo USD o monto sin indicación de moneda; confirmar con humano.', copy.amountReview);
   if (intention.ambiguous) return result('escalar_humano', 'Consentimiento ambiguo o contradictorio; un humano debe confirmar la intención actual.', copy.clarify);
-  if (detected === 'mixed' || detected === 'ambiguous' || (preferredLanguage && detected !== preferredLanguage)) return result('escalar_humano', detected === 'mixed' ? 'Idioma mixto: un agente debe confirmar el idioma de la conversación.' : detected === 'ambiguous' ? 'Idioma ambiguo: evidencia insuficiente; no se adivina.' : 'El idioma declarado no coincide con el mensaje; requiere confirmación humana.', copy.language);
   if (contains(text, [...rules.handoffWords, ...rules.handoffWordsEn, ...SAFETY_FLOOR.handoff]) || /ignora.{0,30}(reglas|instrucciones)|ignore.{0,30}(rules|instructions)|system prompt|<script/i.test(text)) return result('escalar_humano', 'Lenguaje sensible, solicitud riesgosa o intento de alterar las reglas.', copy.sensitive);
+  if (detected === 'mixed' || detected === 'ambiguous' || (preferredLanguage && detected !== preferredLanguage)) return result('escalar_humano', detected === 'mixed' ? 'Idioma mixto: un agente debe confirmar el idioma de la conversación.' : detected === 'ambiguous' ? 'Idioma ambiguo: evidencia insuficiente; no se adivina.' : 'El idioma declarado no coincide con el mensaje; requiere confirmación humana.', copy.language);
   if (contains(text, [...rules.ignoreWords, ...rules.ignoreWordsEn])) return result('ignorar', 'Mensaje no relacionado o publicidad según reglas.', '');
   if (/\d[.,]\d|\d+\s*[-–]\s*\d+|\b(?:entre|o|between|or)\s+\d+|(?:debo|deuda de|i owe|owe)\s*-\d/.test(text) || (text.match(/\d+/g)?.length || 0) > 1) return result('escalar_humano', 'Monto, moneda o rango ambiguo; no se infiere una cifra.', copy.amountReview);
   if ((amount !== null && !qualification.eligible && debtType !== null) || debtType === 'hipoteca') return result('escalar_humano', 'Fuera de los criterios ficticios de monto o tipo; requiere revisión.', copy.eligibility);
