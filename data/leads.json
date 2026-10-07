@@ -2,481 +2,481 @@
   {
     "eventId": "EV-001",
     "leadId": "LN-001",
-    "timestamp": "2026-09-20T10:00:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
     "phone": "+12025550100",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 24
   },
   {
     "eventId": "EV-002",
     "leadId": "LN-002",
-    "timestamp": "2026-09-20T10:01:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
     "phone": "+12025550101",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 25
   },
   {
     "eventId": "EV-003",
     "leadId": "LN-003",
-    "timestamp": "2026-09-20T10:02:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Hola, necesito información sobre mis deudas.",
     "phone": "+12025550102",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 26
   },
   {
     "eventId": "EV-004",
     "leadId": "LN-004",
-    "timestamp": "2026-09-20T10:03:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
     "phone": "+12025550103",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 27
   },
   {
     "eventId": "EV-005",
     "leadId": "LN-005",
-    "timestamp": "2026-09-20T10:04:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "¿Me garantizan ahorro y un mejor puntaje?",
     "phone": "+12025550104",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 28
   },
   {
     "eventId": "EV-006",
     "leadId": "LN-006",
-    "timestamp": "2026-09-20T10:05:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Publicidad: gana dinero desde casa.",
     "phone": "+12025550105",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 29
   },
   {
     "eventId": "EV-007",
     "leadId": "LN-007",
-    "timestamp": "2026-09-20T10:06:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
     "phone": "+12025550106",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 30
   },
   {
     "eventId": "EV-008",
     "leadId": "LN-008",
-    "timestamp": "2026-09-20T10:07:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
     "phone": "+12025550107",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 31
   },
   {
     "eventId": "EV-009",
     "leadId": "LN-009",
-    "timestamp": "2026-09-20T10:08:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No me contacten, quiero la baja.",
     "phone": "+12025550108",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 32
   },
   {
     "eventId": "EV-010",
     "leadId": "LN-010",
-    "timestamp": "2026-09-20T10:09:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
     "phone": "+12025550109",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 33
   },
   {
     "eventId": "EV-011",
     "leadId": "LN-011",
-    "timestamp": "2026-09-20T10:10:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 42000 USD de hipoteca.",
     "phone": "+12025550110",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 34
   },
   {
     "eventId": "EV-012",
     "leadId": "LN-012",
-    "timestamp": "2026-09-20T10:11:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No entiendo qué sigue después de pedir información.",
     "phone": "+12025550111",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursBeyondStale": 35
   },
   {
     "eventId": "EV-013",
     "leadId": "LN-013",
-    "timestamp": "2026-09-20T10:12:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
     "phone": "+12025550112",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 1
   },
   {
     "eventId": "EV-014",
     "leadId": "LN-014",
-    "timestamp": "2026-09-20T10:13:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
     "phone": "+12025550113",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 1.5
   },
   {
     "eventId": "EV-015",
     "leadId": "LN-015",
-    "timestamp": "2026-09-20T10:14:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Hola, necesito información sobre mis deudas.",
     "phone": "+12025550114",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 2
   },
   {
     "eventId": "EV-016",
     "leadId": "LN-016",
-    "timestamp": "2026-09-20T10:15:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
     "phone": "",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 2.5
   },
   {
     "eventId": "EV-017",
     "leadId": "LN-017",
-    "timestamp": "2026-09-20T10:16:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "¿Me garantizan ahorro y un mejor puntaje?",
     "phone": "+12025550116",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 3
   },
   {
     "eventId": "EV-018",
     "leadId": "LN-018",
-    "timestamp": "2026-09-20T10:17:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Publicidad: gana dinero desde casa.",
     "phone": "+12025550117",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 3.5
   },
   {
     "eventId": "EV-019",
     "leadId": "LN-019",
-    "timestamp": "2026-09-20T10:18:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
     "phone": "+12025550118",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 4
   },
   {
     "eventId": "EV-020",
     "leadId": "LN-020",
-    "timestamp": "2026-09-20T10:19:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
     "phone": "+12025550119",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 4.5
   },
   {
     "eventId": "EV-021",
     "leadId": "LN-021",
-    "timestamp": "2026-09-20T10:20:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No me contacten, quiero la baja.",
     "phone": "+12025550120",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 5
   },
   {
     "eventId": "EV-022",
     "leadId": "LN-022",
-    "timestamp": "2026-09-20T10:21:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
     "phone": "+12025550121",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 5.5
   },
   {
     "eventId": "EV-023",
     "leadId": "LN-023",
-    "timestamp": "2026-09-20T10:22:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 42000 USD de hipoteca.",
     "phone": "+12025550122",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 6
   },
   {
     "eventId": "EV-024",
     "leadId": "LN-024",
-    "timestamp": "2026-09-20T10:23:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No entiendo qué sigue después de pedir información.",
     "phone": "+12025550123",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 6.5
   },
   {
     "eventId": "EV-025",
     "leadId": "LN-025",
-    "timestamp": "2026-09-20T10:24:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
     "phone": "+12025550124",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 7
   },
   {
     "eventId": "EV-026",
     "leadId": "LN-026",
-    "timestamp": "2026-09-20T10:25:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
     "phone": "+12025550125",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 7.5
   },
   {
     "eventId": "EV-027",
     "leadId": "LN-027",
-    "timestamp": "2026-09-20T10:26:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Hola, necesito información sobre mis deudas.",
     "phone": "+12025550126",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 8
   },
   {
     "eventId": "EV-028",
     "leadId": "LN-028",
-    "timestamp": "2026-09-20T10:27:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
     "phone": "+12025550127",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 8.5
   },
   {
     "eventId": "EV-029",
     "leadId": "LN-029",
-    "timestamp": "2026-09-20T10:28:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "¿Me garantizan ahorro y un mejor puntaje?",
     "phone": "+12025550128",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 9
   },
   {
     "eventId": "EV-030",
     "leadId": "LN-030",
-    "timestamp": "2026-09-20T10:29:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Publicidad: gana dinero desde casa.",
     "phone": "+12025550129",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 9.5
   },
   {
     "eventId": "EV-031",
     "leadId": "LN-031",
-    "timestamp": "2026-09-20T10:30:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
     "phone": "+12025550130",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 10
   },
   {
     "eventId": "EV-032",
     "leadId": "LN-032",
-    "timestamp": "2026-09-20T10:31:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
     "phone": "+12025550131",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 10.5
   },
   {
     "eventId": "EV-033",
     "leadId": "LN-033",
-    "timestamp": "2026-09-20T10:32:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No me contacten, quiero la baja.",
     "phone": "+12025550132",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 11
   },
   {
     "eventId": "EV-034",
     "leadId": "LN-034",
-    "timestamp": "2026-09-20T10:33:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
     "phone": "+12025550133",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 11.5
   },
   {
     "eventId": "EV-035",
     "leadId": "LN-035",
-    "timestamp": "2026-09-20T10:34:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 42000 USD de hipoteca.",
     "phone": "+12025550134",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 12
   },
   {
     "eventId": "EV-036",
     "leadId": "LN-036",
-    "timestamp": "2026-09-20T10:35:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No entiendo qué sigue después de pedir información.",
     "phone": "+12025550135",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 12.5
   },
   {
     "eventId": "EV-037",
     "leadId": "LN-037",
-    "timestamp": "2026-09-20T10:36:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 18000 USD en tarjeta y quiero hablar con un Consejero.",
     "phone": "+12025550136",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 13
   },
   {
     "eventId": "EV-038",
     "leadId": "LN-038",
-    "timestamp": "2026-09-20T10:37:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Tengo una demanda por mi deuda y necesito ayuda urgente.",
     "phone": "+12025550137",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 13.5
   },
   {
     "eventId": "EV-039",
     "leadId": "LN-039",
-    "timestamp": "2026-09-20T10:38:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Hola, necesito información sobre mis deudas.",
     "phone": "+12025550138",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 14
   },
   {
     "eventId": "EV-040",
     "leadId": "LN-040",
-    "timestamp": "2026-09-20T10:39:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 9000 USD en préstamo personal y quiero Consejero.",
     "phone": "+12025550139",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 14.5
   },
   {
     "eventId": "EV-041",
     "leadId": "LN-041",
-    "timestamp": "2026-09-20T10:40:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "¿Me garantizan ahorro y un mejor puntaje?",
     "phone": "+12025550140",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 15
   },
   {
     "eventId": "EV-042",
     "leadId": "LN-042",
-    "timestamp": "2026-09-20T10:41:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "Publicidad: gana dinero desde casa.",
     "phone": "+12025550141",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 15.5
   },
   {
     "eventId": "EV-043",
     "leadId": "LN-043",
-    "timestamp": "2026-09-20T10:42:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 2500 USD en tarjeta, quiero Consejero.",
     "phone": "+12025550142",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 16
   },
   {
     "eventId": "EV-044",
     "leadId": "LN-044",
-    "timestamp": "2026-09-20T10:43:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 25.000 en tarjeta, ¿qué puedo hacer?",
     "phone": "+12025550143",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 16.5
   },
   {
     "eventId": "EV-045",
     "leadId": "LN-045",
-    "timestamp": "2026-09-20T10:44:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No me contacten, quiero la baja.",
     "phone": "+12025550144",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 17
   },
   {
     "eventId": "EV-046",
     "leadId": "LN-046",
-    "timestamp": "2026-09-20T10:45:00.000Z",
     "creator": "CR-ANA",
     "channel": "CTWA",
     "message": "Debo 12000 USD en tarjeta, no quiero Consejero.",
     "phone": "+12025550145",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 17.5
   },
   {
     "eventId": "EV-047",
     "leadId": "LN-047",
-    "timestamp": "2026-09-20T10:46:00.000Z",
     "creator": "CR-LUIS",
     "channel": "orgánico",
     "message": "Debo 42000 USD de hipoteca.",
     "phone": "+12025550146",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 18
   },
   {
     "eventId": "EV-048",
     "leadId": "LN-048",
-    "timestamp": "2026-09-20T10:47:00.000Z",
     "creator": "CR-MARIA",
     "channel": "orgánico",
     "message": "No entiendo qué sigue después de pedir información.",
     "phone": "+12025550147",
-    "initialState": "Nuevo"
+    "initialState": "Nuevo",
+    "hoursAgo": 18.5
   }
 ]

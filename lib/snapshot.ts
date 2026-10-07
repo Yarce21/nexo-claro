@@ -3,7 +3,7 @@ import { Store } from './db';
 import { loadRules, ruleVersion } from './rules';
 import { readPartnerCsv, reconcile } from './reporting';
 import type { Audit, ContentSource, Draft, Inbox, Job, Lead, Script, Rules } from './types';
-export function snapshot(db: Store) {
+export function snapshot(db: Store, now = new Date()) {
   let rules: Rules; let rulesError: string | null = null;
   try { rules = loadRules(); db.put('system', 'last-valid-rules', rules); }
   catch {
@@ -15,9 +15,9 @@ export function snapshot(db: Store) {
   const leads = db.all<Lead>('leads');
   const drafts = db.all<Draft>('drafts').reverse();
   const jobs = db.all<Job>('jobs').reverse();
-  const report = reconcile(readPartnerCsv(readFileSync('data/partner-dirty.csv', 'utf8')), leads);
+  const report = reconcile(readPartnerCsv(db.get<{text:string}>('system','partner-csv')?.text || readFileSync('data/partner-dirty.csv', 'utf8')), leads, now);
   const content = JSON.parse(readFileSync('data/content.json', 'utf8')) as { sources: ContentSource[]; scripts: Script[] };
-  const stale = leads.filter(l => !['No le interesa', 'Transferido'].includes(l.stage) && Date.now() - Date.parse(l.updatedAt) > rules.staleHours * 3600000);
+  const stale = leads.filter(l => !['No le interesa', 'Transferido'].includes(l.stage) && now.getTime() - Date.parse(l.updatedAt) > rules.staleHours * 3600000);
   const inbox = db.all<Inbox>('inbox');
   return {
     leads, drafts, jobs, report, content, stale, rules, rulesError, ruleVersion: ruleVersion(rules),

@@ -4,7 +4,7 @@ Entrego una demo local de Nexo Claro con fuentes, lockfile, reglas externas, 48 
 
 Genero export, métricas, CSV conciliado, capturas y video desde los scripts del repositorio. No mantengo copias de README, docs, data o config dentro de deliverables. El video dura menos de seis minutos; su duración y las verificaciones de los casos quedan en video-verification.json.
 
-Compruebo la entrega con npm run verify:delivery: pruebas reales, coherencia de documentación, marca, artefactos vigentes, .gitignore y árbol limpio. Uso la etiqueta entrega-final para identificar la versión.
+Compruebo la entrega con npm run verify:delivery: pruebas reales, coherencia de documentación, marca, artefactos vigentes, .gitignore y árbol limpio. El historial de commits identifica estas correcciones; la etiqueta entrega-final conserva el corte de la entrega anterior.
 
 El repositorio es local y no tiene remoto configurado. Localhost no es un acceso remoto: entrego una ejecución reproducible más export y video. No afirmo haber enviado el correo de inicio ni una fecha de comienzo del plazo. El enlace del proyecto de fidelización pertenece a otro proyecto.
 

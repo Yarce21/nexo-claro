@@ -1,12 +1,12 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import {loadLeadFixtures,materializePartnerCsv} from '../scripts/fixtures';
 import { readPartnerCsv, reconcile } from '../lib/reporting';
 import { phoneNumber } from '../lib/operations';
 import type { Lead, PartnerRow } from '../lib/types';
-const leads = JSON.parse(readFileSync('data/leads.json', 'utf8')) as Lead[];
-const rows = readPartnerCsv(readFileSync('data/partner-dirty.csv', 'utf8'));
 const now = new Date('2026-10-06T12:00:00Z');
+const leads:Lead[] = loadLeadFixtures(now,48).map(row=>({...row,acquiredAt:row.timestamp,stage:'Nuevo',updatedAt:row.timestamp,optedOut:false,needsReview:false,qualification:null}));
+const rows = readPartnerCsv(materializePartnerCsv(now));
 test('fixtures cumplen volumen y tienen defectos explícitos', () => {
   assert.ok(leads.length >= 40); assert.ok(rows.length >= 25);
   const result = reconcile(rows, leads, now);

@@ -56,7 +56,7 @@ La interfaz es una consola local de confianza, sin autenticación. Escucha en lo
 - `data/partner-dirty.csv`: 30 filas, duplicados exactos y contradictorios, fechas imposibles/ambiguas/futuras, teléfonos sin coincidencia y creadores ausentes.
 - `data/content.json`: 10 fuentes inventadas y 3 guiones de aproximadamente 100 palabras, unos 36–43 segundos a 140–160 palabras/minuto. No son testimonios reales.
 
-Los datos históricos conservan fechas de septiembre de 2026 para mostrar estancamiento. Nuevos eventos usan la hora actual. Pantalla en Bogotá; persistencia y API en UTC. El CSV histórico es independiente de los handoffs de la demo: no se presenta como una cohorte secuencial perfecta.
+La semilla guarda offsets, no fechas fijas: setup materializa 48 leads respecto a su hora de ejecución. Doce tienen edades superiores a staleHours (11 cuentan como estancados; una baja queda excluida) y los otros 36 son recientes. Repetir setup no sobrescribe eventos ni rejuvenece leads existentes; para una demo nueva uso otro DATA_DIR. Las fechas relativas del CSV se resuelven una sola vez y se conservan en SQLite; las fechas ambiguas/imposibles y los errores futuros/anteriores permanecen. Nuevos eventos usan la hora actual. Pantalla en Bogotá; persistencia y API en UTC. El CSV histórico es independiente de los handoffs de la demo: no se presenta como una cohorte secuencial perfecta.
 
 ## Arquitectura y archivos
 
@@ -149,15 +149,18 @@ Motor de reglas conservador, sin asesoramiento financiero ni LLM que comprenda l
 
 ## Correcciones QA y entrega final
 
-Pruebas automatizadas: **50**.
-<!-- test-count: 50 -->
+Pruebas automatizadas: **56**.
+
+Aprobadas: 55; omitida: 1 comprobación editorial condicional.
+<!-- test-count: 56 -->
 
 La moneda usa lista permitida: ninguna indicación, USD, US$, $, dólares/dolares o dollars sin calificativo. Códigos distintos y símbolos no USD escalan con motivo explícito, sin aceptar su monto ni convertirlo. Reviso símbolos antes de normalizar y mantengo límites de palabra.
 
-Las negativas ES/EN revocan consentimiento; la ambigüedad o contradicción no conserva un sí histórico. Cancelo la transferencia pendiente y audito el intento rechazado. Transferido, aprobación del borrador y despacho handoff consultan el consentimiento actual. Una reafirmación posterior exige una aprobación nueva. Un envío HTTP ya en vuelo no puede deshacerse: su carrera queda auditada.
+Las negativas ES/EN de una cláusula sobre Consejero/contacto revocan consentimiento; las negativas sobre pagos o información conservan el valor previo. Las retiradas explícitas aisladas siguen revocando; la ambigüedad o contradicción no conserva un sí histórico. Cancelo la transferencia pendiente y audito el intento rechazado. Transferido, aprobación del borrador y despacho handoff consultan el consentimiento actual. Una reafirmación posterior exige una aprobación nueva. Un envío HTTP ya en vuelo no puede deshacerse: su carrera queda auditada.
 
 SAFETY_FLOOR no es editable: mantiene bajas y términos mínimos de protección legales/sensibles, tasas, tarifas, puntajes y promesas en ES/EN. JSON permite añadir vocabulario y modificar umbrales/reintentos. Los términos generan plurales s/es/ies manteniendo palabras completas: feedback, rated, separate y stopover no activan términos por subcadena.
 
 La detección de conversación no depende de ES/EN de la interfaz; jerga, idiomas mixtos, falta de evidencia y negaciones complejas pueden exigir un humano. No traduzco automáticamente mensajes históricos, CSV, fuentes ni guiones; la marca sí es Nexo Claro en todas las fuentes.
 
 Con demo exclusiva corriendo: npm run package:deliverables genera video y capturas en una sola pasada, prueba de carga y export final. deliverables contiene únicamente artefactos generados. npm run verify:delivery vuelve a ejecutar las pruebas y falla ante marca vieja, copias de fuentes, artefactos obsoletos, conteos documentados incorrectos, cambios sin commit o exclusiones insuficientes. Requiere Git; test:browser requiere Chrome y la demo corriendo. La reproducción del video también necesita ffmpeg, sin nuevas dependencias.
+La nota de IA conserva dos marcadores personales solicitados. npm run verify:delivery -- --author-notes activa la comprobación editorial: bloquea esos marcadores hasta completarlos con hechos reales. El modo normal omite ese caso y lo informa.

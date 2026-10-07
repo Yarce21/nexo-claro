@@ -1,6 +1,25 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import type { MessageInput, ContentSource, Script } from '../lib/types';
+import { readPartnerCsv } from '../lib/reporting';
+export type LeadFixture = Omit<MessageInput, 'timestamp'> & { hoursAgo?: number; hoursBeyondStale?: number };
+export function loadLeadFixtures(now: Date, staleHours: number): MessageInput[] {
+  const rows = JSON.parse(readFileSync('data/leads.json','utf8')) as LeadFixture[];
+  return rows.map(({hoursAgo,hoursBeyondStale,...row}) => {
+    const age = hoursBeyondStale === undefined ? Math.min(hoursAgo ?? NaN, staleHours / 2) : staleHours + hoursBeyondStale;
+    if (!Number.isFinite(age) || age <= 0) throw new Error('Offset de semilla inválido.');
+    return {...row,timestamp:new Date(now.getTime()-age*3600000).toISOString()};
+  });
+}
+export function materializePartnerCsv(now: Date): string {
+  const columns = ['enrollment_id','phone','creator_id','enrolled_at','status'] as const;
+  const rows = readPartnerCsv(readFileSync('data/partner-dirty.csv','utf8'));
+  return [columns.join(','),...rows.map(row => {
+    const offset = row.enrolled_at.match(/^@now([+-])(\d+(?:\.\d+)?)h$/);
+    if(offset) row.enrolled_at=new Date(now.getTime()+(offset[1]==='+'?1:-1)*Number(offset[2])*3600000).toISOString();
+    return columns.map(key=>'"'+row[key].replaceAll('"','""')+'"').join(',');
+  })].join('\n')+'\n';
+}
 export function createFixtures() {
   const messages = [
     'Debo 18000 USD en tarjeta y quiero hablar con un Consejero.',
@@ -16,9 +35,9 @@ export function createFixtures() {
     'Debo 42000 USD de hipoteca.',
     'No entiendo qué sigue después de pedir información.'
   ];
-  const leads: MessageInput[] = Array.from({ length: 48 }, (_, index) => ({
+  const leads: LeadFixture[] = Array.from({ length: 48 }, (_, index) => ({
     eventId: `EV-${String(index + 1).padStart(3, '0')}`, leadId: `LN-${String(index + 1).padStart(3, '0')}`,
-    timestamp: new Date(Date.UTC(2026, 8, 20, 10, index)).toISOString(),
+    ...(index < 12 ? {hoursBeyondStale:24+index} : {hoursAgo:1+(index-12)*0.5}),
     creator: (['CR-ANA', 'CR-LUIS', 'CR-MARIA'] as const)[index % 3],
     channel: index % 3 ? 'orgánico' : 'CTWA', message: messages[index % messages.length],
     phone: index === 15 ? '' : `+120255501${String(index).padStart(2, '0')}`, initialState: 'Nuevo'
@@ -26,7 +45,7 @@ export function createFixtures() {
   const partner = Array.from({ length: 30 }, (_, i) => ({
     enrollment_id: `EN-${String(i + 1).padStart(3, '0')}`,
     phone: i % 2 ? `(202) 555-01${String(i).padStart(2, '0')}` : `+1 202 555 01${String(i).padStart(2, '0')}`,
-    creator_id: String(leads[i].creator), enrolled_at: '2026-09-25T14:00:00Z', status: 'enrolled'
+    creator_id: String(leads[i].creator), enrolled_at: '@now-0.5h', status: 'enrolled'
   }));
   partner[3].phone = '+12025550199';
   partner[5].creator_id = '';
@@ -34,8 +53,8 @@ export function createFixtures() {
   partner[9].enrolled_at = '2026-02-30';
   partner[11].creator_id = 'CR-DESCONOCIDO' as typeof partner[number]['creator_id'];
   partner[13].phone = 'sin teléfono';
-  partner[15].enrolled_at = '2099-01-01';
-  partner[17].enrolled_at = '2020-01-01';
+  partner[15].enrolled_at = '@now+24h';
+  partner[17].enrolled_at = '@now-240h';
   partner[19].status = 'pending';
   partner[21].creator_id = '';
   partner[25] = { ...partner[0] };

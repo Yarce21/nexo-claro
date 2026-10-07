@@ -1,7 +1,9 @@
 # Verificación de entrega
 
-Pruebas automatizadas: **50**.
-<!-- test-count: 50 -->
+Pruebas automatizadas: **56**.
+
+Aprobadas: 55; omitida: 1 comprobación editorial condicional.
+<!-- test-count: 56 -->
 
 Ejecuté npm ci, npm run typecheck, npm test, npm run build y npm run test:browser. La verificación final repetible está en npm run verify:delivery; ejecuta nuevamente las pruebas y comprueba el número declarado, la marca, ausencia de copias de fuentes, vigencia de artefactos, higiene de Git y exclusiones de .gitignore.
 
@@ -12,3 +14,5 @@ El smoke prueba siete vistas, ES/EN, día/oscuro, persistencia, foco de teclado,
 npm run package:deliverables genera una nueva grabación y capturas, ejecuta la carga local y exporta el estado final. video-verification.json registra duración, casos comprobados, errores del navegador y huella de app/lib/config. load-test.json guarda la medición actual: no afirmo un tiempo fijo ni capacidad de infraestructura productiva.
 
 Verifiqué localmente Windows y Node 24.16.0. No hice envíos reales, despliegue público ni certificación financiera. Un receptor puede haber recibido un envío que estaba en vuelo al retirarse consentimiento: cancelo lo pendiente y dejo auditoría; no puedo deshacer HTTP. Una carpeta nueva arranca con 48 leads; la grabación agrega sus propios ejemplos.
+
+Las nuevas regresiones delimitan la negación al contacto, verifican las etiquetas ES/EN del histórico y comprueban setup idempotente con recientes y estancados hoy y dentro de un mes. Las inscripciones mantienen sus defectos intencionales sin modificar la conciliación. El caso editorial se activa con npm run verify:delivery -- --author-notes y falla mientras la nota de IA conserve los dos marcadores personales.
