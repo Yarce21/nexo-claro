@@ -151,15 +151,15 @@ El control editorial obligatorio para la entrega es npm run verify:delivery -- -
 
 El smoke también comprueba ES/EN, persistencia, foco de teclado, contraste medido de texto y controles, y ancho de 390 px. No constituye una certificación exhaustiva de accesibilidad. Las regresiones cubren consentimiento ES/EN, contradicción, reafirmación, vigencia al aprobar/despachar, moneda permitida, plurales, protección mínima, etiquetas del histórico y setup idempotente hoy y dentro de un mes. El contrato histórico de lang ausente equivalente a es se conserva.
 
-video-verification.json registra duración, casos, errores del navegador y huella de app/lib/config. load-test.json guarda la medición de cada generación: no implica capacidad de infraestructura productiva. La grabación agrega ejemplos a los 48 leads iniciales. Un receptor puede recibir un envío ya en vuelo al retirarse consentimiento; se cancela lo pendiente y queda auditoría, sin prometer deshacer HTTP.
+video-verification.json registra la duración real, el hash del archivo, la pista de audio, la huella de app/lib/config y el alcance de la revisión de la grabación manual. Las comprobaciones automáticas de las capturas permanecen en screenshots/manifest.json. load-test.json guarda la medición de cada generación: no implica capacidad de infraestructura productiva. La grabación agrega ejemplos a los 48 leads iniciales. Un receptor puede recibir un envío ya en vuelo al retirarse consentimiento; se cancela lo pendiente y queda auditoría, sin prometer deshacer HTTP.
 
 ## Entregables
 
-- `deliverables/demo.mp4`: grabación real de la aplicación con subtítulos; <6 minutos.
+- `deliverables/demo.mp4`: grabación manual de la aplicación con audio; duración comprobada de 5:59,6 (<6 minutos).
 - `deliverables/demo-export.json`: datos, estados, reglas, borradores, trabajos y auditoría completa.
 - `deliverables/reconciliation.csv`, `metrics.json`, `content-scripts.md`.
 - `deliverables/screenshots/`: escritorio y móvil.
-- [Decisiones](docs/decisiones.md), [escala](docs/escala.md), [calidad y comisiones](docs/datos-y-comisiones.md), [uso de IA](docs/uso-ia.md), [guion de video](docs/video.md).
+- [Decisiones](docs/decisiones.md), [escala](docs/escala.md), [calidad y comisiones](docs/datos-y-comisiones.md), [uso de IA](docs/uso-ia.md).
 
 El export no incluye ejecutables ni secretos; los prefijos de fórmula se neutralizan en CSV. El repositorio contiene el código y el lockfile. No se han enviado correos ni publicado servicios externos.
 
@@ -170,3 +170,15 @@ El repositorio local no tiene remoto configurado. Localhost no es acceso remoto:
 Next.js/React: stack solicitado e interfaz/API en un proyecto. Zod: validación consistente. `csv-parse`: CSV con comillas, BOM y delimitadores. `node:sqlite`: persistencia nativa sin ORM ni servicio adicional. TypeScript/tsx: tipado y herramientas; Playwright: verificación de navegador; ffmpeg opcional: video local.
 
 Motor de reglas conservador, sin orientación financiera ni LLM que comprenda lenguaje arbitrario. No hay tasas, tarifas, puntajes ni ahorro garantizado. Producción requiere autenticación/roles, consentimiento verificable, retención/cifrado, aprobación legal de textos y observabilidad; ver decisiones y escala. Referencias: [Next.js](https://nextjs.org/docs/app/getting-started/installation), [SQLite de Node.js](https://nodejs.org/api/sqlite.html).
+
+## ZIP de entrega
+
+Para generar un ZIP reproducible después de guardar los cambios en Git:
+
+```powershell
+git archive --format=zip --output=Nexo-Claro-entrega.zip HEAD
+```
+
+El archivo incluye las fuentes y los entregables versionados. Excluye dependencias, builds, bases locales, respaldos y el historial de Git. El receptor instala las dependencias siguiendo los pasos de este README.
+
+El video entregado fue grabado manualmente. `demo:record` y `package:deliverables` generan una grabación automática y reemplazan `deliverables/demo.mp4`; no ejecutarlos para empaquetar la grabación manual. Sus metadatos documentan el alcance real de la comprobación.

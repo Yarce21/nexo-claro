@@ -10,11 +10,11 @@ A Codex le pedí apoyo para implementar la consola, preparar pruebas de regresi�
 
 ## Qué revisé o cambié yo
 
-[COMPLETAR: un caso concreto en que la herramienta propuso X y yo lo cambié a Y porque Z]
-
-[COMPLETAR: qué parte del código revisé a mano]
-
-Estos marcadores identifican información personal que no atribuyo a una revisión sin evidencia. El modo estricto de verificación bloquea la entrega mientras permanezcan.
+Mi participación se concentró en el frontend, el diseño de la página y la experiencia de uso de Nexo Claro. Me encargué de cómo se presenta la información y de que las distintas pantallas mantuvieran una identidad visual consistente. Busqué que la aplicación se sintiera como una consola de operaciones profesional, con una navegación clara y una jerarquía que facilitara entender cada sección.
+Para construir la interfaz reutilicé y adapté código de otros proyectos de software. Ese código me sirvió como punto de partida, pero lo ajusté al contexto de Nexo Claro y a las necesidades de sus pantallas. Mi trabajo consistió en integrar esas partes dentro de una misma experiencia, en lugar de presentar componentes aislados con estilos diferentes.
+También me encargué de la parte visual del modo día y oscuro. Trabajé ambos temas para mantener la legibilidad y la consistencia de fondos, textos, botones y estados. La intención fue que el cambio de tema conservara la misma organización y permitiera utilizar la consola de forma cómoda.
+Otra parte de mi aporte fue el soporte español e inglés de la interfaz. Trabajé la presentación de los textos y el selector de idioma para que el usuario pudiera recorrer la aplicación en ambos idiomas. Esta función de la consola es independiente del idioma utilizado en la conversación con cada lead.
+Utilicé la IA como apoyo durante el desarrollo, pero mi aporte principal estuvo en el diseño, la adaptación del código reutilizado y la construcción del frontend. Distingo ese trabajo de la lógica de negocio, las reglas de clasificación y los controles de transferencia: no presento mi participación en la interfaz como una revisión completa de esas partes del sistema.
 
 ## Controles humanos y límites del sistema
 
