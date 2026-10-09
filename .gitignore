@@ -12,3 +12,6 @@ nexo-claro-entrega.zip
 *.sqlite-*
 *.db
 *.log
+
+# La grabación manual se distribuye en el ZIP de la release (límite de GitHub).
+deliverables/demo.mp4

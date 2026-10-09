@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-10-07T22:25:03.944Z",
+  "generatedAt": "2026-10-09T04:33:51.328Z",
+  "verifiedAt": "2026-10-09T04:59:52.667Z",
   "sourceFingerprint": "2788bbb6ceb17d5043b728aa9c0ead3abe699e7b50131b5a9d6018362d45552b",
   "captures": [
     "overview-light-es.png",
@@ -9,17 +10,11 @@
     "overview-final.png",
     "mobile-light-es.png"
   ],
-  "durationSeconds": 154.17000000000002,
-  "frames": 299,
-  "browserErrors": [],
-  "checks": [
-    "brand",
-    "dark",
-    "english",
-    "consent-revoked-transfer-rejected",
-    "non-usd-escalated"
-  ],
+  "durationSeconds": 359.6,
+  "videoFile": "demo.mp4",
+  "sha256": "37c65c81e9adb5f025d8809fa33d0c982c349405da97a00da4840804bfb5314c",
   "actualUiRecording": true,
-  "captioned": true,
-  "narration": false
+  "narration": true,
+  "recordingMethod": "manual",
+  "verificationScope": "Duración y pista de audio comprobadas con ffmpeg; revisión visual por muestreo. No se reutilizan las comprobaciones automáticas de la grabación anterior."
 }

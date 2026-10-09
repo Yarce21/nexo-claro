@@ -155,6 +155,8 @@ video-verification.json registra la duración real, el hash del archivo, la pist
 
 ## Entregables
 
+La grabación manual supera el límite de 100 MB por archivo de GitHub. Descarga [Nexo-Claro-entrega.zip](https://github.com/Yarce21/nexo-claro/releases/download/entrega-final/Nexo-Claro-entrega.zip) desde la release `entrega-final`: contiene el video, las fuentes y todos los artefactos verificados. Para ejecutar `verify:delivery` sobre un clon de Git, copia `deliverables/demo.mp4` del ZIP a la misma carpeta del clon; el video está excluido de Git deliberadamente.
+
 - `deliverables/demo.mp4`: grabación manual de la aplicación con audio; duración comprobada de 5:59,6 (<6 minutos).
 - `deliverables/demo-export.json`: datos, estados, reglas, borradores, trabajos y auditoría completa.
 - `deliverables/reconciliation.csv`, `metrics.json`, `content-scripts.md`.
